@@ -19,11 +19,8 @@
         <link rel="next" href="../help_with_pydantic/">
       
       
-        
-      
-      
       <link rel="icon" href="../favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.2+insiders-4.42.0">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.32">
     
     
       
@@ -31,10 +28,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.f2778614.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.46987102.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -62,7 +59,10 @@
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
 
+
+    
     
     
   </head>
@@ -102,7 +102,9 @@
             
   <!-- the following line is displayed in the announcement bar -->
 <!-- keep length under 164 characters (less HTML tags) to fit on 1280px desktop window -->
-<a href="https://docs.pydantic.dev/2.0/blog/pydantic-v2-final/">Pydantic V2</a> is here 🚀! Upgrading an existing app? See the <a href="https://docs.pydantic.dev/2.0/migration/">Migration Guide</a> for tips on essential changes from Pydantic V1!
+<b>We're live!</b> <a href="https://pydantic.dev/logfire">Pydantic Logfire</a> is out in open beta! 🎉<br>
+Logfire is a new observability tool for Python, from the creators of Pydantic, with great Pydantic support.
+Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">what you think</a>!
 
           </div>
           
@@ -201,9 +203,11 @@
         </button>
       </nav>
       
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
@@ -220,7 +224,7 @@
         <a href="https://github.com/pydantic/pydantic" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     pydantic/pydantic
@@ -311,6 +315,23 @@
   
   
   
+    <li class="md-tabs__item">
+      <a href="../architecture/" class="md-tabs__link">
+        
+  
+    
+  
+  Architecture
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
     
     
       <li class="md-tabs__item">
@@ -349,6 +370,12 @@
   
     
     
+      
+  
+  
+  
+    
+    
       <li class="md-tabs__item">
         <a href="../integrations/mypy/" class="md-tabs__link">
           
@@ -360,22 +387,41 @@
     
   
 
+    
+  
+
       
         
   
   
   
+    <li class="md-tabs__item">
+      <a href="https://blog.pydantic.dev/" class="md-tabs__link">
+        
+  
     
-    
-      <li class="md-tabs__item">
-        <a href="../blog/pydantic-v2-final/" class="md-tabs__link">
-          
   
   Blog
 
-        </a>
-      </li>
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../pydantic_people/" class="md-tabs__link">
+        
+  
     
+  
+  Pydantic People
+
+      </a>
+    </li>
   
 
       
@@ -413,7 +459,7 @@
       <a href="https://github.com/pydantic/pydantic" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     pydantic/pydantic
@@ -430,17 +476,21 @@
     
   
   
-    
-    
+  
     
     
     
       
+        
+        
       
+      
+        
+      
+    
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
@@ -450,14 +500,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Get Started
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -466,11 +510,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Get Started
-  
-
+            Get Started
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -479,19 +519,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Welcome to Pydantic
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -507,6 +542,7 @@
     
   
   
+  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
@@ -519,14 +555,8 @@
           
   
   <span class="md-ellipsis">
-    
-  
     Why use Pydantic
-  
-
-    
   </span>
-  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -536,14 +566,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Why use Pydantic
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -568,9 +592,7 @@
         <li class="md-nav__item">
   <a href="#type-hints" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Type hints powering schema validation
-      
+      Type hints powering schema validation
     </span>
   </a>
   
@@ -579,9 +601,7 @@
         <li class="md-nav__item">
   <a href="#performance" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Performance
-      
+      Performance
     </span>
   </a>
   
@@ -590,9 +610,7 @@
         <li class="md-nav__item">
   <a href="#serialization" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Serialization
-      
+      Serialization
     </span>
   </a>
   
@@ -601,9 +619,7 @@
         <li class="md-nav__item">
   <a href="#json-schema" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        JSON Schema
-      
+      JSON Schema
     </span>
   </a>
   
@@ -612,20 +628,16 @@
         <li class="md-nav__item">
   <a href="#strict-lax" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Strict mode and data coercion
-      
+      Strict mode and data coercion
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#typeddict" class="md-nav__link">
+  <a href="#dataclasses-typeddict-more" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Dataclasses, TypedDicts, and more
-      
+      Dataclasses, TypedDicts, and more
     </span>
   </a>
   
@@ -634,9 +646,7 @@
         <li class="md-nav__item">
   <a href="#customisation" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Customisation
-      
+      Customisation
     </span>
   </a>
   
@@ -645,9 +655,7 @@
         <li class="md-nav__item">
   <a href="#ecosystem" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Ecosystem
-      
+      Ecosystem
     </span>
   </a>
   
@@ -656,9 +664,7 @@
         <li class="md-nav__item">
   <a href="#using-pydantic" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Organisations using Pydantic
-      
+      Organisations using Pydantic
     </span>
   </a>
   
@@ -668,9 +674,7 @@
           <li class="md-nav__item">
   <a href="#org-adobe" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Adobe
-      
+      Adobe
     </span>
   </a>
   
@@ -679,9 +683,7 @@
           <li class="md-nav__item">
   <a href="#org-amazon" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Amazon and AWS
-      
+      Amazon and AWS
     </span>
   </a>
   
@@ -690,9 +692,7 @@
           <li class="md-nav__item">
   <a href="#org-anthropic" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Anthropic
-      
+      Anthropic
     </span>
   </a>
   
@@ -701,9 +701,7 @@
           <li class="md-nav__item">
   <a href="#org-apple" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Apple
-      
+      Apple
     </span>
   </a>
   
@@ -712,9 +710,7 @@
           <li class="md-nav__item">
   <a href="#org-asml" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        ASML
-      
+      ASML
     </span>
   </a>
   
@@ -723,9 +719,7 @@
           <li class="md-nav__item">
   <a href="#org-astrazeneca" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        AstraZeneca
-      
+      AstraZeneca
     </span>
   </a>
   
@@ -734,9 +728,7 @@
           <li class="md-nav__item">
   <a href="#org-cisco" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Cisco Systems
-      
+      Cisco Systems
     </span>
   </a>
   
@@ -745,9 +737,7 @@
           <li class="md-nav__item">
   <a href="#org-comcast" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Comcast
-      
+      Comcast
     </span>
   </a>
   
@@ -756,9 +746,7 @@
           <li class="md-nav__item">
   <a href="#org-datadog" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Datadog
-      
+      Datadog
     </span>
   </a>
   
@@ -767,9 +755,7 @@
           <li class="md-nav__item">
   <a href="#org-facebook" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Facebook
-      
+      Facebook
     </span>
   </a>
   
@@ -778,9 +764,7 @@
           <li class="md-nav__item">
   <a href="#org-github" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        GitHub
-      
+      GitHub
     </span>
   </a>
   
@@ -789,9 +773,7 @@
           <li class="md-nav__item">
   <a href="#org-google" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Google
-      
+      Google
     </span>
   </a>
   
@@ -800,9 +782,7 @@
           <li class="md-nav__item">
   <a href="#org-hsbc" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        HSBC
-      
+      HSBC
     </span>
   </a>
   
@@ -811,9 +791,7 @@
           <li class="md-nav__item">
   <a href="#org-ibm" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        IBM
-      
+      IBM
     </span>
   </a>
   
@@ -822,9 +800,7 @@
           <li class="md-nav__item">
   <a href="#org-intel" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Intel
-      
+      Intel
     </span>
   </a>
   
@@ -833,9 +809,7 @@
           <li class="md-nav__item">
   <a href="#org-intuit" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Intuit
-      
+      Intuit
     </span>
   </a>
   
@@ -844,9 +818,7 @@
           <li class="md-nav__item">
   <a href="#org-ipcc" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Intergovernmental Panel on Climate Change
-      
+      Intergovernmental Panel on Climate Change
     </span>
   </a>
   
@@ -855,9 +827,7 @@
           <li class="md-nav__item">
   <a href="#org-jpmorgan" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        JPMorgan
-      
+      JPMorgan
     </span>
   </a>
   
@@ -866,9 +836,7 @@
           <li class="md-nav__item">
   <a href="#org-jupyter" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Jupyter
-      
+      Jupyter
     </span>
   </a>
   
@@ -877,9 +845,7 @@
           <li class="md-nav__item">
   <a href="#org-microsoft" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Microsoft
-      
+      Microsoft
     </span>
   </a>
   
@@ -888,9 +854,7 @@
           <li class="md-nav__item">
   <a href="#org-molssi" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Molecular Science Software Institute
-      
+      Molecular Science Software Institute
     </span>
   </a>
   
@@ -899,9 +863,7 @@
           <li class="md-nav__item">
   <a href="#org-nasa" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        NASA
-      
+      NASA
     </span>
   </a>
   
@@ -910,9 +872,7 @@
           <li class="md-nav__item">
   <a href="#org-netflix" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Netflix
-      
+      Netflix
     </span>
   </a>
   
@@ -921,9 +881,7 @@
           <li class="md-nav__item">
   <a href="#org-nsa" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        NSA
-      
+      NSA
     </span>
   </a>
   
@@ -932,9 +890,7 @@
           <li class="md-nav__item">
   <a href="#org-nvidia" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        NVIDIA
-      
+      NVIDIA
     </span>
   </a>
   
@@ -943,9 +899,7 @@
           <li class="md-nav__item">
   <a href="#org-openai" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        OpenAI
-      
+      OpenAI
     </span>
   </a>
   
@@ -954,9 +908,7 @@
           <li class="md-nav__item">
   <a href="#org-oracle" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Oracle
-      
+      Oracle
     </span>
   </a>
   
@@ -965,9 +917,7 @@
           <li class="md-nav__item">
   <a href="#org-palantir" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Palantir
-      
+      Palantir
     </span>
   </a>
   
@@ -976,9 +926,7 @@
           <li class="md-nav__item">
   <a href="#org-qualcomm" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Qualcomm
-      
+      Qualcomm
     </span>
   </a>
   
@@ -987,9 +935,7 @@
           <li class="md-nav__item">
   <a href="#org-redhat" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Red Hat
-      
+      Red Hat
     </span>
   </a>
   
@@ -998,9 +944,7 @@
           <li class="md-nav__item">
   <a href="#org-revolut" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Revolut
-      
+      Revolut
     </span>
   </a>
   
@@ -1009,9 +953,7 @@
           <li class="md-nav__item">
   <a href="#org-robusta" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Robusta
-      
+      Robusta
     </span>
   </a>
   
@@ -1020,9 +962,7 @@
           <li class="md-nav__item">
   <a href="#org-salesforce" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Salesforce
-      
+      Salesforce
     </span>
   </a>
   
@@ -1031,9 +971,7 @@
           <li class="md-nav__item">
   <a href="#org-starbucks" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Starbucks
-      
+      Starbucks
     </span>
   </a>
   
@@ -1042,9 +980,7 @@
           <li class="md-nav__item">
   <a href="#org-ti" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Texas Instruments
-      
+      Texas Instruments
     </span>
   </a>
   
@@ -1053,9 +989,7 @@
           <li class="md-nav__item">
   <a href="#org-twilio" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Twilio
-      
+      Twilio
     </span>
   </a>
   
@@ -1064,9 +998,7 @@
           <li class="md-nav__item">
   <a href="#org-twitter" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Twitter
-      
+      Twitter
     </span>
   </a>
   
@@ -1075,9 +1007,7 @@
           <li class="md-nav__item">
   <a href="#org-ukhomeoffice" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        UK Home Office
-      
+      UK Home Office
     </span>
   </a>
   
@@ -1102,19 +1032,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../help_with_pydantic/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Help with Pydantic
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1125,6 +1050,7 @@
             
               
                 
+  
   
   
   
@@ -1133,14 +1059,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Installation
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1151,6 +1071,7 @@
             
               
                 
+  
   
   
   
@@ -1159,14 +1080,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Migration Guide
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1177,6 +1092,7 @@
             
               
                 
+  
   
   
   
@@ -1185,14 +1101,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Version Policy
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1203,6 +1113,7 @@
             
               
                 
+  
   
   
   
@@ -1211,14 +1122,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Contributing
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1229,6 +1134,7 @@
             
               
                 
+  
   
   
   
@@ -1237,14 +1143,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Changelog
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1265,34 +1165,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
     Concepts
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1301,11 +1196,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Concepts
-  
-
+            Concepts
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1314,19 +1205,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../concepts/models/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Models
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1337,6 +1223,7 @@
             
               
                 
+  
   
   
   
@@ -1345,14 +1232,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Fields
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1363,6 +1244,7 @@
             
               
                 
+  
   
   
   
@@ -1371,14 +1253,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     JSON Schema
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1389,6 +1265,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/json/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JSON
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -1397,14 +1295,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1415,6 +1307,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/unions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -1423,14 +1337,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Alias
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1441,6 +1349,7 @@
             
               
                 
+  
   
   
   
@@ -1449,14 +1358,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Configuration
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1467,6 +1370,7 @@
             
               
                 
+  
   
   
   
@@ -1475,14 +1379,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Serialization
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1493,6 +1391,7 @@
             
               
                 
+  
   
   
   
@@ -1501,14 +1400,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validators
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1519,6 +1412,7 @@
             
               
                 
+  
   
   
   
@@ -1527,14 +1421,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Dataclasses
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1545,6 +1433,7 @@
             
               
                 
+  
   
   
   
@@ -1553,14 +1442,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Postponed Annotations
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1571,6 +1454,7 @@
             
               
                 
+  
   
   
   
@@ -1579,14 +1463,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Strict Mode
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1597,6 +1475,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/type_adapter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Type Adapter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -1605,14 +1505,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validation Decorator
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1623,6 +1517,7 @@
             
               
                 
+  
   
   
   
@@ -1631,14 +1526,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Conversion Table
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1649,6 +1538,7 @@
             
               
                 
+  
   
   
   
@@ -1657,14 +1547,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Settings Management
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1675,6 +1559,7 @@
             
               
                 
+  
   
   
   
@@ -1683,14 +1568,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Performance
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1704,19 +1583,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../concepts/plugins/" class="md-nav__link">
+      <a href="../concepts/experimental/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic Plugins
-  
-
-    
+    Experimental
   </span>
-  
   
 
       </a>
@@ -1737,34 +1611,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
     API Documentation
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1773,11 +1642,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    API Documentation
-  
-
+            API Documentation
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1786,14 +1651,18 @@
   
   
   
+  
     
     
     
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
@@ -1803,14 +1672,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Pydantic
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1819,11 +1682,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Pydantic
-  
-
+            Pydantic
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1832,19 +1691,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../api/base_model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     BaseModel
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1855,6 +1709,7 @@
             
               
                 
+  
   
   
   
@@ -1863,14 +1718,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     RootModel
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1881,6 +1730,7 @@
             
               
                 
+  
   
   
   
@@ -1889,14 +1739,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Dataclasses
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1907,6 +1751,7 @@
             
               
                 
+  
   
   
   
@@ -1915,14 +1760,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     TypeAdapter
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1933,6 +1772,7 @@
             
               
                 
+  
   
   
   
@@ -1941,14 +1781,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validate Call
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1959,6 +1793,7 @@
             
               
                 
+  
   
   
   
@@ -1967,14 +1802,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Fields
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1985,6 +1814,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/aliases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aliases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -1993,14 +1844,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Configuration
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2011,6 +1856,7 @@
             
               
                 
+  
   
   
   
@@ -2019,14 +1865,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     JSON Schema
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2037,6 +1877,7 @@
             
               
                 
+  
   
   
   
@@ -2045,14 +1886,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Errors
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2063,6 +1898,7 @@
             
               
                 
+  
   
   
   
@@ -2071,14 +1907,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Functional Validators
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2089,6 +1919,7 @@
             
               
                 
+  
   
   
   
@@ -2097,14 +1928,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Functional Serializers
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2115,6 +1940,7 @@
             
               
                 
+  
   
   
   
@@ -2123,14 +1949,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Standard Library Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2141,6 +1961,7 @@
             
               
                 
+  
   
   
   
@@ -2149,14 +1970,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2167,6 +1982,7 @@
             
               
                 
+  
   
   
   
@@ -2175,14 +1991,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Network Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2193,6 +2003,7 @@
             
               
                 
+  
   
   
   
@@ -2201,14 +2012,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Version Information
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2220,31 +2025,6 @@
               
                 
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../api/plugin/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Pydantic Plugins
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
   
   
   
@@ -2253,14 +2033,29 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Annotated Handlers
-  
-
-    
   </span>
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/experimental/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Experimental
+  </span>
   
 
       </a>
@@ -2282,14 +2077,18 @@
   
   
   
+  
     
     
     
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
@@ -2299,14 +2098,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Core
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2315,11 +2108,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Pydantic Core
-  
-
+            Pydantic Core
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2328,19 +2117,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../api/pydantic_core/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     pydantic_core
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2354,19 +2138,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../api/pydantic_core_schema/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     pydantic_core.core_schema
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2388,19 +2167,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../api/pydantic_settings/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Settings
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2414,14 +2188,18 @@
   
   
   
+  
     
     
     
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
@@ -2431,14 +2209,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Extra Types
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2447,16 +2219,13 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Pydantic Extra Types
-  
-
+            Pydantic Extra Types
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
+  
   
   
   
@@ -2465,14 +2234,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Color
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2483,6 +2246,7 @@
             
               
                 
+  
   
   
   
@@ -2491,14 +2255,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Country
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2509,6 +2267,7 @@
             
               
                 
+  
   
   
   
@@ -2517,14 +2276,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Payment
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2535,6 +2288,7 @@
             
               
                 
+  
   
   
   
@@ -2543,14 +2297,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Phone Numbers
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2561,6 +2309,7 @@
             
               
                 
+  
   
   
   
@@ -2569,14 +2318,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Routing Numbers
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2587,6 +2330,7 @@
             
               
                 
+  
   
   
   
@@ -2595,14 +2339,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Coordinate
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2613,6 +2351,7 @@
             
               
                 
+  
   
   
   
@@ -2621,14 +2360,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Mac Address
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2636,92 +2369,178 @@
   
 
               
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-    
-    
-    
-    
-    
-      
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
-            
-  
-  <span class="md-ellipsis">
-    
-  
-    Examples
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Examples
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../examples/secrets/" class="md-nav__link">
+      <a href="../api/pydantic_extra_types_isbn/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Secrets
-  
-
-    
+    ISBN
   </span>
-  
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/pydantic_extra_types_pendulum_dt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pendulum
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/pydantic_extra_types_currency_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Currency
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/pydantic_extra_types_language_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Language
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/pydantic_extra_types_script_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Script Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/pydantic_extra_types_semantic_version/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Semantic Version
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/pydantic_extra_types_timezone_name/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Timezone Name
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/pydantic_extra_types_ulid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ULID
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -2739,34 +2558,49 @@
   
   
   
+  
+    <li class="md-nav__item">
+      <a href="../architecture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Architecture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
     
-    
+      
+      
+  
+  
+  
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
-    Error Messages
-  
-
-    
+    Examples
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2775,11 +2609,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Error Messages
-  
-
+            Examples
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2788,19 +2618,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../errors/errors/" class="md-nav__link">
+      <a href="../examples/secrets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Error Handling
-  
-
-    
+    Secrets
   </span>
-  
   
 
       </a>
@@ -2814,45 +2639,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../errors/validation_errors/" class="md-nav__link">
+      <a href="../examples/validators/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Validation Errors
-  
-
-    
+    Validators
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../errors/usage_errors/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Usage Errors
-  
-
-    
-  </span>
-  
   
 
       </a>
@@ -2873,34 +2667,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
-    Integrations
-  
-
-    
+    Error Messages
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2909,11 +2698,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Integrations
-  
-
+            Error Messages
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2922,19 +2707,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../integrations/mypy/" class="md-nav__link">
+      <a href="../errors/errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Mypy
-  
-
-    
+    Error Handling
   </span>
-  
   
 
       </a>
@@ -2948,19 +2728,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../integrations/pycharm/" class="md-nav__link">
+      <a href="../errors/validation_errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    PyCharm
-  
-
-    
+    Validation Errors
   </span>
-  
   
 
       </a>
@@ -2974,123 +2749,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../integrations/hypothesis/" class="md-nav__link">
+      <a href="../errors/usage_errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Hypothesis
-  
-
-    
+    Usage Errors
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../integrations/visual_studio_code/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Visual Studio Code
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../integrations/datamodel_code_generator/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    datamodel-code-generator
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../integrations/devtools/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    devtools
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../integrations/rich/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Rich
-  
-
-    
-  </span>
-  
   
 
       </a>
@@ -3111,34 +2777,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
-    Blog
-  
-
-    
+    Integrations
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3147,11 +2808,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Blog
-  
-
+            Integrations
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3160,19 +2817,54 @@
   
   
   
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dev Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Dev Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../blog/pydantic-v2-final/" class="md-nav__link">
+      <a href="../integrations/mypy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic V2 Is Here!
-  
-
-    
+    Mypy
   </span>
-  
   
 
       </a>
@@ -3186,19 +2878,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../blog/pydantic-v2-alpha/" class="md-nav__link">
+      <a href="../integrations/pycharm/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic V2 Pre Release
-  
-
-    
+    PyCharm
   </span>
-  
   
 
       </a>
@@ -3212,19 +2899,119 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../blog/pydantic-v2/" class="md-nav__link">
+      <a href="../integrations/hypothesis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic V2 Plan
-  
-
-    
+    Hypothesis
   </span>
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrations/visual_studio_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visual Studio Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrations/datamodel_code_generator/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    datamodel-code-generator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrations/devtools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    devtools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrations/rich/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rich
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrations/linting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linting
+  </span>
   
 
       </a>
@@ -3236,6 +3023,123 @@
           </ul>
         </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Production Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Production Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrations/aws_lambda/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Lambda
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://blog.pydantic.dev/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pydantic_people/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pydantic People
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -3271,9 +3175,7 @@
         <li class="md-nav__item">
   <a href="#type-hints" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Type hints powering schema validation
-      
+      Type hints powering schema validation
     </span>
   </a>
   
@@ -3282,9 +3184,7 @@
         <li class="md-nav__item">
   <a href="#performance" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Performance
-      
+      Performance
     </span>
   </a>
   
@@ -3293,9 +3193,7 @@
         <li class="md-nav__item">
   <a href="#serialization" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Serialization
-      
+      Serialization
     </span>
   </a>
   
@@ -3304,9 +3202,7 @@
         <li class="md-nav__item">
   <a href="#json-schema" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        JSON Schema
-      
+      JSON Schema
     </span>
   </a>
   
@@ -3315,20 +3211,16 @@
         <li class="md-nav__item">
   <a href="#strict-lax" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Strict mode and data coercion
-      
+      Strict mode and data coercion
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#typeddict" class="md-nav__link">
+  <a href="#dataclasses-typeddict-more" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Dataclasses, TypedDicts, and more
-      
+      Dataclasses, TypedDicts, and more
     </span>
   </a>
   
@@ -3337,9 +3229,7 @@
         <li class="md-nav__item">
   <a href="#customisation" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Customisation
-      
+      Customisation
     </span>
   </a>
   
@@ -3348,9 +3238,7 @@
         <li class="md-nav__item">
   <a href="#ecosystem" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Ecosystem
-      
+      Ecosystem
     </span>
   </a>
   
@@ -3359,9 +3247,7 @@
         <li class="md-nav__item">
   <a href="#using-pydantic" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Organisations using Pydantic
-      
+      Organisations using Pydantic
     </span>
   </a>
   
@@ -3371,9 +3257,7 @@
           <li class="md-nav__item">
   <a href="#org-adobe" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Adobe
-      
+      Adobe
     </span>
   </a>
   
@@ -3382,9 +3266,7 @@
           <li class="md-nav__item">
   <a href="#org-amazon" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Amazon and AWS
-      
+      Amazon and AWS
     </span>
   </a>
   
@@ -3393,9 +3275,7 @@
           <li class="md-nav__item">
   <a href="#org-anthropic" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Anthropic
-      
+      Anthropic
     </span>
   </a>
   
@@ -3404,9 +3284,7 @@
           <li class="md-nav__item">
   <a href="#org-apple" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Apple
-      
+      Apple
     </span>
   </a>
   
@@ -3415,9 +3293,7 @@
           <li class="md-nav__item">
   <a href="#org-asml" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        ASML
-      
+      ASML
     </span>
   </a>
   
@@ -3426,9 +3302,7 @@
           <li class="md-nav__item">
   <a href="#org-astrazeneca" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        AstraZeneca
-      
+      AstraZeneca
     </span>
   </a>
   
@@ -3437,9 +3311,7 @@
           <li class="md-nav__item">
   <a href="#org-cisco" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Cisco Systems
-      
+      Cisco Systems
     </span>
   </a>
   
@@ -3448,9 +3320,7 @@
           <li class="md-nav__item">
   <a href="#org-comcast" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Comcast
-      
+      Comcast
     </span>
   </a>
   
@@ -3459,9 +3329,7 @@
           <li class="md-nav__item">
   <a href="#org-datadog" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Datadog
-      
+      Datadog
     </span>
   </a>
   
@@ -3470,9 +3338,7 @@
           <li class="md-nav__item">
   <a href="#org-facebook" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Facebook
-      
+      Facebook
     </span>
   </a>
   
@@ -3481,9 +3347,7 @@
           <li class="md-nav__item">
   <a href="#org-github" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        GitHub
-      
+      GitHub
     </span>
   </a>
   
@@ -3492,9 +3356,7 @@
           <li class="md-nav__item">
   <a href="#org-google" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Google
-      
+      Google
     </span>
   </a>
   
@@ -3503,9 +3365,7 @@
           <li class="md-nav__item">
   <a href="#org-hsbc" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        HSBC
-      
+      HSBC
     </span>
   </a>
   
@@ -3514,9 +3374,7 @@
           <li class="md-nav__item">
   <a href="#org-ibm" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        IBM
-      
+      IBM
     </span>
   </a>
   
@@ -3525,9 +3383,7 @@
           <li class="md-nav__item">
   <a href="#org-intel" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Intel
-      
+      Intel
     </span>
   </a>
   
@@ -3536,9 +3392,7 @@
           <li class="md-nav__item">
   <a href="#org-intuit" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Intuit
-      
+      Intuit
     </span>
   </a>
   
@@ -3547,9 +3401,7 @@
           <li class="md-nav__item">
   <a href="#org-ipcc" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Intergovernmental Panel on Climate Change
-      
+      Intergovernmental Panel on Climate Change
     </span>
   </a>
   
@@ -3558,9 +3410,7 @@
           <li class="md-nav__item">
   <a href="#org-jpmorgan" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        JPMorgan
-      
+      JPMorgan
     </span>
   </a>
   
@@ -3569,9 +3419,7 @@
           <li class="md-nav__item">
   <a href="#org-jupyter" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Jupyter
-      
+      Jupyter
     </span>
   </a>
   
@@ -3580,9 +3428,7 @@
           <li class="md-nav__item">
   <a href="#org-microsoft" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Microsoft
-      
+      Microsoft
     </span>
   </a>
   
@@ -3591,9 +3437,7 @@
           <li class="md-nav__item">
   <a href="#org-molssi" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Molecular Science Software Institute
-      
+      Molecular Science Software Institute
     </span>
   </a>
   
@@ -3602,9 +3446,7 @@
           <li class="md-nav__item">
   <a href="#org-nasa" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        NASA
-      
+      NASA
     </span>
   </a>
   
@@ -3613,9 +3455,7 @@
           <li class="md-nav__item">
   <a href="#org-netflix" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Netflix
-      
+      Netflix
     </span>
   </a>
   
@@ -3624,9 +3464,7 @@
           <li class="md-nav__item">
   <a href="#org-nsa" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        NSA
-      
+      NSA
     </span>
   </a>
   
@@ -3635,9 +3473,7 @@
           <li class="md-nav__item">
   <a href="#org-nvidia" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        NVIDIA
-      
+      NVIDIA
     </span>
   </a>
   
@@ -3646,9 +3482,7 @@
           <li class="md-nav__item">
   <a href="#org-openai" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        OpenAI
-      
+      OpenAI
     </span>
   </a>
   
@@ -3657,9 +3491,7 @@
           <li class="md-nav__item">
   <a href="#org-oracle" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Oracle
-      
+      Oracle
     </span>
   </a>
   
@@ -3668,9 +3500,7 @@
           <li class="md-nav__item">
   <a href="#org-palantir" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Palantir
-      
+      Palantir
     </span>
   </a>
   
@@ -3679,9 +3509,7 @@
           <li class="md-nav__item">
   <a href="#org-qualcomm" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Qualcomm
-      
+      Qualcomm
     </span>
   </a>
   
@@ -3690,9 +3518,7 @@
           <li class="md-nav__item">
   <a href="#org-redhat" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Red Hat
-      
+      Red Hat
     </span>
   </a>
   
@@ -3701,9 +3527,7 @@
           <li class="md-nav__item">
   <a href="#org-revolut" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Revolut
-      
+      Revolut
     </span>
   </a>
   
@@ -3712,9 +3536,7 @@
           <li class="md-nav__item">
   <a href="#org-robusta" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Robusta
-      
+      Robusta
     </span>
   </a>
   
@@ -3723,9 +3545,7 @@
           <li class="md-nav__item">
   <a href="#org-salesforce" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Salesforce
-      
+      Salesforce
     </span>
   </a>
   
@@ -3734,9 +3554,7 @@
           <li class="md-nav__item">
   <a href="#org-starbucks" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Starbucks
-      
+      Starbucks
     </span>
   </a>
   
@@ -3745,9 +3563,7 @@
           <li class="md-nav__item">
   <a href="#org-ti" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Texas Instruments
-      
+      Texas Instruments
     </span>
   </a>
   
@@ -3756,9 +3572,7 @@
           <li class="md-nav__item">
   <a href="#org-twilio" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Twilio
-      
+      Twilio
     </span>
   </a>
   
@@ -3767,9 +3581,7 @@
           <li class="md-nav__item">
   <a href="#org-twitter" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Twitter
-      
+      Twitter
     </span>
   </a>
   
@@ -3778,9 +3590,7 @@
           <li class="md-nav__item">
   <a href="#org-ukhomeoffice" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        UK Home Office
-      
+      UK Home Office
     </span>
   </a>
   
@@ -3801,7 +3611,6 @@
           
           
             <div class="md-content" data-md-component="content">
-              
               <article class="md-content__inner md-typeset">
                 
   
@@ -3815,13 +3624,15 @@
 <p>Today, Pydantic is downloaded <span id="download-count">many</span> times a month and used by some of the largest and most recognisable organisations in the world.</p>
 <p>It's hard to know why so many people have adopted Pydantic since its inception six years ago, but here are a few guesses.</p>
 <h2 id="type-hints">Type hints powering schema validation<a class="headerlink" href="#type-hints" title="Permanent link">&para;</a></h2>
-<p>The schema that Pydantic validates against is generally defined by Python type hints.</p>
+<p>The schema that Pydantic validates against is generally defined by Python <a href="https://docs.python.org/3/glossary.html#term-type-hint">type hints</a>.</p>
 <p>Type hints are great for this since, if you're writing modern Python, you already know how to use them.
-Using type hints also means that Pydantic integrates well with static typing tools like mypy and pyright and IDEs like pycharm and vscode.</p>
+Using type hints also means that Pydantic integrates well with static typing tools
+(like <a href="https://www.mypy-lang.org/">mypy</a> and <a href="https://github.com/microsoft/pyright/">Pyright</a>)
+and IDEs (like <a href="https://www.jetbrains.com/pycharm/">PyCharm</a> and <a href="https://code.visualstudio.com/">VSCode</a>).</p>
 <details class="example" open="open">
 <summary>Example - just type hints</summary>
 <p><em>(This example requires Python 3.9+)</em>
-<div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Annotated</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Literal</span><span class="p">,</span> <span class="n">Tuple</span>
+<div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Annotated</span><span class="p">,</span> <span class="n">Literal</span>
 
 <span class="kn">from</span> <span class="nn">annotated_types</span> <span class="kn">import</span> <span class="n">Gt</span>
 
@@ -3832,7 +3643,7 @@ Using type hints also means that Pydantic integrates well with static typing too
     <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># (1)!</span>
     <span class="n">color</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="s1">&#39;green&#39;</span><span class="p">]</span>  <span class="c1"># (2)!</span>
     <span class="n">weight</span><span class="p">:</span> <span class="n">Annotated</span><span class="p">[</span><span class="nb">float</span><span class="p">,</span> <span class="n">Gt</span><span class="p">(</span><span class="mi">0</span><span class="p">)]</span>  <span class="c1"># (3)!</span>
-    <span class="n">bazam</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">bool</span><span class="p">,</span> <span class="nb">float</span><span class="p">]]]</span>  <span class="c1"># (4)!</span>
+    <span class="n">bazam</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">list</span><span class="p">[</span><span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">bool</span><span class="p">,</span> <span class="nb">float</span><span class="p">]]]</span>  <span class="c1"># (4)!</span>
 
 
 <span class="nb">print</span><span class="p">(</span>
@@ -3846,9 +3657,10 @@ Using type hints also means that Pydantic integrates well with static typing too
 <span class="c1">#&gt; name=&#39;Apple&#39; color=&#39;red&#39; weight=4.2 bazam={&#39;foobar&#39;: [(1, True, 0.1)]}</span>
 </code></pre></div></p>
 <ol>
-<li>The <code>name</code> field is simply annotated with <code>str</code> - any string is allowed.</li>
-<li>The <a href="https://docs.python.org/3/library/typing.html#typing.Literal"><code>Literal</code></a> type is used to enforce that <code>color</code> is either <code>'red'</code> or <code>'green'</code>.</li>
-<li>Even when we want to apply constraints not encapsulated in python types, we can use <a href="https://docs.python.org/3/library/typing.html#typing.Annotated"><code>Annotated</code></a> and <a href="https://github.com/annotated-types/annotated-types"><code>annotated-types</code></a> to enforce constraints without breaking type hints.</li>
+<li>The <code>name</code> field is simply annotated with <code>str</code> &mdash; any string is allowed.</li>
+<li>The <a class="autorefs autorefs-external" href="https://docs.python.org/3/library/typing.html#typing.Literal"><code>Literal</code></a> type is used to enforce that <code>color</code> is either <code>'red'</code> or <code>'green'</code>.</li>
+<li>Even when we want to apply constraints not encapsulated in Python types, we can use <a class="autorefs autorefs-external" href="https://docs.python.org/3/library/typing.html#typing.Annotated"><code>Annotated</code></a>
+   and <a href="https://github.com/annotated-types/annotated-types"><code>annotated-types</code></a> to enforce constraints while still keeping typing support.</li>
 <li>I'm not claiming "bazam" is really an attribute of fruit, but rather to show that arbitrarily complex types can easily be validated.</li>
 </ol>
 </details>
@@ -3857,11 +3669,12 @@ Using type hints also means that Pydantic integrates well with static typing too
 <p>See the <a href="../concepts/types/">documentation on supported types</a>.</p>
 </div>
 <h2 id="performance">Performance<a class="headerlink" href="#performance" title="Permanent link">&para;</a></h2>
-<p>Pydantic's core validation logic is implemented in separate package <a href="https://github.com/pydantic/pydantic-core"><code>pydantic-core</code></a>, where validation for most types is implemented in Rust.</p>
-<p>As a result Pydantic is among the fastest data validation libraries for Python.</p>
+<p>Pydantic's core validation logic is implemented in a separate package (<a href="https://github.com/pydantic/pydantic-core"><code>pydantic-core</code></a>),
+where validation for most types is implemented in Rust.</p>
+<p>As a result, Pydantic is among the fastest data validation libraries for Python.</p>
 <details class="example">
 <summary>Performance Example - Pydantic vs. dedicated code</summary>
-<p>In general, dedicated code should be much faster that a general-purpose validator, but in this example
+<p>In general, dedicated code should be much faster than a general-purpose validator, but in this example
 Pydantic is &gt;300% faster than dedicated code when parsing JSON and validating URLs.</p>
 <div class="language-py highlight"><span class="filename">Performance Example</span><pre><span></span><code><span class="kn">import</span> <span class="nn">json</span>
 <span class="kn">import</span> <span class="nn">timeit</span>
@@ -3923,17 +3736,17 @@ Pydantic is &gt;300% faster than dedicated code when parsing JSON and validating
 <p>Unlike other performance-centric libraries written in compiled languages, Pydantic also has excellent support for customizing validation via <a href="#customisation">functional validators</a>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Learn more</p>
-<p>Samuel Colvin's <a href="https://youtu.be/pWZw7hYoRVU">talk at PyCon 2023</a> explains how <code>pydantic-core</code> works and how
-it integrates with Pydantic.</p>
+<p>Samuel Colvin's <a href="https://youtu.be/pWZw7hYoRVU">talk at PyCon 2023</a> explains how <a href="https://github.com/pydantic/pydantic-core"><code>pydantic-core</code></a>
+works and how it integrates with Pydantic.</p>
 </div>
 <h2 id="serialization">Serialization<a class="headerlink" href="#serialization" title="Permanent link">&para;</a></h2>
 <p>Pydantic provides functionality to serialize model in three ways:</p>
 <ol>
-<li>To a Python <code>dict</code> made up of the associated Python objects</li>
-<li>To a Python <code>dict</code> made up only of "jsonable" types</li>
-<li>To a JSON string</li>
+<li>To a Python <code>dict</code> made up of the associated Python objects.</li>
+<li>To a Python <code>dict</code> made up only of "jsonable" types.</li>
+<li>To a JSON string.</li>
 </ol>
-<p>In all three modes, the output can be customized by excluding specific fields, excluding unset fields, excluding default values, and excluding <code>None</code> values</p>
+<p>In all three modes, the output can be customized by excluding specific fields, excluding unset fields, excluding default values, and excluding <code>None</code> values.</p>
 <details class="example">
 <summary>Example - Serialization 3 ways</summary>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
@@ -3961,7 +3774,7 @@ it integrates with Pydantic.</p>
 <p>See the <a href="../concepts/serialization/">documentation on serialization</a>.</p>
 </div>
 <h2 id="json-schema">JSON Schema<a class="headerlink" href="#json-schema" title="Permanent link">&para;</a></h2>
-<p><a href="https://json-schema.org/">JSON Schema</a> can be generated for any Pydantic schema &mdash; allowing self-documenting APIs and integration with a wide variety of tools which support JSON Schema.</p>
+<p>A <a href="https://json-schema.org/">JSON Schema</a> can be generated for any Pydantic schema &mdash; allowing self-documenting APIs and integration with a wide variety of tools which support the JSON Schema format.</p>
 <details class="example">
 <summary>Example - JSON Schema</summary>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
@@ -4008,16 +3821,23 @@ it integrates with Pydantic.</p>
 <span class="sd">&quot;&quot;&quot;</span>
 </code></pre></div>
 </details>
-<p>Pydantic generates <a href="https://json-schema.org/draft/2020-12/release-notes.html">JSON Schema version 2020-12</a>, the latest version of the standard which is compatible with <a href="https://www.openapis.org/blog/2021/02/18/openapi-specification-3-1-released">OpenAPI 3.1</a>.</p>
+<p>Pydantic is compliant with the latest version of JSON Schema specification
+(<a href="https://json-schema.org/draft/2020-12/release-notes.html">2020-12</a>), which
+is compatible with <a href="https://spec.openapis.org/oas/v3.1.0.html">OpenAPI 3.1</a>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Learn more</p>
 <p>See the <a href="../concepts/json_schema/">documentation on JSON Schema</a>.</p>
 </div>
 <h2 id="strict-lax">Strict mode and data coercion<a class="headerlink" href="#strict-lax" title="Permanent link">&para;</a></h2>
-<p>By default, Pydantic is tolerant to common incorrect types and coerces data to the right type &mdash; e.g. a numeric string passed to an <code>int</code> field will be parsed as an <code>int</code>.</p>
-<p>Pydantic also has <code>strict=True</code> mode &mdash; also known as "Strict mode" &mdash; where types are not coerced and a validation error is raised unless the input data exactly matches the schema or type hint.</p>
-<p>But strict mode would be pretty useless when validating JSON data since JSON doesn't have types matching many common python types like <code>datetime</code>, <code>UUID</code> or <code>bytes</code>.</p>
-<p>To solve this, Pydantic can parse and validate JSON in one step. This allows sensible data conversion like RFC3339 (aka ISO8601) strings to <code>datetime</code> objects. Since the JSON parsing is implemented in Rust, it's also very performant.</p>
+<p>By default, Pydantic is tolerant to common incorrect types and coerces data to the right type &mdash;
+e.g. a numeric string passed to an <code>int</code> field will be parsed as an <code>int</code>.</p>
+<p>Pydantic also has as <a href="../concepts/strict_mode/">strict mode</a>, where types are not coerced and a
+validation error is raised unless the input data exactly matches the expected schema.</p>
+<p>But strict mode would be pretty useless when validating JSON data since JSON doesn't have types matching
+many common Python types like <a class="autorefs autorefs-external" href="https://docs.python.org/3/library/datetime.html#datetime.datetime"><code>datetime</code></a>, <a class="autorefs autorefs-external" href="https://docs.python.org/3/library/uuid.html#uuid.UUID"><code>UUID</code></a> or <a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#bytes"><code>bytes</code></a>.</p>
+<p>To solve this, Pydantic can parse and validate JSON in one step. This allows sensible data conversion
+(e.g. when parsing strings into <a class="autorefs autorefs-external" href="https://docs.python.org/3/library/datetime.html#datetime.datetime"><code>datetime</code></a> objects). Since the JSON parsing is
+implemented in Rust, it's also very performant.</p>
 <details class="example">
 <summary>Example - Strict mode that's actually useful</summary>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
@@ -4058,16 +3878,19 @@ it integrates with Pydantic.</p>
 <p class="admonition-title">Learn more</p>
 <p>See the <a href="../concepts/strict_mode/">documentation on strict mode</a>.</p>
 </div>
-<h2 id="typeddict">Dataclasses, TypedDicts, and more<a class="headerlink" href="#typeddict" title="Permanent link">&para;</a></h2>
+<h2 id="dataclasses-typeddict-more">Dataclasses, TypedDicts, and more<a class="headerlink" href="#dataclasses-typeddict-more" title="Permanent link">&para;</a></h2>
 <p>Pydantic provides four ways to create schemas and perform validation and serialization:</p>
 <ol>
 <li><a href="../concepts/models/"><code>BaseModel</code></a> &mdash; Pydantic's own super class with many common utilities available via instance methods.</li>
-<li><a href="../concepts/dataclasses/"><code>pydantic.dataclasses.dataclass</code></a> &mdash; a wrapper around standard dataclasses which performs validation when a dataclass is initialized.</li>
-<li><a class="autorefs autorefs-internal" href="../api/type_adapter/#pydantic.type_adapter.TypeAdapter"><code>TypeAdapter</code></a> &mdash; a general way to adapt any type for validation and serialization. This allows types like <a href="../api/standard_library_types/#typeddict"><code>TypedDict</code></a> and <a href="../api/standard_library_types/#namedtuple"><code>NampedTuple</code></a> to be validated as well as simple scalar values like <code>int</code> or <code>timedelta</code> &mdash; <a href="../concepts/types/">all types</a> supported can be used with <code>TypeAdapter</code>.</li>
+<li><a href="../concepts/dataclasses/">Pydantic dataclasses</a> &mdash; a wrapper around standard dataclasses with additional validation performed.</li>
+<li><a class="autorefs autorefs-internal" href="../api/type_adapter/#pydantic.type_adapter.TypeAdapter"><code>TypeAdapter</code></a> &mdash; a general way to adapt any type for validation and serialization.
+   This allows types like <a href="../api/standard_library_types/#typeddict"><code>TypedDict</code></a> and <a href="../api/standard_library_types/#typingnamedtuple"><code>NamedTuple</code></a>
+   to be validated as well as simple types (like <a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int"><code>int</code></a> or <a class="autorefs autorefs-external" href="https://docs.python.org/3/library/datetime.html#datetime.timedelta"><code>timedelta</code></a>) &mdash; <a href="../concepts/types/">all types</a> supported
+   can be used with <a class="autorefs autorefs-internal" href="../api/type_adapter/#pydantic.type_adapter.TypeAdapter"><code>TypeAdapter</code></a>.</li>
 <li><a href="../concepts/validation_decorator/"><code>validate_call</code></a> &mdash; a decorator to perform validation when calling a function.</li>
 </ol>
 <details class="example">
-<summary>Example - schema based on TypedDict</summary>
+<summary>Example - schema based on a <a class="autorefs autorefs-external" href="https://docs.python.org/3/library/typing.html#typing.TypedDict"><code>TypedDict</code></a></summary>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
 
 <span class="kn">from</span> <span class="nn">typing_extensions</span> <span class="kn">import</span> <span class="n">NotRequired</span><span class="p">,</span> <span class="n">TypedDict</span>
@@ -4104,17 +3927,22 @@ it integrates with Pydantic.</p>
 <span class="sd">&quot;&quot;&quot;</span>
 </code></pre></div>
 <ol>
-<li><code>TypeAdapter</code> for a <code>TypedDict</code> performing validation, it can also validate JSON data directly with <code>validate_json</code></li>
-<li><code>dump_python</code> to serialise a <code>TypedDict</code> to a python object, it can also serialise to JSON with <code>dump_json</code></li>
-<li><code>TypeAdapter</code> can also generate JSON Schema</li>
+<li><a class="autorefs autorefs-internal" href="../api/type_adapter/#pydantic.type_adapter.TypeAdapter"><code>TypeAdapter</code></a> for a <a class="autorefs autorefs-external" href="https://docs.python.org/3/library/typing.html#typing.TypedDict"><code>TypedDict</code></a> performing validation,
+   it can also validate JSON data directly with <a class="autorefs autorefs-internal" href="../api/type_adapter/#pydantic.type_adapter.TypeAdapter.validate_json"><code>validate_json</code></a>.</li>
+<li><a class="autorefs autorefs-internal" href="../api/type_adapter/#pydantic.type_adapter.TypeAdapter.dump_python"><code>dump_python</code></a> to serialise a <a class="autorefs autorefs-external" href="https://docs.python.org/3/library/typing.html#typing.TypedDict"><code>TypedDict</code></a>
+   to a python object, it can also serialise to JSON with <a class="autorefs autorefs-internal" href="../api/type_adapter/#pydantic.type_adapter.TypeAdapter.dump_json"><code>dump_json</code></a>.</li>
+<li><a class="autorefs autorefs-internal" href="../api/type_adapter/#pydantic.type_adapter.TypeAdapter"><code>TypeAdapter</code></a> can also generate a JSON Schema.</li>
 </ol>
 </details>
 <h2 id="customisation">Customisation<a class="headerlink" href="#customisation" title="Permanent link">&para;</a></h2>
 <p>Functional validators and serializers, as well as a powerful protocol for custom types, means the way Pydantic operates can be customized on a per-field or per-type basis.</p>
 <details class="example">
 <summary>Customisation Example - wrap validators</summary>
-<p>"wrap validators" are new in Pydantic V2 and are one of the most powerful ways to customize Pydantic validation.
+<p>"wrap validators" are new in Pydantic V2 and are one of the most powerful ways to customize validation.</p>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timezone</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Any</span>
+
+<span class="kn">from</span> <span class="nn">pydantic_core.core_schema</span> <span class="kn">import</span> <span class="n">ValidatorFunctionWrapHandler</span>
 
 <span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">field_validator</span>
 
@@ -4123,7 +3951,9 @@ it integrates with Pydantic.</p>
     <span class="n">when</span><span class="p">:</span> <span class="n">datetime</span>
 
     <span class="nd">@field_validator</span><span class="p">(</span><span class="s1">&#39;when&#39;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;wrap&#39;</span><span class="p">)</span>
-    <span class="k">def</span> <span class="nf">when_now</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">input_value</span><span class="p">,</span> <span class="n">handler</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">when_now</span><span class="p">(</span>
+        <span class="bp">cls</span><span class="p">,</span> <span class="n">input_value</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="n">handler</span><span class="p">:</span> <span class="n">ValidatorFunctionWrapHandler</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">datetime</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">input_value</span> <span class="o">==</span> <span class="s1">&#39;now&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
         <span class="n">when</span> <span class="o">=</span> <span class="n">handler</span><span class="p">(</span><span class="n">input_value</span><span class="p">)</span>
@@ -4139,14 +3969,14 @@ it integrates with Pydantic.</p>
 <span class="c1">#&gt; when=datetime.datetime(2032, 1, 2, 3, 4, 5, 6)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">Meeting</span><span class="p">(</span><span class="n">when</span><span class="o">=</span><span class="s1">&#39;2020-01-01T12:00&#39;</span><span class="p">))</span>
 <span class="c1">#&gt; when=datetime.datetime(2020, 1, 1, 12, 0, tzinfo=datetime.timezone.utc)</span>
-</code></pre></div></p>
+</code></pre></div>
 </details>
 <div class="admonition tip">
 <p class="admonition-title">Learn more</p>
 <p>See the documentation on <a href="../concepts/validators/">validators</a>, <a href="../concepts/serialization/#custom-serializers">custom serializers</a>, and <a href="../concepts/types/#custom-types">custom types</a>.</p>
 </div>
 <h2 id="ecosystem">Ecosystem<a class="headerlink" href="#ecosystem" title="Permanent link">&para;</a></h2>
-<p>At the time of writing there are 214,100 repositories on GitHub and 8,119 packages on PyPI that depend on Pydantic.</p>
+<p>At the time of writing there are 466,400 repositories on GitHub and 8,119 packages on PyPI that depend on Pydantic.</p>
 <p>Some notable libraries that depend on Pydantic:</p>
 <ul>
 <li><a href="https://github.com/huggingface/transformers"><code>huggingface/transformers</code></a> 107,475 stars</li>
@@ -4180,7 +4010,6 @@ it integrates with Pydantic.</p>
 <li><a href="https://github.com/great-expectations/great_expectations"><code>great-expectations/great_expectations</code></a> 8,613 stars</li>
 <li><a href="https://github.com/dagster-io/dagster"><code>dagster-io/dagster</code></a> 7,908 stars</li>
 <li><a href="https://github.com/NVlabs/SPADE"><code>NVlabs/SPADE</code></a> 7,407 stars</li>
-<li><a href="https://github.com/NVlabs/SPADE"><code>NVlabs/SPADE</code></a> 7,407 stars</li>
 <li><a href="https://github.com/brycedrennan/imaginAIry"><code>brycedrennan/imaginAIry</code></a> 7,217 stars</li>
 <li><a href="https://github.com/chroma-core/chroma"><code>chroma-core/chroma</code></a> 7,127 stars</li>
 <li><a href="https://github.com/lucidrains/imagen-pytorch"><code>lucidrains/imagen-pytorch</code></a> 7,089 stars</li>
@@ -4208,9 +4037,9 @@ it integrates with Pydantic.</p>
 <p>Some notable companies and organisations using Pydantic together with comments on why/how we know they're using Pydantic.</p>
 <p>The organisations below are included because they match one or more of the following criteria:</p>
 <ul>
-<li>Using pydantic as a dependency in a public repository</li>
-<li>Referring traffic to the pydantic documentation site from an organization-internal domain - specific referrers are not included since they're generally not in the public domain</li>
-<li>Direct communication between the Pydantic team and engineers employed by the organization about usage of Pydantic within the organization</li>
+<li>Using Pydantic as a dependency in a public repository.</li>
+<li>Referring traffic to the Pydantic documentation site from an organization-internal domain &mdash; specific referrers are not included since they're generally not in the public domain.</li>
+<li>Direct communication between the Pydantic team and engineers employed by the organization about usage of Pydantic within the organization.</li>
 </ul>
 <p>We've included some extra detail where appropriate and already in the public domain.</p>
 <h3 id="org-adobe">Adobe<a class="headerlink" href="#org-adobe" title="Permanent link">&para;</a></h3>
@@ -4327,10 +4156,58 @@ their recommendation engine uses Pydantic.</p>
 
 
 
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 9v12H1V9h4m4 12a2 2 0 0 1-2-2V9c0-.55.22-1.05.59-1.41L14.17 1l1.06 1.06c.27.27.44.64.44 1.05l-.03.32L14.69 8H21a2 2 0 0 1 2 2v2c0 .26-.05.5-.14.73l-3.02 7.05C19.54 20.5 18.83 21 18 21H9m0-2h9.03L21 12v-2h-8.79l1.13-5.32L9 9.03V19Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 15V3h4v12h-4M15 3a2 2 0 0 1 2 2v10c0 .55-.22 1.05-.59 1.41L9.83 23l-1.06-1.06c-.27-.27-.44-.64-.44-1.06l.03-.31.95-4.57H3a2 2 0 0 1-2-2v-2c0-.26.05-.5.14-.73l3.02-7.05C4.46 3.5 5.17 3 6 3h9m0 2H5.97L3 12v2h8.78l-1.13 5.32L15 14.97V5Z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
                 
   <script src="/flarelytics/client.js"></script>
       <script>
-    window.mkdocs_run_deps = ["pydantic==2.4.2", "pydantic-core==2.11.0"]
+    window.mkdocs_run_deps = ["pydantic==2.9.0b1", "pydantic-core==2.23.0", "pydantic-extra-types==2.9.0"]
     </script>
 
               </article>
@@ -4341,6 +4218,12 @@ their recommendation engine uses Pydantic.</p>
 
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
         
       </main>
       
@@ -4353,7 +4236,7 @@ their recommendation engine uses Pydantic.</p>
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs Insiders
+      Material for MkDocs
     </a>
   
 </div>
@@ -4367,10 +4250,15 @@ their recommendation engine uses Pydantic.</p>
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "announce.dismiss", "navigation.tabs"], "search": "../assets/javascripts/workers/search.f2da59ea.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-      <script src="../assets/javascripts/bundle.65061dd4.min.js"></script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "announce.dismiss", "navigation.tabs", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.preview", "navigation.instant.progress", "navigation.path", "navigation.sections", "navigation.top", "navigation.tracking", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.471ce7a9.min.js"></script>
+      
+        <script src="../extra/feedback.js"></script>
       
         <script src="../extra/fluff.js"></script>
       

@@ -19,11 +19,8 @@
         <link rel="next" href="../fields/">
       
       
-        
-      
-      
       <link rel="icon" href="../../favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.2+insiders-4.42.0">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.32">
     
     
       
@@ -31,10 +28,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.f2778614.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.46987102.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -62,7 +59,10 @@
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
 
+
+    
     
     
   </head>
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#basic-model-usage" class="md-skip">
+        <a href="#tldr" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,9 @@
             
   <!-- the following line is displayed in the announcement bar -->
 <!-- keep length under 164 characters (less HTML tags) to fit on 1280px desktop window -->
-<a href="https://docs.pydantic.dev/2.0/blog/pydantic-v2-final/">Pydantic V2</a> is here 🚀! Upgrading an existing app? See the <a href="https://docs.pydantic.dev/2.0/migration/">Migration Guide</a> for tips on essential changes from Pydantic V1!
+<b>We're live!</b> <a href="https://pydantic.dev/logfire">Pydantic Logfire</a> is out in open beta! 🎉<br>
+Logfire is a new observability tool for Python, from the creators of Pydantic, with great Pydantic support.
+Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">what you think</a>!
 
           </div>
           
@@ -201,9 +203,11 @@
         </button>
       </nav>
       
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
@@ -220,7 +224,7 @@
         <a href="https://github.com/pydantic/pydantic" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     pydantic/pydantic
@@ -311,6 +315,23 @@
   
   
   
+    <li class="md-tabs__item">
+      <a href="../../architecture/" class="md-tabs__link">
+        
+  
+    
+  
+  Architecture
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
     
     
       <li class="md-tabs__item">
@@ -349,6 +370,12 @@
   
     
     
+      
+  
+  
+  
+    
+    
       <li class="md-tabs__item">
         <a href="../../integrations/mypy/" class="md-tabs__link">
           
@@ -360,22 +387,41 @@
     
   
 
+    
+  
+
       
         
   
   
   
+    <li class="md-tabs__item">
+      <a href="https://blog.pydantic.dev/" class="md-tabs__link">
+        
+  
     
-    
-      <li class="md-tabs__item">
-        <a href="../../blog/pydantic-v2-final/" class="md-tabs__link">
-          
   
   Blog
 
-        </a>
-      </li>
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../pydantic_people/" class="md-tabs__link">
+        
+  
     
+  
+  Pydantic People
+
+      </a>
+    </li>
   
 
       
@@ -413,7 +459,7 @@
       <a href="https://github.com/pydantic/pydantic" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     pydantic/pydantic
@@ -428,34 +474,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
     Get Started
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -464,11 +505,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Get Started
-  
-
+            Get Started
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -477,19 +514,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Welcome to Pydantic
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -500,6 +532,7 @@
             
               
                 
+  
   
   
   
@@ -508,14 +541,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Why use Pydantic
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -526,6 +553,7 @@
             
               
                 
+  
   
   
   
@@ -534,14 +562,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Help with Pydantic
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -552,6 +574,7 @@
             
               
                 
+  
   
   
   
@@ -560,14 +583,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Installation
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -578,6 +595,7 @@
             
               
                 
+  
   
   
   
@@ -586,14 +604,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Migration Guide
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -604,6 +616,7 @@
             
               
                 
+  
   
   
   
@@ -612,14 +625,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Version Policy
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -630,6 +637,7 @@
             
               
                 
+  
   
   
   
@@ -638,14 +646,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Contributing
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -659,19 +661,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../changelog/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Changelog
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -694,17 +691,21 @@
     
   
   
-    
-    
+  
     
     
     
       
+        
+        
       
+      
+        
+      
+    
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
@@ -714,14 +715,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Concepts
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -730,11 +725,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Concepts
-  
-
+            Concepts
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -743,6 +734,7 @@
   
   
     
+  
   
   
     <li class="md-nav__item md-nav__item--active">
@@ -755,14 +747,8 @@
           
   
   <span class="md-ellipsis">
-    
-  
     Models
-  
-
-    
   </span>
-  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -772,14 +758,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Models
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -800,11 +780,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#tldr" class="md-nav__link">
+    <span class="md-ellipsis">
+      TL;DR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-long-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      The long version
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      validation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#basic-model-usage" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Basic model usage
-      
+      Basic model usage
     </span>
   </a>
   
@@ -814,9 +819,7 @@
           <li class="md-nav__item">
   <a href="#model-methods-and-properties" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Model methods and properties
-      
+      Model methods and properties
     </span>
   </a>
   
@@ -830,9 +833,7 @@
         <li class="md-nav__item">
   <a href="#nested-models" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Nested models
-      
+      Nested models
     </span>
   </a>
   
@@ -841,9 +842,7 @@
         <li class="md-nav__item">
   <a href="#rebuild-model-schema" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Rebuild model schema
-      
+      Rebuild model schema
     </span>
   </a>
   
@@ -852,9 +851,7 @@
         <li class="md-nav__item">
   <a href="#arbitrary-class-instances" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Arbitrary class instances
-      
+      Arbitrary class instances
     </span>
   </a>
   
@@ -864,9 +861,7 @@
           <li class="md-nav__item">
   <a href="#reserved-names" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Reserved names
-      
+      Reserved names
     </span>
   </a>
   
@@ -875,9 +870,7 @@
           <li class="md-nav__item">
   <a href="#nested-attributes" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Nested attributes
-      
+      Nested attributes
     </span>
   </a>
   
@@ -891,9 +884,7 @@
         <li class="md-nav__item">
   <a href="#error-handling" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Error handling
-      
+      Error handling
     </span>
   </a>
   
@@ -902,9 +893,7 @@
         <li class="md-nav__item">
   <a href="#helper-functions" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Helper functions
-      
+      Helper functions
     </span>
   </a>
   
@@ -914,9 +903,7 @@
           <li class="md-nav__item">
   <a href="#creating-models-without-validation" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Creating models without validation
-      
+      Creating models without validation
     </span>
   </a>
   
@@ -930,9 +917,7 @@
         <li class="md-nav__item">
   <a href="#generic-models" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Generic models
-      
+      Generic models
     </span>
   </a>
   
@@ -941,9 +926,7 @@
         <li class="md-nav__item">
   <a href="#dynamic-model-creation" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Dynamic model creation
-      
+      Dynamic model creation
     </span>
   </a>
   
@@ -952,9 +935,7 @@
         <li class="md-nav__item">
   <a href="#rootmodel-and-custom-root-types" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        RootModel and custom root types
-      
+      RootModel and custom root types
     </span>
   </a>
   
@@ -963,9 +944,7 @@
         <li class="md-nav__item">
   <a href="#faux-immutability" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Faux immutability
-      
+      Faux immutability
     </span>
   </a>
   
@@ -974,9 +953,7 @@
         <li class="md-nav__item">
   <a href="#abstract-base-classes" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Abstract base classes
-      
+      Abstract base classes
     </span>
   </a>
   
@@ -985,9 +962,7 @@
         <li class="md-nav__item">
   <a href="#field-ordering" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Field ordering
-      
+      Field ordering
     </span>
   </a>
   
@@ -996,9 +971,7 @@
         <li class="md-nav__item">
   <a href="#required-fields" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Required fields
-      
+      Required fields
     </span>
   </a>
   
@@ -1007,9 +980,7 @@
         <li class="md-nav__item">
   <a href="#fields-with-non-hashable-default-values" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Fields with non-hashable default values
-      
+      Fields with non-hashable default values
     </span>
   </a>
   
@@ -1018,9 +989,7 @@
         <li class="md-nav__item">
   <a href="#fields-with-dynamic-default-values" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Fields with dynamic default values
-      
+      Fields with dynamic default values
     </span>
   </a>
   
@@ -1029,9 +998,7 @@
         <li class="md-nav__item">
   <a href="#automatically-excluded-attributes" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Automatically excluded attributes
-      
+      Automatically excluded attributes
     </span>
   </a>
   
@@ -1041,9 +1008,7 @@
           <li class="md-nav__item">
   <a href="#class-vars" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Class vars
-      
+      Class vars
     </span>
   </a>
   
@@ -1052,9 +1017,7 @@
           <li class="md-nav__item">
   <a href="#private-model-attributes" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Private model attributes
-      
+      Private model attributes
     </span>
   </a>
   
@@ -1068,9 +1031,7 @@
         <li class="md-nav__item">
   <a href="#data-conversion" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Data conversion
-      
+      Data conversion
     </span>
   </a>
   
@@ -1079,9 +1040,7 @@
         <li class="md-nav__item">
   <a href="#model-signature" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Model signature
-      
+      Model signature
     </span>
   </a>
   
@@ -1090,9 +1049,7 @@
         <li class="md-nav__item">
   <a href="#structural-pattern-matching" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Structural pattern matching
-      
+      Structural pattern matching
     </span>
   </a>
   
@@ -1101,9 +1058,7 @@
         <li class="md-nav__item">
   <a href="#attribute-copies" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Attribute copies
-      
+      Attribute copies
     </span>
   </a>
   
@@ -1112,9 +1067,7 @@
         <li class="md-nav__item">
   <a href="#extra-fields" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Extra fields
-      
+      Extra fields
     </span>
   </a>
   
@@ -1134,19 +1087,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../fields/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Fields
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1157,6 +1105,7 @@
             
               
                 
+  
   
   
   
@@ -1165,14 +1114,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     JSON Schema
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1183,6 +1126,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../json/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JSON
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -1191,14 +1156,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1209,6 +1168,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../unions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -1217,14 +1198,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Alias
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1235,6 +1210,7 @@
             
               
                 
+  
   
   
   
@@ -1243,14 +1219,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Configuration
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1261,6 +1231,7 @@
             
               
                 
+  
   
   
   
@@ -1269,14 +1240,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Serialization
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1287,6 +1252,7 @@
             
               
                 
+  
   
   
   
@@ -1295,14 +1261,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validators
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1313,6 +1273,7 @@
             
               
                 
+  
   
   
   
@@ -1321,14 +1282,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Dataclasses
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1339,6 +1294,7 @@
             
               
                 
+  
   
   
   
@@ -1347,14 +1303,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Postponed Annotations
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1365,6 +1315,7 @@
             
               
                 
+  
   
   
   
@@ -1373,14 +1324,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Strict Mode
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1391,6 +1336,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../type_adapter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Type Adapter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -1399,14 +1366,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validation Decorator
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1417,6 +1378,7 @@
             
               
                 
+  
   
   
   
@@ -1425,14 +1387,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Conversion Table
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1443,6 +1399,7 @@
             
               
                 
+  
   
   
   
@@ -1451,14 +1408,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Settings Management
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1469,6 +1420,7 @@
             
               
                 
+  
   
   
   
@@ -1477,14 +1429,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Performance
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1498,19 +1444,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../plugins/" class="md-nav__link">
+      <a href="../experimental/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic Plugins
-  
-
-    
+    Experimental
   </span>
-  
   
 
       </a>
@@ -1531,34 +1472,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
     API Documentation
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1567,11 +1503,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    API Documentation
-  
-
+            API Documentation
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1580,14 +1512,18 @@
   
   
   
+  
     
     
     
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
@@ -1597,14 +1533,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Pydantic
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1613,11 +1543,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Pydantic
-  
-
+            Pydantic
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1626,19 +1552,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../api/base_model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     BaseModel
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1649,6 +1570,7 @@
             
               
                 
+  
   
   
   
@@ -1657,14 +1579,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     RootModel
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1675,6 +1591,7 @@
             
               
                 
+  
   
   
   
@@ -1683,14 +1600,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Dataclasses
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1701,6 +1612,7 @@
             
               
                 
+  
   
   
   
@@ -1709,14 +1621,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     TypeAdapter
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1727,6 +1633,7 @@
             
               
                 
+  
   
   
   
@@ -1735,14 +1642,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validate Call
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1753,6 +1654,7 @@
             
               
                 
+  
   
   
   
@@ -1761,14 +1663,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Fields
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1779,6 +1675,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/aliases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aliases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -1787,14 +1705,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Configuration
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1805,6 +1717,7 @@
             
               
                 
+  
   
   
   
@@ -1813,14 +1726,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     JSON Schema
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1831,6 +1738,7 @@
             
               
                 
+  
   
   
   
@@ -1839,14 +1747,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Errors
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1857,6 +1759,7 @@
             
               
                 
+  
   
   
   
@@ -1865,14 +1768,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Functional Validators
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1883,6 +1780,7 @@
             
               
                 
+  
   
   
   
@@ -1891,14 +1789,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Functional Serializers
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1909,6 +1801,7 @@
             
               
                 
+  
   
   
   
@@ -1917,14 +1810,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Standard Library Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1935,6 +1822,7 @@
             
               
                 
+  
   
   
   
@@ -1943,14 +1831,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1961,6 +1843,7 @@
             
               
                 
+  
   
   
   
@@ -1969,14 +1852,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Network Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1987,6 +1864,7 @@
             
               
                 
+  
   
   
   
@@ -1995,14 +1873,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Version Information
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2014,31 +1886,6 @@
               
                 
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../../api/plugin/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Pydantic Plugins
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
   
   
   
@@ -2047,14 +1894,29 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Annotated Handlers
-  
-
-    
   </span>
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/experimental/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Experimental
+  </span>
   
 
       </a>
@@ -2076,14 +1938,18 @@
   
   
   
+  
     
     
     
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
@@ -2093,14 +1959,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Core
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2109,11 +1969,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Pydantic Core
-  
-
+            Pydantic Core
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2122,19 +1978,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../api/pydantic_core/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     pydantic_core
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2148,19 +1999,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../api/pydantic_core_schema/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     pydantic_core.core_schema
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2182,19 +2028,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../api/pydantic_settings/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Settings
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2208,14 +2049,18 @@
   
   
   
+  
     
     
     
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
@@ -2225,14 +2070,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Extra Types
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2241,16 +2080,13 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Pydantic Extra Types
-  
-
+            Pydantic Extra Types
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
+  
   
   
   
@@ -2259,14 +2095,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Color
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2277,6 +2107,7 @@
             
               
                 
+  
   
   
   
@@ -2285,14 +2116,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Country
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2303,6 +2128,7 @@
             
               
                 
+  
   
   
   
@@ -2311,14 +2137,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Payment
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2329,6 +2149,7 @@
             
               
                 
+  
   
   
   
@@ -2337,14 +2158,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Phone Numbers
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2355,6 +2170,7 @@
             
               
                 
+  
   
   
   
@@ -2363,14 +2179,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Routing Numbers
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2381,6 +2191,7 @@
             
               
                 
+  
   
   
   
@@ -2389,14 +2200,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Coordinate
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2407,6 +2212,7 @@
             
               
                 
+  
   
   
   
@@ -2415,14 +2221,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Mac Address
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2430,92 +2230,178 @@
   
 
               
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-    
-    
-    
-    
-    
-      
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
-            
-  
-  <span class="md-ellipsis">
-    
-  
-    Examples
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Examples
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../examples/secrets/" class="md-nav__link">
+      <a href="../../api/pydantic_extra_types_isbn/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Secrets
-  
-
-    
+    ISBN
   </span>
-  
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_pendulum_dt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pendulum
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_currency_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Currency
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_language_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Language
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_script_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Script Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_semantic_version/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Semantic Version
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_timezone_name/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Timezone Name
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_ulid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ULID
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -2533,34 +2419,49 @@
   
   
   
+  
+    <li class="md-nav__item">
+      <a href="../../architecture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Architecture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
     
-    
+      
+      
+  
+  
+  
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
-    Error Messages
-  
-
-    
+    Examples
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2569,11 +2470,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Error Messages
-  
-
+            Examples
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2582,19 +2479,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../errors/errors/" class="md-nav__link">
+      <a href="../../examples/secrets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Error Handling
-  
-
-    
+    Secrets
   </span>
-  
   
 
       </a>
@@ -2608,45 +2500,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../errors/validation_errors/" class="md-nav__link">
+      <a href="../../examples/validators/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Validation Errors
-  
-
-    
+    Validators
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../errors/usage_errors/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Usage Errors
-  
-
-    
-  </span>
-  
   
 
       </a>
@@ -2667,34 +2528,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
-    Integrations
-  
-
-    
+    Error Messages
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2703,11 +2559,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Integrations
-  
-
+            Error Messages
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2716,19 +2568,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../integrations/mypy/" class="md-nav__link">
+      <a href="../../errors/errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Mypy
-  
-
-    
+    Error Handling
   </span>
-  
   
 
       </a>
@@ -2742,19 +2589,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../integrations/pycharm/" class="md-nav__link">
+      <a href="../../errors/validation_errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    PyCharm
-  
-
-    
+    Validation Errors
   </span>
-  
   
 
       </a>
@@ -2768,123 +2610,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../integrations/hypothesis/" class="md-nav__link">
+      <a href="../../errors/usage_errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Hypothesis
-  
-
-    
+    Usage Errors
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../integrations/visual_studio_code/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Visual Studio Code
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../integrations/datamodel_code_generator/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    datamodel-code-generator
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../integrations/devtools/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    devtools
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../integrations/rich/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Rich
-  
-
-    
-  </span>
-  
   
 
       </a>
@@ -2905,34 +2638,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
-    Blog
-  
-
-    
+    Integrations
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2941,11 +2669,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Blog
-  
-
+            Integrations
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2954,19 +2678,54 @@
   
   
   
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dev Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Dev Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../blog/pydantic-v2-final/" class="md-nav__link">
+      <a href="../../integrations/mypy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic V2 Is Here!
-  
-
-    
+    Mypy
   </span>
-  
   
 
       </a>
@@ -2980,19 +2739,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../blog/pydantic-v2-alpha/" class="md-nav__link">
+      <a href="../../integrations/pycharm/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic V2 Pre Release
-  
-
-    
+    PyCharm
   </span>
-  
   
 
       </a>
@@ -3006,19 +2760,119 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../blog/pydantic-v2/" class="md-nav__link">
+      <a href="../../integrations/hypothesis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic V2 Plan
-  
-
-    
+    Hypothesis
   </span>
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/visual_studio_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visual Studio Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/datamodel_code_generator/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    datamodel-code-generator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/devtools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    devtools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/rich/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rich
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/linting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linting
+  </span>
   
 
       </a>
@@ -3030,6 +2884,123 @@
           </ul>
         </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Production Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Production Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/aws_lambda/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Lambda
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://blog.pydantic.dev/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pydantic_people/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pydantic People
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -3061,11 +3032,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#tldr" class="md-nav__link">
+    <span class="md-ellipsis">
+      TL;DR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-long-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      The long version
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      validation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#basic-model-usage" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Basic model usage
-      
+      Basic model usage
     </span>
   </a>
   
@@ -3075,9 +3071,7 @@
           <li class="md-nav__item">
   <a href="#model-methods-and-properties" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Model methods and properties
-      
+      Model methods and properties
     </span>
   </a>
   
@@ -3091,9 +3085,7 @@
         <li class="md-nav__item">
   <a href="#nested-models" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Nested models
-      
+      Nested models
     </span>
   </a>
   
@@ -3102,9 +3094,7 @@
         <li class="md-nav__item">
   <a href="#rebuild-model-schema" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Rebuild model schema
-      
+      Rebuild model schema
     </span>
   </a>
   
@@ -3113,9 +3103,7 @@
         <li class="md-nav__item">
   <a href="#arbitrary-class-instances" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Arbitrary class instances
-      
+      Arbitrary class instances
     </span>
   </a>
   
@@ -3125,9 +3113,7 @@
           <li class="md-nav__item">
   <a href="#reserved-names" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Reserved names
-      
+      Reserved names
     </span>
   </a>
   
@@ -3136,9 +3122,7 @@
           <li class="md-nav__item">
   <a href="#nested-attributes" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Nested attributes
-      
+      Nested attributes
     </span>
   </a>
   
@@ -3152,9 +3136,7 @@
         <li class="md-nav__item">
   <a href="#error-handling" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Error handling
-      
+      Error handling
     </span>
   </a>
   
@@ -3163,9 +3145,7 @@
         <li class="md-nav__item">
   <a href="#helper-functions" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Helper functions
-      
+      Helper functions
     </span>
   </a>
   
@@ -3175,9 +3155,7 @@
           <li class="md-nav__item">
   <a href="#creating-models-without-validation" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Creating models without validation
-      
+      Creating models without validation
     </span>
   </a>
   
@@ -3191,9 +3169,7 @@
         <li class="md-nav__item">
   <a href="#generic-models" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Generic models
-      
+      Generic models
     </span>
   </a>
   
@@ -3202,9 +3178,7 @@
         <li class="md-nav__item">
   <a href="#dynamic-model-creation" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Dynamic model creation
-      
+      Dynamic model creation
     </span>
   </a>
   
@@ -3213,9 +3187,7 @@
         <li class="md-nav__item">
   <a href="#rootmodel-and-custom-root-types" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        RootModel and custom root types
-      
+      RootModel and custom root types
     </span>
   </a>
   
@@ -3224,9 +3196,7 @@
         <li class="md-nav__item">
   <a href="#faux-immutability" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Faux immutability
-      
+      Faux immutability
     </span>
   </a>
   
@@ -3235,9 +3205,7 @@
         <li class="md-nav__item">
   <a href="#abstract-base-classes" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Abstract base classes
-      
+      Abstract base classes
     </span>
   </a>
   
@@ -3246,9 +3214,7 @@
         <li class="md-nav__item">
   <a href="#field-ordering" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Field ordering
-      
+      Field ordering
     </span>
   </a>
   
@@ -3257,9 +3223,7 @@
         <li class="md-nav__item">
   <a href="#required-fields" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Required fields
-      
+      Required fields
     </span>
   </a>
   
@@ -3268,9 +3232,7 @@
         <li class="md-nav__item">
   <a href="#fields-with-non-hashable-default-values" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Fields with non-hashable default values
-      
+      Fields with non-hashable default values
     </span>
   </a>
   
@@ -3279,9 +3241,7 @@
         <li class="md-nav__item">
   <a href="#fields-with-dynamic-default-values" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Fields with dynamic default values
-      
+      Fields with dynamic default values
     </span>
   </a>
   
@@ -3290,9 +3250,7 @@
         <li class="md-nav__item">
   <a href="#automatically-excluded-attributes" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Automatically excluded attributes
-      
+      Automatically excluded attributes
     </span>
   </a>
   
@@ -3302,9 +3260,7 @@
           <li class="md-nav__item">
   <a href="#class-vars" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Class vars
-      
+      Class vars
     </span>
   </a>
   
@@ -3313,9 +3269,7 @@
           <li class="md-nav__item">
   <a href="#private-model-attributes" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Private model attributes
-      
+      Private model attributes
     </span>
   </a>
   
@@ -3329,9 +3283,7 @@
         <li class="md-nav__item">
   <a href="#data-conversion" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Data conversion
-      
+      Data conversion
     </span>
   </a>
   
@@ -3340,9 +3292,7 @@
         <li class="md-nav__item">
   <a href="#model-signature" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Model signature
-      
+      Model signature
     </span>
   </a>
   
@@ -3351,9 +3301,7 @@
         <li class="md-nav__item">
   <a href="#structural-pattern-matching" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Structural pattern matching
-      
+      Structural pattern matching
     </span>
   </a>
   
@@ -3362,9 +3310,7 @@
         <li class="md-nav__item">
   <a href="#attribute-copies" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Attribute copies
-      
+      Attribute copies
     </span>
   </a>
   
@@ -3373,9 +3319,7 @@
         <li class="md-nav__item">
   <a href="#extra-fields" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Extra fields
-      
+      Extra fields
     </span>
   </a>
   
@@ -3391,7 +3335,6 @@
           
           
             <div class="md-content" data-md-component="content">
-              
               <article class="md-content__inner md-typeset">
                 
   
@@ -3417,14 +3360,34 @@ You can find more discussion of this in the <a href="../dataclasses/">Dataclasse
 <p>Untrusted data can be passed to a model and, after parsing and validation, Pydantic guarantees that the fields
 of the resultant model instance will conform to the field types defined on the model.</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Pydantic is primarily a parsing and transformation library, <strong>not a validation library</strong>.
-Validation is a means to an end: building a model which conforms to the types and constraints provided.</p>
-<p>In other words, Pydantic guarantees the types and constraints of the output model, not the input data.</p>
-<p>This might sound like an esoteric distinction, but it is not. If you're unsure what this means or
-how it might affect your usage you should read the section about <a href="#data-conversion">Data Conversion</a> below.</p>
-<p>Although validation is not the main purpose of Pydantic, you <strong>can</strong> use this library for custom
-<a href="../validators/">validation</a>.</p>
+<p class="admonition-title">Validation — a <em>deliberate</em> misnomer</p>
+<h3 id="tldr">TL;DR<a class="headerlink" href="#tldr" title="Permanent link">&para;</a></h3>
+<p>We use the term "validation" to refer to the process of instantiating a model (or other type) that adheres to specified types and
+constraints. This task, which Pydantic is well known for, is most widely recognized as "validation" in colloquial terms,
+even though in other contexts the term "validation" may be more restrictive.</p>
+<hr />
+<h3 id="the-long-version">The long version<a class="headerlink" href="#the-long-version" title="Permanent link">&para;</a></h3>
+<p>The potential confusion around the term "validation" arises from the fact that, strictly speaking, Pydantic's
+primary focus doesn't align precisely with the dictionary definition of "validation":</p>
+<blockquote>
+<h3 id="validation">validation<a class="headerlink" href="#validation" title="Permanent link">&para;</a></h3>
+<p><em>noun</em>
+the action of checking or proving the validity or accuracy of something.</p>
+</blockquote>
+<p>In Pydantic, the term "validation" refers to the process of instantiating a model (or other type) that adheres to specified
+types and constraints. Pydantic guarantees the types and constraints of the output, not the input data.
+This distinction becomes apparent when considering that Pydantic's <code>ValidationError</code> is raised
+when data cannot be successfully parsed into a model instance.</p>
+<p>While this distinction may initially seem subtle, it holds practical significance.
+In some cases, "validation" goes beyond just model creation, and can include the copying and coercion of data.
+This can involve copying arguments passed to the constructor in order to perform coercion to a new type
+without mutating the original input data. For a more in-depth understanding of the implications for your usage,
+refer to the <a href="#data-conversion">Data Conversion</a> and <a href="#attribute-copies">Attribute Copies</a> sections below.</p>
+<p>In essence, Pydantic's primary goal is to assure that the resulting structure post-processing (termed "validation")
+precisely conforms to the applied type hints. Given the widespread adoption of "validation" as the colloquial term
+for this process, we will consistently use it in our documentation.</p>
+<p>While the terms "parse" and "validation" were previously used interchangeably, moving forward, we aim to exclusively employ "validate",
+with "parse" reserved specifically for discussions related to <a href="../json/">JSON parsing</a>.</p>
 </div>
 <h2 id="basic-model-usage">Basic model usage<a class="headerlink" href="#basic-model-usage" title="Permanent link">&para;</a></h2>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span>
@@ -3469,26 +3432,24 @@ arguments. (Note that <code>dict(user)</code> will not recursively convert neste
 <p>The example above only shows the tip of the iceberg of what models can do.
 Models possess the following methods and attributes:</p>
 <ul>
-<li><code>model_computed_fields</code>: a dictionary of the computed fields of this model instance.</li>
-<li><code>model_construct()</code>: a class method for creating models without running validation. See
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_computed_fields"><code>model_computed_fields</code></a>: a dictionary of the computed fields of this model instance.</li>
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_construct"><code>model_construct()</code></a>: a class method for creating models without running validation. See
     <a href="#creating-models-without-validation">Creating models without validation</a>.</li>
-<li><code>model_copy()</code>: returns a copy (by default, shallow copy) of the model. See
-    <a href="../serialization/#modelcopy">Serialization</a>.</li>
-<li><code>model_dump()</code>: returns a dictionary of the model's fields and values. See
-    <a href="../serialization/#modeldump">Serialization</a>.</li>
-<li><code>model_dump_json()</code>: returns a JSON string representation of <code>model_dump()</code>. See
-    <a href="../serialization/#modeldumpjson">Serialization</a>.</li>
-<li><code>model_extra</code>: get extra fields set during validation.</li>
-<li><code>model_fields_set</code>: set of fields which were set when the model instance was initialized.</li>
-<li><code>model_json_schema()</code>: returns a jsonable dictionary representing the model as JSON Schema. See <a href="../json_schema/">JSON Schema</a>.</li>
-<li><code>model_modify_json_schema()</code>: a method for how the "generic" properties of the JSON schema are populated.
-    See <a href="../json_schema/">JSON Schema</a>.</li>
-<li><code>model_parametrized_name()</code>: compute the class name for parametrizations of generic classes.</li>
-<li><code>model_post_init()</code>: perform additional initialization after the model is initialized.</li>
-<li><code>model_rebuild()</code>: rebuild the model schema, which also supports building recursive generic models.
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_copy"><code>model_copy()</code></a>: returns a copy (by default, shallow copy) of the model. See
+    <a href="../serialization/#model_copy">Serialization</a>.</li>
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_dump"><code>model_dump()</code></a>: returns a dictionary of the model's fields and values. See
+    <a href="../serialization/#model_dump">Serialization</a>.</li>
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_dump_json"><code>model_dump_json()</code></a>: returns a JSON string representation of <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_dump"><code>model_dump()</code></a>. See
+    <a href="../serialization/#model_dump_json">Serialization</a>.</li>
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_extra"><code>model_extra</code></a>: get extra fields set during validation.</li>
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_fields_set"><code>model_fields_set</code></a>: set of fields which were set when the model instance was initialized.</li>
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_json_schema"><code>model_json_schema()</code></a>: returns a jsonable dictionary representing the model as JSON Schema. See <a href="../json_schema/">JSON Schema</a>.</li>
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_parametrized_name"><code>model_parametrized_name()</code></a>: compute the class name for parametrizations of generic classes.</li>
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_post_init"><code>model_post_init()</code></a>: perform additional initialization after the model is initialized.</li>
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_rebuild"><code>model_rebuild()</code></a>: rebuild the model schema, which also supports building recursive generic models.
     See <a href="#rebuild-model-schema">Rebuild model schema</a>.</li>
-<li><code>model_validate()</code>: a utility for loading any object into a model. See <a href="#helper-functions">Helper functions</a>.</li>
-<li><code>model_validate_json()</code>: a utility for validating the given JSON data against the Pydantic model. See
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate"><code>model_validate()</code></a>: a utility for loading any object into a model. See <a href="#helper-functions">Helper functions</a>.</li>
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate_json"><code>model_validate_json()</code></a>: a utility for validating the given JSON data against the Pydantic model. See
     <a href="#helper-functions">Helper functions</a>.</li>
 </ul>
 <div class="admonition note">
@@ -3536,8 +3497,25 @@ Models possess the following methods and attributes:</p>
 <span class="sd">&quot;&quot;&quot;</span>
 </code></pre></div>
 <p>For self-referencing models, see <a href="../postponed_annotations/#self-referencing-or-recursive-models">postponed annotations</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When defining your models, watch out for naming collisions between your field name and its type, a previously defined model, or an imported library.</p>
+<p>For example, the following would yield a validation error:
+<div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Optional</span>
+
+<span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span>
+
+
+<span class="k">class</span> <span class="nc">Boo</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="nb">int</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+
+
+<span class="n">m</span> <span class="o">=</span> <span class="n">Boo</span><span class="p">(</span><span class="nb">int</span><span class="o">=</span><span class="mi">123</span><span class="p">)</span>  <span class="c1"># errors</span>
+</code></pre></div>
+An error occurs since the field  <code>int</code> is set to a default value of <code>None</code> and has the exact same name as its type, so both are interpreted to be <code>None</code>.</p>
+</div>
 <h2 id="rebuild-model-schema">Rebuild model schema<a class="headerlink" href="#rebuild-model-schema" title="Permanent link">&para;</a></h2>
-<p>The model schema can be rebuilt using <code>model_rebuild()</code>. This is useful for building recursive generic models.</p>
+<p>The model schema can be rebuilt using <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_rebuild"><code>model_rebuild()</code></a>. This is useful for building recursive generic models.</p>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">PydanticUserError</span>
 
 
@@ -3573,10 +3551,10 @@ Models possess the following methods and attributes:</p>
 <span class="sd">&quot;&quot;&quot;</span>
 </code></pre></div>
 <p>Pydantic tries to determine when this is necessary automatically and error if it wasn't done, but you may want to
-call <code>model_rebuild()</code> proactively when dealing with recursive models or generics.</p>
-<p>In V2, <code>model_rebuild()</code> replaced <code>update_forward_refs()</code> from V1. There are some slight differences with the new behavior.
-The biggest change is that when calling <code>model_rebuild</code> on the outermost model, it builds a core schema used for validation of the
-whole model (nested models and all), so all types at all levels need to be ready before <code>model_rebuild</code> is called.</p>
+call <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_rebuild"><code>model_rebuild()</code></a> proactively when dealing with recursive models or generics.</p>
+<p>In V2, <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_rebuild"><code>model_rebuild()</code></a> replaced <code>update_forward_refs()</code> from V1. There are some slight differences with the new behavior.
+The biggest change is that when calling <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_rebuild"><code>model_rebuild()</code></a> on the outermost model, it builds a core schema used for validation of the
+whole model (nested models and all), so all types at all levels need to be ready before <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_rebuild"><code>model_rebuild()</code></a> is called.</p>
 <h2 id="arbitrary-class-instances">Arbitrary class instances<a class="headerlink" href="#arbitrary-class-instances" title="Permanent link">&para;</a></h2>
 <p>(Formerly known as "ORM Mode"/<code>from_orm</code>.)</p>
 <p>Pydantic models can also be created from arbitrary class instances by reading the instance attributes corresponding
@@ -3590,8 +3568,9 @@ to the model field names. One common application of this functionality is integr
 <span class="kn">from</span> <span class="nn">sqlalchemy</span> <span class="kn">import</span> <span class="n">Column</span><span class="p">,</span> <span class="n">Integer</span><span class="p">,</span> <span class="n">String</span>
 <span class="kn">from</span> <span class="nn">sqlalchemy.dialects.postgresql</span> <span class="kn">import</span> <span class="n">ARRAY</span>
 <span class="kn">from</span> <span class="nn">sqlalchemy.orm</span> <span class="kn">import</span> <span class="n">declarative_base</span>
+<span class="kn">from</span> <span class="nn">typing_extensions</span> <span class="kn">import</span> <span class="n">Annotated</span>
 
-<span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">ConfigDict</span><span class="p">,</span> <span class="n">constr</span>
+<span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">ConfigDict</span><span class="p">,</span> <span class="n">StringConstraints</span>
 
 <span class="n">Base</span> <span class="o">=</span> <span class="n">declarative_base</span><span class="p">()</span>
 
@@ -3609,9 +3588,9 @@ to the model field names. One common application of this functionality is integr
     <span class="n">model_config</span> <span class="o">=</span> <span class="n">ConfigDict</span><span class="p">(</span><span class="n">from_attributes</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
     <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span>
-    <span class="n">public_key</span><span class="p">:</span> <span class="n">constr</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
-    <span class="n">name</span><span class="p">:</span> <span class="n">constr</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">63</span><span class="p">)</span>
-    <span class="n">domains</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">constr</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">)]</span>
+    <span class="n">public_key</span><span class="p">:</span> <span class="n">Annotated</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">StringConstraints</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">20</span><span class="p">)]</span>
+    <span class="n">name</span><span class="p">:</span> <span class="n">Annotated</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">StringConstraints</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">63</span><span class="p">)]</span>
+    <span class="n">domains</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Annotated</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">StringConstraints</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">)]]</span>
 
 
 <span class="n">co_orm</span> <span class="o">=</span> <span class="n">CompanyOrm</span><span class="p">(</span>
@@ -3749,12 +3728,13 @@ and that <code>ValidationError</code> will contain information about all of the 
 <span class="sd">    &quot;&quot;&quot;</span>
 </code></pre></div>
 <h2 id="helper-functions">Helper functions<a class="headerlink" href="#helper-functions" title="Permanent link">&para;</a></h2>
-<p><em>Pydantic</em> provides two <code>classmethod</code> helper functions on models for parsing data:</p>
+<p><em>Pydantic</em> provides three <code>classmethod</code> helper functions on models for parsing data:</p>
 <ul>
-<li><strong><code>model_validate</code></strong>: this is very similar to the <code>__init__</code> method of the model, except it takes a dict or an object
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate"><code>model_validate()</code></a>: this is very similar to the <code>__init__</code> method of the model, except it takes a dict or an object
   rather than keyword arguments. If the object passed cannot be validated, or if it's not a dictionary
   or instance of the model in question, a <code>ValidationError</code> will be raised.</li>
-<li><strong><code>model_validate_json</code></strong>: this takes a <em>str</em> or <em>bytes</em> and parses it as <em>json</em>, then passes the result to <code>model_validate</code>.</li>
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate_json"><code>model_validate_json()</code></a>: this takes a <em>str</em> or <em>bytes</em> and parses it as <em>json</em>, then passes the result to <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate"><code>model_validate()</code></a>.</li>
+<li><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate_strings"><code>model_validate_strings()</code></a>: this takes a dict (can be nested) with string keys and values and validates the data in <em>json</em> mode so that said strings can be coerced into the correct types.</li>
 </ul>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
 <span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Optional</span>
@@ -3796,30 +3776,57 @@ and that <code>ValidationError</code> will contain information about all of the 
 <span class="sd">    &quot;&quot;&quot;</span>
 
 <span class="k">try</span><span class="p">:</span>
-    <span class="n">m</span> <span class="o">=</span> <span class="n">User</span><span class="o">.</span><span class="n">model_validate_json</span><span class="p">(</span><span class="s1">&#39;Invalid JSON&#39;</span><span class="p">)</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">User</span><span class="o">.</span><span class="n">model_validate_json</span><span class="p">(</span><span class="s1">&#39;invalid JSON&#39;</span><span class="p">)</span>
 <span class="k">except</span> <span class="n">ValidationError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    1 validation error for User</span>
-<span class="sd">      Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value=&#39;Invalid JSON&#39;, input_type=str]</span>
+<span class="sd">      Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value=&#39;invalid JSON&#39;, input_type=str]</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<span class="n">m</span> <span class="o">=</span> <span class="n">User</span><span class="o">.</span><span class="n">model_validate_strings</span><span class="p">({</span><span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="s1">&#39;123&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;James&#39;</span><span class="p">})</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+<span class="c1">#&gt; id=123 name=&#39;James&#39; signup_ts=None</span>
+
+<span class="n">m</span> <span class="o">=</span> <span class="n">User</span><span class="o">.</span><span class="n">model_validate_strings</span><span class="p">(</span>
+    <span class="p">{</span><span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="s1">&#39;123&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;James&#39;</span><span class="p">,</span> <span class="s1">&#39;signup_ts&#39;</span><span class="p">:</span> <span class="s1">&#39;2024-04-01T12:00:00&#39;</span><span class="p">}</span>
+<span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+<span class="c1">#&gt; id=123 name=&#39;James&#39; signup_ts=datetime.datetime(2024, 4, 1, 12, 0)</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">User</span><span class="o">.</span><span class="n">model_validate_strings</span><span class="p">(</span>
+        <span class="p">{</span><span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="s1">&#39;123&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;James&#39;</span><span class="p">,</span> <span class="s1">&#39;signup_ts&#39;</span><span class="p">:</span> <span class="s1">&#39;2024-04-01&#39;</span><span class="p">},</span> <span class="n">strict</span><span class="o">=</span><span class="kc">True</span>
+    <span class="p">)</span>
+<span class="k">except</span> <span class="n">ValidationError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    1 validation error for User</span>
+<span class="sd">    signup_ts</span>
+<span class="sd">      Input should be a valid datetime, invalid datetime separator, expected `T`, `t`, `_` or space [type=datetime_parsing, input_value=&#39;2024-04-01&#39;, input_type=str]</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 </code></pre></div>
 <p>If you want to validate serialized data in a format other than JSON, you should load the data into a dict yourself and
-then pass it to <code>model_validate</code>.</p>
+then pass it to <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate"><code>model_validate</code></a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Depending on the types and model configs involved, <code>model_validate</code> and <code>model_validate_json</code> may have
-different validation behavior. If you have data coming from a non-JSON source, but want the same validation
-behavior and errors you'd get from <code>model_validate_json</code>, our recommendation for now is to use
-<code>model_validate_json(json.dumps(data))</code>.</p>
+<p>Depending on the types and model configs involved, <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate"><code>model_validate</code></a>
+and <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate_json"><code>model_validate_json</code></a> may have different validation behavior.
+If you have data coming from a non-JSON source, but want the same validation
+behavior and errors you'd get from <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate_json"><code>model_validate_json</code></a>,
+our recommendation for now is to use either use <code>model_validate_json(json.dumps(data))</code>, or use <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate_strings"><code>model_validate_strings</code></a> if the data takes the form of a (potentially nested) dict with string keys and values.</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>If you're passing in an instance of a model to <code>model_validate</code>, you will want to consider setting
+<p>Learn more about JSON parsing in the <a href="../json/">JSON</a> section of the docs.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you're passing in an instance of a model to <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate"><code>model_validate</code></a>, you will want to consider setting
 <a href="https://docs.pydantic.dev/latest/api/config/#pydantic.config.ConfigDict.revalidate_instances"><code>revalidate_instances</code></a>
 in the model's config. If you don't set this value, then validation will be skipped on model instances. See the below example:</p>
 </div>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1"><img alt="❌" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/274c.svg" title=":x:" /> <code>revalidate_instances='never'</code></label><label for="__tabbed_1_2"><img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/2705.svg" title=":white_check_mark:" /> <code>revalidate_instances='always'</code></label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1"><img alt="❌" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/274c.svg" title=":x:" /> <code>revalidate_instances='never'</code></label><label for="__tabbed_1_2"><img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" /> <code>revalidate_instances='always'</code></label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span>
@@ -3865,7 +3872,7 @@ in the model's config. If you don't set this value, then validation will be skip
 </div>
 </div>
 <h3 id="creating-models-without-validation">Creating models without validation<a class="headerlink" href="#creating-models-without-validation" title="Permanent link">&para;</a></h3>
-<p>Pydantic also provides the <code>model_construct()</code> method, which allows models to be created <strong>without validation</strong>. This
+<p>Pydantic also provides the <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_construct"><code>model_construct()</code></a> method, which allows models to be created <strong>without validation</strong>. This
 can be useful in at least a few cases:</p>
 <ul>
 <li>when working with complex data that is already known to be valid (for performance reasons)</li>
@@ -3875,13 +3882,13 @@ can be useful in at least a few cases:</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>In Pydantic V2, the performance gap between <code>BaseModel.__init__</code> and <code>BaseModel.model_construct</code> has been narrowed
-considerably. For simple models, calling <code>BaseModel.__init__</code> may even be faster. If you are using <code>model_construct</code>
-for performance reasons, you may want to profile your use case before assuming that <code>model_construct</code> is faster.</p>
+considerably. For simple models, calling <code>BaseModel.__init__</code> may even be faster. If you are using <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_construct"><code>model_construct()</code></a>
+for performance reasons, you may want to profile your use case before assuming that <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_construct"><code>model_construct()</code></a> is faster.</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p><code>model_construct()</code> does not do any validation, meaning it can create models which are invalid. <strong>You should only
-ever use the <code>model_construct()</code> method with data which has already been validated, or that you definitely trust.</strong></p>
+<p><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_construct"><code>model_construct()</code></a> does not do any validation, meaning it can create models which are invalid. <strong>You should only
+ever use the <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_construct"><code>model_construct()</code></a> method with data which has already been validated, or that you definitely trust.</strong></p>
 </div>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span>
 
@@ -3918,48 +3925,52 @@ ever use the <code>model_construct()</code> method with data which has already b
 <span class="nb">print</span><span class="p">(</span><span class="nb">repr</span><span class="p">(</span><span class="n">bad_user</span><span class="p">))</span>
 <span class="c1">#&gt; User(id=&#39;dog&#39;, name=&#39;John Doe&#39;)</span>
 </code></pre></div>
-<p>The <code>_fields_set</code> keyword argument to <code>model_construct()</code> is optional, but allows you to be more precise about
-which fields were originally set and which weren't. If it's omitted <code>model_fields_set</code> will just be the keys
+<p>The <code>_fields_set</code> keyword argument to <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_construct"><code>model_construct()</code></a> is optional, but allows you to be more precise about
+which fields were originally set and which weren't. If it's omitted <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_fields_set"><code>model_fields_set</code></a> will just be the keys
 of the data provided.</p>
 <p>For example, in the example above, if <code>_fields_set</code> was not provided,
 <code>new_user.model_fields_set</code> would be <code>{'id', 'age', 'name'}</code>.</p>
-<p>Note that for subclasses of <a href="#rootmodel-and-custom-root-types"><code>RootModel</code></a>, the root value can be passed to <code>model_construct</code>
+<p>Note that for subclasses of <a href="#rootmodel-and-custom-root-types"><code>RootModel</code></a>, the root value can be passed to <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_construct"><code>model_construct()</code></a>
 positionally, instead of using a keyword argument.</p>
-<p>Here are some additional notes on the behavior of <code>model_construct</code>:</p>
+<p>Here are some additional notes on the behavior of <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_construct"><code>model_construct()</code></a>:</p>
 <ul>
 <li>When we say "no validation is performed" — this includes converting dicts to model instances. So if you have a field
   with a <code>Model</code> type, you will need to convert the inner dict to a model yourself before passing it to
-  <code>model_construct</code>.</li>
-<li>In particular, the <code>model_construct</code> method does not support recursively constructing models from dicts.</li>
+  <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_construct"><code>model_construct()</code></a>.</li>
+<li>In particular, the <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_construct"><code>model_construct()</code></a> method does not support recursively constructing models from dicts.</li>
 <li>If you do not pass keyword arguments for fields with defaults, the default values will still be used.</li>
-<li>For models with <code>model_config['extra'] == 'allow'</code>, data not corresponding to fields will be correctly stored in
-  the <code>__pydantic_extra__</code> dict.</li>
 <li>For models with private attributes, the <code>__pydantic_private__</code> dict will be initialized the same as it would be when
   calling <code>__init__</code>.</li>
-<li>When constructing an instance using <code>model_construct()</code>, no <code>__init__</code> method from the model or any of its parent
+<li>When constructing an instance using <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_construct"><code>model_construct()</code></a>, no <code>__init__</code> method from the model or any of its parent
   classes will be called, even when a custom <code>__init__</code> method is defined.</li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">On <code>extra</code> behavior with <code>model_construct</code></p>
+<ul>
+<li>For models with <code>model_config['extra'] == 'allow'</code>, data not corresponding to fields will be correctly stored in
+the <code>__pydantic_extra__</code> dict and saved to the model's <code>__dict__</code>.</li>
+<li>For models with <code>model_config['extra'] == 'ignore'</code>, data not corresponding to fields will be ignored - that is,
+not stored in <code>__pydantic_extra__</code> or <code>__dict__</code> on the instance.</li>
+<li>Unlike a call to <code>__init__</code>, a call to <code>model_construct</code> with <code>model_config['extra'] == 'forbid'</code> doesn't raise an
+error in the presence of data not corresponding to fields. Rather, said input data is simply ignored.</li>
+</ul>
+</div>
 <h2 id="generic-models">Generic models<a class="headerlink" href="#generic-models" title="Permanent link">&para;</a></h2>
 <p>Pydantic supports the creation of generic models to make it easier to reuse a common model structure.</p>
 <p>In order to declare a generic model, you perform the following steps:</p>
-<ul>
+<ol>
 <li>Declare one or more <code>typing.TypeVar</code> instances to use to parameterize your model.</li>
 <li>Declare a pydantic model that inherits from <code>pydantic.BaseModel</code> and <code>typing.Generic</code>,
   where you pass the <code>TypeVar</code> instances as parameters to <code>typing.Generic</code>.</li>
 <li>Use the <code>TypeVar</code> instances as annotations where you will want to replace them with other types or
   pydantic models.</li>
-</ul>
+</ol>
 <p>Here is an example using a generic <code>BaseModel</code> subclass to create an easily-reused HTTP response payload wrapper:</p>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Generic</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">TypeVar</span>
 
 <span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">ValidationError</span>
 
 <span class="n">DataT</span> <span class="o">=</span> <span class="n">TypeVar</span><span class="p">(</span><span class="s1">&#39;DataT&#39;</span><span class="p">)</span>
-
-
-<span class="k">class</span> <span class="nc">Error</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
-    <span class="n">code</span><span class="p">:</span> <span class="nb">int</span>
-    <span class="n">message</span><span class="p">:</span> <span class="nb">str</span>
 
 
 <span class="k">class</span> <span class="nc">DataModel</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
@@ -3971,15 +3982,14 @@ positionally, instead of using a keyword argument.</p>
     <span class="n">data</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">DataT</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
 
 
-<span class="n">data</span> <span class="o">=</span> <span class="n">DataModel</span><span class="p">(</span><span class="n">numbers</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="n">people</span><span class="o">=</span><span class="p">[])</span>
-<span class="n">error</span> <span class="o">=</span> <span class="n">Error</span><span class="p">(</span><span class="n">code</span><span class="o">=</span><span class="mi">404</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="s1">&#39;Not found&#39;</span><span class="p">)</span>
-
 <span class="nb">print</span><span class="p">(</span><span class="n">Response</span><span class="p">[</span><span class="nb">int</span><span class="p">](</span><span class="n">data</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span>
 <span class="c1">#&gt; data=1</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">Response</span><span class="p">[</span><span class="nb">str</span><span class="p">](</span><span class="n">data</span><span class="o">=</span><span class="s1">&#39;value&#39;</span><span class="p">))</span>
 <span class="c1">#&gt; data=&#39;value&#39;</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">Response</span><span class="p">[</span><span class="nb">str</span><span class="p">](</span><span class="n">data</span><span class="o">=</span><span class="s1">&#39;value&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">model_dump</span><span class="p">())</span>
 <span class="c1">#&gt; {&#39;data&#39;: &#39;value&#39;}</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="n">DataModel</span><span class="p">(</span><span class="n">numbers</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="n">people</span><span class="o">=</span><span class="p">[])</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">Response</span><span class="p">[</span><span class="n">DataModel</span><span class="p">](</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">model_dump</span><span class="p">())</span>
 <span class="c1">#&gt; {&#39;data&#39;: {&#39;numbers&#39;: [1, 2, 3], &#39;people&#39;: []}}</span>
 <span class="k">try</span><span class="p">:</span>
@@ -4069,6 +4079,43 @@ superclass:</p>
 <span class="nb">print</span><span class="p">(</span><span class="nb">repr</span><span class="p">(</span><span class="n">Response</span><span class="p">[</span><span class="nb">str</span><span class="p">](</span><span class="n">data</span><span class="o">=</span><span class="s1">&#39;a&#39;</span><span class="p">)))</span>
 <span class="c1">#&gt; StrResponse(data=&#39;a&#39;)</span>
 </code></pre></div>
+<p>You can use parametrized generic models as types in other models:</p>
+<div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Generic</span><span class="p">,</span> <span class="n">TypeVar</span>
+
+<span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span>
+
+<span class="n">T</span> <span class="o">=</span> <span class="n">TypeVar</span><span class="p">(</span><span class="s1">&#39;T&#39;</span><span class="p">)</span>
+
+
+<span class="k">class</span> <span class="nc">ResponseModel</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">,</span> <span class="n">Generic</span><span class="p">[</span><span class="n">T</span><span class="p">]):</span>
+    <span class="n">content</span><span class="p">:</span> <span class="n">T</span>
+
+
+<span class="k">class</span> <span class="nc">Product</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">price</span><span class="p">:</span> <span class="nb">float</span>
+
+
+<span class="k">class</span> <span class="nc">Order</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">product</span><span class="p">:</span> <span class="n">ResponseModel</span><span class="p">[</span><span class="n">Product</span><span class="p">]</span>
+
+
+<span class="n">product</span> <span class="o">=</span> <span class="n">Product</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Apple&#39;</span><span class="p">,</span> <span class="n">price</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">ResponseModel</span><span class="p">[</span><span class="n">Product</span><span class="p">](</span><span class="n">content</span><span class="o">=</span><span class="n">product</span><span class="p">)</span>
+<span class="n">order</span> <span class="o">=</span> <span class="n">Order</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">product</span><span class="o">=</span><span class="n">response</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">repr</span><span class="p">(</span><span class="n">order</span><span class="p">))</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Order(id=1, product=ResponseModel[Product](content=Product(name=&#39;Apple&#39;, price=0.5)))</span>
+<span class="sd">&quot;&quot;&quot;</span>
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>When using a parametrized generic model as a type in another model (like <code>product: ResponseModel[Product]</code>),
+make sure to parametrize said generic model when you initialize the model instance
+(like <code>response = ResponseModel[Product](content=product)</code>). If you don't, a <code>ValidationError</code> will be raised, as
+Pydantic doesn't infer the type of the generic model based on the data passed to it.</p>
+</div>
 <p>Using the same <code>TypeVar</code> in nested models allows you to enforce typing relationships at different points in your model:</p>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Generic</span><span class="p">,</span> <span class="n">TypeVar</span>
 
@@ -4302,8 +4349,7 @@ could cause data loss. See the example below:</p>
 <span class="n">TItem</span> <span class="o">=</span> <span class="n">TypeVar</span><span class="p">(</span><span class="s1">&#39;TItem&#39;</span><span class="p">,</span> <span class="n">bound</span><span class="o">=</span><span class="s1">&#39;ItemBase&#39;</span><span class="p">)</span>
 
 
-<span class="k">class</span> <span class="nc">ItemBase</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
-    <span class="o">...</span>
+<span class="k">class</span> <span class="nc">ItemBase</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span> <span class="o">...</span>
 
 
 <span class="k">class</span> <span class="nc">IntItem</span><span class="p">(</span><span class="n">ItemBase</span><span class="p">):</span>
@@ -4330,6 +4376,10 @@ could cause data loss. See the example below:</p>
    so the input data is validated against the <code>IntItem</code> class and the serialization output matches what's expected.</li>
 </ol>
 <h2 id="dynamic-model-creation">Dynamic model creation<a class="headerlink" href="#dynamic-model-creation" title="Permanent link">&para;</a></h2>
+<details class="api">
+<summary>API Documentation</summary>
+<p><a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.create_model"><code>pydantic.main.create_model</code></a><br></p>
+</details>
 <p>There are some occasions where it is desirable to create a model using runtime information to specify the fields.
 For this Pydantic provides the <code>create_model</code> function to allow models to be created on the fly:</p>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">create_model</span>
@@ -4344,9 +4394,27 @@ For this Pydantic provides the <code>create_model</code> function to allow model
     <span class="n">bar</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">123</span>
 </code></pre></div>
 <p>Here <code>StaticFoobarModel</code> and <code>DynamicFoobarModel</code> are identical.</p>
-<p>Fields are defined by a tuple of the form <code>(&lt;type&gt;, &lt;default value&gt;)</code>. The special keyword
-arguments <code>__config__</code> and <code>__base__</code> can be used to customise the new model. This includes
-extending a base model with extra fields.</p>
+<p>Fields are defined by one of the following tuple forms:</p>
+<ul>
+<li><code>(&lt;type&gt;, &lt;default value&gt;)</code></li>
+<li><code>(&lt;type&gt;, Field(...))</code></li>
+<li><code>typing.Annotated[&lt;type&gt;, Field(...)]</code></li>
+</ul>
+<p>Using a <code>Field(...)</code> call as the second argument in the tuple (the default value)
+allows for more advanced field configuration. Thus, the following are analogous:</p>
+<div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">Field</span><span class="p">,</span> <span class="n">create_model</span>
+
+<span class="n">DynamicModel</span> <span class="o">=</span> <span class="n">create_model</span><span class="p">(</span>
+    <span class="s1">&#39;DynamicModel&#39;</span><span class="p">,</span>
+    <span class="n">foo</span><span class="o">=</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Field</span><span class="p">(</span><span class="o">...</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s1">&#39;foo description&#39;</span><span class="p">,</span> <span class="n">alias</span><span class="o">=</span><span class="s1">&#39;FOO&#39;</span><span class="p">)),</span>
+<span class="p">)</span>
+
+
+<span class="k">class</span> <span class="nc">StaticModel</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">foo</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="o">...</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s1">&#39;foo description&#39;</span><span class="p">,</span> <span class="n">alias</span><span class="o">=</span><span class="s1">&#39;FOO&#39;</span><span class="p">)</span>
+</code></pre></div>
+<p>The special keyword arguments <code>__config__</code> and <code>__base__</code> can be used to customize the new model.
+This includes extending a base model with extra fields.</p>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">create_model</span>
 
 
@@ -4412,7 +4480,8 @@ extending a base model with extra fields.</p>
 </details>
 <p>Pydantic models can be defined with a "custom root type" by subclassing <a class="autorefs autorefs-internal" href="../../api/root_model/#pydantic.root_model.RootModel"><code>pydantic.RootModel</code></a>.</p>
 <p>The root type can be any type supported by Pydantic, and is specified by the generic parameter to <code>RootModel</code>.
-The root value can be passed to the model <code>__init__</code> or <code>model_validate</code> as via the first and only argument.</p>
+The root value can be passed to the model <code>__init__</code> or <a class="autorefs autorefs-internal" href="../../api/base_model/#pydantic.BaseModel.model_validate"><code>model_validate</code></a>
+via the first and only argument.</p>
 <p>Here's an example of how this works:</p>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span>
 
@@ -4470,8 +4539,6 @@ custom <code>__iter__</code> and <code>__getitem__</code> functions, as shown in
 
 
 <span class="k">class</span> <span class="nc">Pets</span><span class="p">(</span><span class="n">RootModel</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]):</span>
-    <span class="n">root</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
-
     <span class="k">def</span> <span class="nf">describe</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="k">return</span> <span class="sa">f</span><span class="s1">&#39;Pets: </span><span class="si">{</span><span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">root</span><span class="p">)</span><span class="si">}</span><span class="s1">&#39;</span>
 
@@ -4491,8 +4558,8 @@ This config flag is deprecated in Pydantic V2, and has been replaced with <code>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Immutability in Python is never strict. If developers are determined/stupid they can always
-modify a so-called "immutable" object.</p>
+<p>In Python, immutability is not enforced. Developers have the ability to modify objects
+that are conventionally considered "immutable" if they choose to do so.</p>
 </div>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">ConfigDict</span><span class="p">,</span> <span class="n">ValidationError</span>
 
@@ -4547,7 +4614,7 @@ immutability of <code>foobar</code> doesn't stop <code>b</code> from being chang
 <ul>
 <li>field order is preserved in the model <a href="../json_schema/">schema</a></li>
 <li>field order is preserved in <a href="#error-handling">validation errors</a></li>
-<li>field order is preserved by <a href="../serialization/#modelmodeldump"><code>.model_dump()</code> and <code>.model_dump_json()</code> etc.</a></li>
+<li>field order is preserved by <a href="../serialization/#model_dump"><code>.model_dump()</code> and <code>.model_dump_json()</code> etc.</a></li>
 </ul>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">ValidationError</span>
 
@@ -4574,24 +4641,28 @@ immutability of <code>foobar</code> doesn't stop <code>b</code> from being chang
 <span class="c1">#&gt; [(&#39;a&#39;,), (&#39;b&#39;,), (&#39;c&#39;,), (&#39;d&#39;,), (&#39;e&#39;,)]</span>
 </code></pre></div>
 <h2 id="required-fields">Required fields<a class="headerlink" href="#required-fields" title="Permanent link">&para;</a></h2>
-<p>To declare a field as required, you may declare it using just an annotation, or you may use <code>Ellipsis</code>/<code>...</code>
-as the value:</p>
+<p>To declare a field as required, you may declare it using an annotation, or an annotation in combination with a <code>Field</code> specification.
+You may also use <code>Ellipsis</code>/<code>...</code> to emphasize that a field is required, especially when using the <code>Field</code> constructor.</p>
+<p>The <a href="../fields/"><code>Field</code></a> function is primarily used to configure settings like <code>alias</code> or <code>description</code> for an attribute.
+The constructor supports <code>Ellipsis</code>/<code>...</code> as the sole positional argument.
+This is used as a way to indicate that said field is mandatory, though it's the type hint that enforces this requirement.</p>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">Field</span>
 
 
 <span class="k">class</span> <span class="nc">Model</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
     <span class="n">a</span><span class="p">:</span> <span class="nb">int</span>
     <span class="n">b</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="o">...</span>
-    <span class="n">c</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+    <span class="n">c</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="o">...</span><span class="p">,</span> <span class="n">alias</span><span class="o">=</span><span class="s1">&#39;C&#39;</span><span class="p">)</span>
 </code></pre></div>
-<p>Where <code>Field</code> refers to the <a href="../json_schema/#field-customization">field function</a>.</p>
-<p>Here <code>a</code>, <code>b</code> and <code>c</code> are all required. However, this use of <code>b: int = ...</code> does not work properly
-with <a href="../../integrations/mypy/">mypy</a>, and as of <strong>v1.0</strong> should be avoided in most cases.</p>
+<p>Here <code>a</code>, <code>b</code> and <code>c</code> are all required. However, this use of <code>b: int = ...</code> does not work properly with
+<a href="../../integrations/mypy/">mypy</a>, and as of <strong>v1.0</strong> should be avoided in most cases.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>In Pydantic V1, fields annotated with <code>Optional</code> or <code>Any</code> would be given an implicit default of <code>None</code> even if no
 default was explicitly specified. This behavior has changed in Pydantic V2, and there are no longer any type
 annotations that will result in a field having an implicit default value.</p>
+<p>See <a href="../../migration/#required-optional-and-nullable-fields">the migration guide</a> for more details on changes
+to required and nullable fields.</p>
 </div>
 <h2 id="fields-with-non-hashable-default-values">Fields with non-hashable default values<a class="headerlink" href="#fields-with-non-hashable-default-values" title="Permanent link">&para;</a></h2>
 <p>A common source of bugs in python is to use a mutable object as a default value for a function or method argument,
@@ -4664,6 +4735,10 @@ become fields on model instances:</p>
 <span class="c1">#&gt; 1</span>
 </code></pre></div>
 <h3 id="private-model-attributes">Private model attributes<a class="headerlink" href="#private-model-attributes" title="Permanent link">&para;</a></h3>
+<details class="api">
+<summary>API Documentation</summary>
+<p><a class="autorefs autorefs-internal" href="../../api/fields/#pydantic.fields.PrivateAttr"><code>pydantic.fields.PrivateAttr</code></a><br></p>
+</details>
 <p>Attributes whose name has a leading underscore are not treated as fields by Pydantic, and are not included in the
 model schema. Instead, these are converted into a "private attribute" which is not validated or even set during
 calls to <code>__init__</code>, <code>model_validate</code>, etc.</p>
@@ -4869,11 +4944,11 @@ The extra fields will then be stored in <code>BaseModel.__pydantic_extra__</code
 the type annotation for <code>__pydantic_extra__</code>:</p>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Dict</span>
 
-<span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">ConfigDict</span><span class="p">,</span> <span class="n">ValidationError</span>
+<span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">ConfigDict</span><span class="p">,</span> <span class="n">Field</span><span class="p">,</span> <span class="n">ValidationError</span>
 
 
 <span class="k">class</span> <span class="nc">Model</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
-    <span class="n">__pydantic_extra__</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span>
+    <span class="n">__pydantic_extra__</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">init</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>  <span class="c1"># (1)!</span>
 
     <span class="n">x</span><span class="p">:</span> <span class="nb">int</span>
 
@@ -4896,6 +4971,10 @@ the type annotation for <code>__pydantic_extra__</code>:</p>
 <span class="k">assert</span> <span class="n">m</span><span class="o">.</span><span class="n">model_dump</span><span class="p">()</span> <span class="o">==</span> <span class="p">{</span><span class="s1">&#39;x&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
 <span class="k">assert</span> <span class="n">m</span><span class="o">.</span><span class="n">__pydantic_extra__</span> <span class="o">==</span> <span class="p">{</span><span class="s1">&#39;y&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
 </code></pre></div>
+<ol>
+<li>The <code>= Field(init=False)</code> does not have any effect at runtime, but prevents the <code>__pydantic_extra__</code> field from
+being treated as an argument to the model's <code>__init__</code> method by type-checkers.</li>
+</ol>
 <p>The same configurations apply to <code>TypedDict</code> and <code>dataclass</code>' except the config is controlled by setting the
 <code>__pydantic_config__</code> attribute of the class to a valid <code>ConfigDict</code>.</p>
 
@@ -4904,10 +4983,58 @@ the type annotation for <code>__pydantic_extra__</code>:</p>
 
 
 
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 9v12H1V9h4m4 12a2 2 0 0 1-2-2V9c0-.55.22-1.05.59-1.41L14.17 1l1.06 1.06c.27.27.44.64.44 1.05l-.03.32L14.69 8H21a2 2 0 0 1 2 2v2c0 .26-.05.5-.14.73l-3.02 7.05C19.54 20.5 18.83 21 18 21H9m0-2h9.03L21 12v-2h-8.79l1.13-5.32L9 9.03V19Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 15V3h4v12h-4M15 3a2 2 0 0 1 2 2v10c0 .55-.22 1.05-.59 1.41L9.83 23l-1.06-1.06c-.27-.27-.44-.64-.44-1.06l.03-.31.95-4.57H3a2 2 0 0 1-2-2v-2c0-.26.05-.5.14-.73l3.02-7.05C4.46 3.5 5.17 3 6 3h9m0 2H5.97L3 12v2h8.78l-1.13 5.32L15 14.97V5Z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
                 
   <script src="/flarelytics/client.js"></script>
       <script>
-    window.mkdocs_run_deps = ["pydantic==2.4.2", "pydantic-core==2.11.0"]
+    window.mkdocs_run_deps = ["pydantic==2.9.0b1", "pydantic-core==2.23.0", "pydantic-extra-types==2.9.0"]
     </script>
 
               </article>
@@ -4918,6 +5045,12 @@ the type annotation for <code>__pydantic_extra__</code>:</p>
 
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
         
       </main>
       
@@ -4930,7 +5063,7 @@ the type annotation for <code>__pydantic_extra__</code>:</p>
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs Insiders
+      Material for MkDocs
     </a>
   
 </div>
@@ -4944,10 +5077,15 @@ the type annotation for <code>__pydantic_extra__</code>:</p>
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "announce.dismiss", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.f2da59ea.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-      <script src="../../assets/javascripts/bundle.65061dd4.min.js"></script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "announce.dismiss", "navigation.tabs", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.preview", "navigation.instant.progress", "navigation.path", "navigation.sections", "navigation.top", "navigation.tracking", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.471ce7a9.min.js"></script>
+      
+        <script src="../../extra/feedback.js"></script>
       
         <script src="../../extra/fluff.js"></script>
       

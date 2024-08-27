@@ -19,11 +19,8 @@
         <link rel="next" href="../devtools/">
       
       
-        
-      
-      
       <link rel="icon" href="../../favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.2+insiders-4.42.0">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.32">
     
     
       
@@ -31,10 +28,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.f2778614.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.46987102.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -62,7 +59,10 @@
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
 
+
+    
     
     
   </head>
@@ -102,7 +102,9 @@
             
   <!-- the following line is displayed in the announcement bar -->
 <!-- keep length under 164 characters (less HTML tags) to fit on 1280px desktop window -->
-<a href="https://docs.pydantic.dev/2.0/blog/pydantic-v2-final/">Pydantic V2</a> is here 🚀! Upgrading an existing app? See the <a href="https://docs.pydantic.dev/2.0/migration/">Migration Guide</a> for tips on essential changes from Pydantic V1!
+<b>We're live!</b> <a href="https://pydantic.dev/logfire">Pydantic Logfire</a> is out in open beta! 🎉<br>
+Logfire is a new observability tool for Python, from the creators of Pydantic, with great Pydantic support.
+Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">what you think</a>!
 
           </div>
           
@@ -201,9 +203,11 @@
         </button>
       </nav>
       
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
@@ -220,7 +224,7 @@
         <a href="https://github.com/pydantic/pydantic" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     pydantic/pydantic
@@ -309,6 +313,23 @@
   
   
   
+    <li class="md-tabs__item">
+      <a href="../../architecture/" class="md-tabs__link">
+        
+  
+    
+  
+  Architecture
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
     
     
       <li class="md-tabs__item">
@@ -349,6 +370,14 @@
   
     
     
+      
+  
+  
+    
+  
+  
+    
+    
       <li class="md-tabs__item md-tabs__item--active">
         <a href="../mypy/" class="md-tabs__link">
           
@@ -360,22 +389,41 @@
     
   
 
+    
+  
+
       
         
   
   
   
+    <li class="md-tabs__item">
+      <a href="https://blog.pydantic.dev/" class="md-tabs__link">
+        
+  
     
-    
-      <li class="md-tabs__item">
-        <a href="../../blog/pydantic-v2-final/" class="md-tabs__link">
-          
   
   Blog
 
-        </a>
-      </li>
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../pydantic_people/" class="md-tabs__link">
+        
+  
     
+  
+  Pydantic People
+
+      </a>
+    </li>
   
 
       
@@ -413,7 +461,7 @@
       <a href="https://github.com/pydantic/pydantic" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     pydantic/pydantic
@@ -428,34 +476,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
     Get Started
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -464,16 +507,13 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Get Started
-  
-
+            Get Started
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
+  
   
   
   
@@ -482,14 +522,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Welcome to Pydantic
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -500,6 +534,7 @@
             
               
                 
+  
   
   
   
@@ -508,14 +543,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Why use Pydantic
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -526,6 +555,7 @@
             
               
                 
+  
   
   
   
@@ -534,14 +564,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Help with Pydantic
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -552,6 +576,7 @@
             
               
                 
+  
   
   
   
@@ -560,14 +585,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Installation
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -578,6 +597,7 @@
             
               
                 
+  
   
   
   
@@ -586,14 +606,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Migration Guide
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -604,6 +618,7 @@
             
               
                 
+  
   
   
   
@@ -612,14 +627,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Version Policy
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -630,6 +639,7 @@
             
               
                 
+  
   
   
   
@@ -638,14 +648,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Contributing
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -656,6 +660,7 @@
             
               
                 
+  
   
   
   
@@ -664,14 +669,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Changelog
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -692,34 +691,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
     Concepts
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -728,11 +722,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Concepts
-  
-
+            Concepts
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -741,19 +731,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../concepts/models/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Models
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -764,6 +749,7 @@
             
               
                 
+  
   
   
   
@@ -772,14 +758,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Fields
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -790,6 +770,7 @@
             
               
                 
+  
   
   
   
@@ -798,14 +779,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     JSON Schema
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -816,6 +791,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/json/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JSON
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -824,14 +821,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -842,6 +833,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/unions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -850,14 +863,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Alias
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -868,6 +875,7 @@
             
               
                 
+  
   
   
   
@@ -876,14 +884,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Configuration
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -894,6 +896,7 @@
             
               
                 
+  
   
   
   
@@ -902,14 +905,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Serialization
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -920,6 +917,7 @@
             
               
                 
+  
   
   
   
@@ -928,14 +926,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validators
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -946,6 +938,7 @@
             
               
                 
+  
   
   
   
@@ -954,14 +947,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Dataclasses
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -972,6 +959,7 @@
             
               
                 
+  
   
   
   
@@ -980,14 +968,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Postponed Annotations
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -998,6 +980,7 @@
             
               
                 
+  
   
   
   
@@ -1006,14 +989,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Strict Mode
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1024,6 +1001,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/type_adapter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Type Adapter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -1032,14 +1031,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validation Decorator
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1050,6 +1043,7 @@
             
               
                 
+  
   
   
   
@@ -1058,14 +1052,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Conversion Table
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1076,6 +1064,7 @@
             
               
                 
+  
   
   
   
@@ -1084,14 +1073,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Settings Management
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1102,6 +1085,7 @@
             
               
                 
+  
   
   
   
@@ -1110,14 +1094,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Performance
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1131,19 +1109,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../concepts/plugins/" class="md-nav__link">
+      <a href="../../concepts/experimental/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic Plugins
-  
-
-    
+    Experimental
   </span>
-  
   
 
       </a>
@@ -1164,34 +1137,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
     API Documentation
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1200,11 +1168,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    API Documentation
-  
-
+            API Documentation
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1213,14 +1177,18 @@
   
   
   
+  
     
     
     
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
@@ -1230,14 +1198,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Pydantic
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1246,11 +1208,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Pydantic
-  
-
+            Pydantic
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1259,19 +1217,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../api/base_model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     BaseModel
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1282,6 +1235,7 @@
             
               
                 
+  
   
   
   
@@ -1290,14 +1244,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     RootModel
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1308,6 +1256,7 @@
             
               
                 
+  
   
   
   
@@ -1316,14 +1265,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Dataclasses
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1334,6 +1277,7 @@
             
               
                 
+  
   
   
   
@@ -1342,14 +1286,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     TypeAdapter
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1360,6 +1298,7 @@
             
               
                 
+  
   
   
   
@@ -1368,14 +1307,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validate Call
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1386,6 +1319,7 @@
             
               
                 
+  
   
   
   
@@ -1394,14 +1328,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Fields
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1412,6 +1340,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/aliases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aliases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -1420,14 +1370,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Configuration
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1438,6 +1382,7 @@
             
               
                 
+  
   
   
   
@@ -1446,14 +1391,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     JSON Schema
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1464,6 +1403,7 @@
             
               
                 
+  
   
   
   
@@ -1472,14 +1412,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Errors
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1490,6 +1424,7 @@
             
               
                 
+  
   
   
   
@@ -1498,14 +1433,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Functional Validators
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1516,6 +1445,7 @@
             
               
                 
+  
   
   
   
@@ -1524,14 +1454,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Functional Serializers
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1542,6 +1466,7 @@
             
               
                 
+  
   
   
   
@@ -1550,14 +1475,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Standard Library Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1568,6 +1487,7 @@
             
               
                 
+  
   
   
   
@@ -1576,14 +1496,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1594,6 +1508,7 @@
             
               
                 
+  
   
   
   
@@ -1602,14 +1517,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Network Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1620,6 +1529,7 @@
             
               
                 
+  
   
   
   
@@ -1628,14 +1538,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Version Information
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1647,31 +1551,6 @@
               
                 
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../../api/plugin/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Pydantic Plugins
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
   
   
   
@@ -1680,14 +1559,29 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Annotated Handlers
-  
-
-    
   </span>
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/experimental/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Experimental
+  </span>
   
 
       </a>
@@ -1709,14 +1603,18 @@
   
   
   
+  
     
     
     
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
@@ -1726,14 +1624,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Core
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1742,11 +1634,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Pydantic Core
-  
-
+            Pydantic Core
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1755,19 +1643,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../api/pydantic_core/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     pydantic_core
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1781,19 +1664,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../api/pydantic_core_schema/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     pydantic_core.core_schema
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1815,19 +1693,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../api/pydantic_settings/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Settings
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1841,14 +1714,18 @@
   
   
   
+  
     
     
     
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
@@ -1858,14 +1735,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Extra Types
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1874,16 +1745,13 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Pydantic Extra Types
-  
-
+            Pydantic Extra Types
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
+  
   
   
   
@@ -1892,14 +1760,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Color
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1910,6 +1772,7 @@
             
               
                 
+  
   
   
   
@@ -1918,14 +1781,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Country
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1936,6 +1793,7 @@
             
               
                 
+  
   
   
   
@@ -1944,14 +1802,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Payment
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1962,6 +1814,7 @@
             
               
                 
+  
   
   
   
@@ -1970,14 +1823,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Phone Numbers
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1988,6 +1835,7 @@
             
               
                 
+  
   
   
   
@@ -1996,14 +1844,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Routing Numbers
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2014,6 +1856,7 @@
             
               
                 
+  
   
   
   
@@ -2022,14 +1865,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Coordinate
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2040,6 +1877,7 @@
             
               
                 
+  
   
   
   
@@ -2048,14 +1886,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Mac Address
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2063,92 +1895,178 @@
   
 
               
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-    
-    
-    
-    
-    
-      
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
-            
-  
-  <span class="md-ellipsis">
-    
-  
-    Examples
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Examples
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../examples/secrets/" class="md-nav__link">
+      <a href="../../api/pydantic_extra_types_isbn/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Secrets
-  
-
-    
+    ISBN
   </span>
-  
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_pendulum_dt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pendulum
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_currency_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Currency
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_language_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Language
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_script_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Script Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_semantic_version/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Semantic Version
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_timezone_name/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Timezone Name
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pydantic_extra_types_ulid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ULID
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -2166,34 +2084,49 @@
   
   
   
+  
+    <li class="md-nav__item">
+      <a href="../../architecture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Architecture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
     
-    
+      
+      
+  
+  
+  
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
-    Error Messages
-  
-
-    
+    Examples
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2202,11 +2135,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Error Messages
-  
-
+            Examples
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2215,19 +2144,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../errors/errors/" class="md-nav__link">
+      <a href="../../examples/secrets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Error Handling
-  
-
-    
+    Secrets
   </span>
-  
   
 
       </a>
@@ -2238,6 +2162,96 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../examples/validators/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Validators
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Error Messages
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Error Messages
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../errors/errors/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Error Handling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -2246,14 +2260,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validation Errors
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2267,19 +2275,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../errors/usage_errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Usage Errors
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2302,47 +2305,86 @@
     
   
   
-    
-    
+  
     
     
     
       
+        
+        
       
+      
+        
+      
+    
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
             
   
   <span class="md-ellipsis">
-    
-  
     Integrations
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
+            Integrations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="">
             
   
-    Integrations
+  <span class="md-ellipsis">
+    Dev Tools
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Dev Tools
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2351,19 +2393,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../mypy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Mypy
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2374,6 +2411,7 @@
             
               
                 
+  
   
   
   
@@ -2382,14 +2420,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     PyCharm
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2400,6 +2432,7 @@
             
               
                 
+  
   
   
   
@@ -2408,14 +2441,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Hypothesis
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2426,6 +2453,7 @@
             
               
                 
+  
   
   
   
@@ -2434,14 +2462,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Visual Studio Code
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2455,6 +2477,7 @@
   
   
     
+  
   
   
     <li class="md-nav__item md-nav__item--active">
@@ -2469,14 +2492,8 @@
           
   
   <span class="md-ellipsis">
-    
-  
     datamodel-code-generator
-  
-
-    
   </span>
-  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -2486,14 +2503,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     datamodel-code-generator
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2518,9 +2529,7 @@
         <li class="md-nav__item">
   <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Installation
-      
+      Installation
     </span>
   </a>
   
@@ -2529,9 +2538,7 @@
         <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Example
-      
+      Example
     </span>
   </a>
   
@@ -2551,19 +2558,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../devtools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     devtools
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2574,6 +2576,7 @@
             
               
                 
+  
   
   
   
@@ -2582,14 +2585,29 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Rich
-  
-
-    
   </span>
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linting
+  </span>
   
 
       </a>
@@ -2604,53 +2622,48 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
-    
-    
+  
     
     
     
       
       
+        
+          
+          
+        
+      
+    
     
     <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
-    
-  
-    Blog
-  
-
-    
+    Production Tools
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Blog
-  
-
+            Production Tools
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2659,71 +2672,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../blog/pydantic-v2-final/" class="md-nav__link">
+      <a href="../aws_lambda/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic V2 Is Here!
-  
-
-    
+    AWS Lambda
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../blog/pydantic-v2-alpha/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Pydantic V2 Pre Release
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../blog/pydantic-v2/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Pydantic V2 Plan
-  
-
-    
-  </span>
-  
   
 
       </a>
@@ -2735,6 +2691,54 @@
           </ul>
         </nav>
       
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://blog.pydantic.dev/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pydantic_people/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pydantic People
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -2770,9 +2774,7 @@
         <li class="md-nav__item">
   <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Installation
-      
+      Installation
     </span>
   </a>
   
@@ -2781,9 +2783,7 @@
         <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Example
-      
+      Example
     </span>
   </a>
   
@@ -2799,7 +2799,6 @@
           
           
             <div class="md-content" data-md-component="content">
-              
               <article class="md-content__inner md-typeset">
                 
   
@@ -2814,7 +2813,9 @@
 <ul>
 <li>OpenAPI 3 (YAML/JSON)</li>
 <li>JSON Schema</li>
-<li>JSON/YAML Data (which will converted to JSON Schema)</li>
+<li>JSON/YAML/CSV Data (which will be converted to JSON Schema)</li>
+<li>Python dictionary (which will be converted to JSON Schema)</li>
+<li>GraphQL schema</li>
 </ul>
 <p>Whenever you find yourself with any data convertible JSON but without pydantic models, this tool will allow you to generate type-safe model hierarchies on demand.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
@@ -2905,10 +2906,58 @@
 
 
 
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 9v12H1V9h4m4 12a2 2 0 0 1-2-2V9c0-.55.22-1.05.59-1.41L14.17 1l1.06 1.06c.27.27.44.64.44 1.05l-.03.32L14.69 8H21a2 2 0 0 1 2 2v2c0 .26-.05.5-.14.73l-3.02 7.05C19.54 20.5 18.83 21 18 21H9m0-2h9.03L21 12v-2h-8.79l1.13-5.32L9 9.03V19Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 15V3h4v12h-4M15 3a2 2 0 0 1 2 2v10c0 .55-.22 1.05-.59 1.41L9.83 23l-1.06-1.06c-.27-.27-.44-.64-.44-1.06l.03-.31.95-4.57H3a2 2 0 0 1-2-2v-2c0-.26.05-.5.14-.73l3.02-7.05C4.46 3.5 5.17 3 6 3h9m0 2H5.97L3 12v2h8.78l-1.13 5.32L15 14.97V5Z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
                 
   <script src="/flarelytics/client.js"></script>
       <script>
-    window.mkdocs_run_deps = ["pydantic==2.4.2", "pydantic-core==2.11.0"]
+    window.mkdocs_run_deps = ["pydantic==2.9.0b1", "pydantic-core==2.23.0", "pydantic-extra-types==2.9.0"]
     </script>
 
               </article>
@@ -2919,6 +2968,12 @@
 
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
         
       </main>
       
@@ -2931,7 +2986,7 @@
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs Insiders
+      Material for MkDocs
     </a>
   
 </div>
@@ -2945,10 +3000,15 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "announce.dismiss", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.f2da59ea.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-      <script src="../../assets/javascripts/bundle.65061dd4.min.js"></script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "announce.dismiss", "navigation.tabs", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.preview", "navigation.instant.progress", "navigation.path", "navigation.sections", "navigation.top", "navigation.tracking", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.471ce7a9.min.js"></script>
+      
+        <script src="../../extra/feedback.js"></script>
       
         <script src="../../extra/fluff.js"></script>
       

@@ -19,11 +19,8 @@
         <link rel="next" href="../version/">
       
       
-        
-      
-      
       <link rel="icon" href="../../favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.2+insiders-4.42.0">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.32">
     
     
       
@@ -31,10 +28,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.f2778614.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.46987102.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -62,7 +59,10 @@
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
 
+
+    
     
     
   </head>
@@ -102,7 +102,9 @@
             
   <!-- the following line is displayed in the announcement bar -->
 <!-- keep length under 164 characters (less HTML tags) to fit on 1280px desktop window -->
-<a href="https://docs.pydantic.dev/2.0/blog/pydantic-v2-final/">Pydantic V2</a> is here 🚀! Upgrading an existing app? See the <a href="https://docs.pydantic.dev/2.0/migration/">Migration Guide</a> for tips on essential changes from Pydantic V1!
+<b>We're live!</b> <a href="https://pydantic.dev/logfire">Pydantic Logfire</a> is out in open beta! 🎉<br>
+Logfire is a new observability tool for Python, from the creators of Pydantic, with great Pydantic support.
+Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">what you think</a>!
 
           </div>
           
@@ -201,9 +203,11 @@
         </button>
       </nav>
       
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
@@ -220,7 +224,7 @@
         <a href="https://github.com/pydantic/pydantic" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     pydantic/pydantic
@@ -313,6 +317,23 @@
   
   
   
+    <li class="md-tabs__item">
+      <a href="../../architecture/" class="md-tabs__link">
+        
+  
+    
+  
+  Architecture
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
     
     
       <li class="md-tabs__item">
@@ -351,6 +372,12 @@
   
     
     
+      
+  
+  
+  
+    
+    
       <li class="md-tabs__item">
         <a href="../../integrations/mypy/" class="md-tabs__link">
           
@@ -362,22 +389,41 @@
     
   
 
+    
+  
+
       
         
   
   
   
+    <li class="md-tabs__item">
+      <a href="https://blog.pydantic.dev/" class="md-tabs__link">
+        
+  
     
-    
-      <li class="md-tabs__item">
-        <a href="../../blog/pydantic-v2-final/" class="md-tabs__link">
-          
   
   Blog
 
-        </a>
-      </li>
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../pydantic_people/" class="md-tabs__link">
+        
+  
     
+  
+  Pydantic People
+
+      </a>
+    </li>
   
 
       
@@ -415,7 +461,7 @@
       <a href="https://github.com/pydantic/pydantic" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     pydantic/pydantic
@@ -430,34 +476,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
     Get Started
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -466,16 +507,13 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Get Started
-  
-
+            Get Started
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
+  
   
   
   
@@ -484,14 +522,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Welcome to Pydantic
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -502,6 +534,7 @@
             
               
                 
+  
   
   
   
@@ -510,14 +543,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Why use Pydantic
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -528,6 +555,7 @@
             
               
                 
+  
   
   
   
@@ -536,14 +564,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Help with Pydantic
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -554,6 +576,7 @@
             
               
                 
+  
   
   
   
@@ -562,14 +585,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Installation
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -580,6 +597,7 @@
             
               
                 
+  
   
   
   
@@ -588,14 +606,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Migration Guide
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -606,6 +618,7 @@
             
               
                 
+  
   
   
   
@@ -614,14 +627,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Version Policy
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -632,6 +639,7 @@
             
               
                 
+  
   
   
   
@@ -640,14 +648,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Contributing
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -658,6 +660,7 @@
             
               
                 
+  
   
   
   
@@ -666,14 +669,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Changelog
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -694,34 +691,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
     Concepts
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -730,11 +722,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Concepts
-  
-
+            Concepts
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -743,19 +731,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../concepts/models/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Models
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -766,6 +749,7 @@
             
               
                 
+  
   
   
   
@@ -774,14 +758,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Fields
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -792,6 +770,7 @@
             
               
                 
+  
   
   
   
@@ -800,14 +779,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     JSON Schema
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -818,6 +791,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/json/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JSON
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -826,14 +821,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -844,6 +833,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/unions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -852,14 +863,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Alias
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -870,6 +875,7 @@
             
               
                 
+  
   
   
   
@@ -878,14 +884,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Configuration
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -896,6 +896,7 @@
             
               
                 
+  
   
   
   
@@ -904,14 +905,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Serialization
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -922,6 +917,7 @@
             
               
                 
+  
   
   
   
@@ -930,14 +926,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validators
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -948,6 +938,7 @@
             
               
                 
+  
   
   
   
@@ -956,14 +947,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Dataclasses
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -974,6 +959,7 @@
             
               
                 
+  
   
   
   
@@ -982,14 +968,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Postponed Annotations
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1000,6 +980,7 @@
             
               
                 
+  
   
   
   
@@ -1008,14 +989,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Strict Mode
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1026,6 +1001,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/type_adapter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Type Adapter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -1034,14 +1031,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validation Decorator
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1052,6 +1043,7 @@
             
               
                 
+  
   
   
   
@@ -1060,14 +1052,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Conversion Table
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1078,6 +1064,7 @@
             
               
                 
+  
   
   
   
@@ -1086,14 +1073,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Settings Management
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1104,6 +1085,7 @@
             
               
                 
+  
   
   
   
@@ -1112,14 +1094,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Performance
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1133,19 +1109,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../concepts/plugins/" class="md-nav__link">
+      <a href="../../concepts/experimental/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic Plugins
-  
-
-    
+    Experimental
   </span>
-  
   
 
       </a>
@@ -1168,17 +1139,21 @@
     
   
   
-    
-    
+  
     
     
     
       
+        
+        
       
+      
+        
+      
+    
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
@@ -1188,14 +1163,8 @@
             
   
   <span class="md-ellipsis">
-    
-  
     API Documentation
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1204,11 +1173,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    API Documentation
-  
-
+            API Documentation
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1219,31 +1184,32 @@
     
   
   
+  
     
     
     
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
       
         
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
         
           
-          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="">
             
   
   <span class="md-ellipsis">
-    
-  
     Pydantic
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1252,11 +1218,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Pydantic
-  
-
+            Pydantic
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1265,19 +1227,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../base_model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     BaseModel
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1288,6 +1245,7 @@
             
               
                 
+  
   
   
   
@@ -1296,14 +1254,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     RootModel
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1314,6 +1266,7 @@
             
               
                 
+  
   
   
   
@@ -1322,14 +1275,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Dataclasses
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1340,6 +1287,7 @@
             
               
                 
+  
   
   
   
@@ -1348,14 +1296,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     TypeAdapter
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1366,6 +1308,7 @@
             
               
                 
+  
   
   
   
@@ -1374,14 +1317,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Validate Call
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1392,6 +1329,7 @@
             
               
                 
+  
   
   
   
@@ -1400,14 +1338,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Fields
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1418,6 +1350,28 @@
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aliases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aliases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
@@ -1426,14 +1380,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Configuration
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1444,6 +1392,7 @@
             
               
                 
+  
   
   
   
@@ -1452,14 +1401,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     JSON Schema
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1470,6 +1413,7 @@
             
               
                 
+  
   
   
   
@@ -1478,14 +1422,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Errors
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1496,6 +1434,7 @@
             
               
                 
+  
   
   
   
@@ -1504,14 +1443,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Functional Validators
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1522,6 +1455,7 @@
             
               
                 
+  
   
   
   
@@ -1530,14 +1464,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Functional Serializers
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1548,6 +1476,7 @@
             
               
                 
+  
   
   
   
@@ -1556,14 +1485,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Standard Library Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1574,6 +1497,7 @@
             
               
                 
+  
   
   
   
@@ -1582,14 +1506,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1603,6 +1521,7 @@
   
   
     
+  
   
   
     <li class="md-nav__item md-nav__item--active">
@@ -1615,14 +1534,8 @@
           
   
   <span class="md-ellipsis">
-    
-  
     Network Types
-  
-
-    
   </span>
-  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -1632,14 +1545,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Network Types
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1662,9 +1569,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        pydantic.networks
-      
+      networks
     </span>
   </a>
   
@@ -1673,9 +1578,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.AnyUrl" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        AnyUrl
-      
+      AnyUrl
     </span>
   </a>
   
@@ -1684,9 +1587,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.AnyHttpUrl" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        AnyHttpUrl
-      
+      AnyHttpUrl
     </span>
   </a>
   
@@ -1695,9 +1596,25 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.HttpUrl" class="md-nav__link">
     <span class="md-ellipsis">
+      HttpUrl
+    </span>
+  </a>
+  
+</li>
       
-        HttpUrl
+        <li class="md-nav__item">
+  <a href="#pydantic.networks.AnyWebsocketUrl" class="md-nav__link">
+    <span class="md-ellipsis">
+      AnyWebsocketUrl
+    </span>
+  </a>
+  
+</li>
       
+        <li class="md-nav__item">
+  <a href="#pydantic.networks.WebsocketUrl" class="md-nav__link">
+    <span class="md-ellipsis">
+      WebsocketUrl
     </span>
   </a>
   
@@ -1706,9 +1623,16 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.FileUrl" class="md-nav__link">
     <span class="md-ellipsis">
+      FileUrl
+    </span>
+  </a>
+  
+</li>
       
-        FileUrl
-      
+        <li class="md-nav__item">
+  <a href="#pydantic.networks.FtpUrl" class="md-nav__link">
+    <span class="md-ellipsis">
+      FtpUrl
     </span>
   </a>
   
@@ -1717,9 +1641,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.PostgresDsn" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        PostgresDsn
-      
+      PostgresDsn
     </span>
   </a>
   
@@ -1728,9 +1650,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.CockroachDsn" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        CockroachDsn
-      
+      CockroachDsn
     </span>
   </a>
   
@@ -1739,9 +1659,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.AmqpDsn" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        AmqpDsn
-      
+      AmqpDsn
     </span>
   </a>
   
@@ -1750,9 +1668,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.RedisDsn" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        RedisDsn
-      
+      RedisDsn
     </span>
   </a>
   
@@ -1761,9 +1677,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.MongoDsn" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        MongoDsn
-      
+      MongoDsn
     </span>
   </a>
   
@@ -1772,9 +1686,16 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.KafkaDsn" class="md-nav__link">
     <span class="md-ellipsis">
+      KafkaDsn
+    </span>
+  </a>
+  
+</li>
       
-        KafkaDsn
-      
+        <li class="md-nav__item">
+  <a href="#pydantic.networks.NatsDsn" class="md-nav__link">
+    <span class="md-ellipsis">
+      NatsDsn
     </span>
   </a>
   
@@ -1783,9 +1704,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.MySQLDsn" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        MySQLDsn
-      
+      MySQLDsn
     </span>
   </a>
   
@@ -1794,9 +1713,25 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.MariaDBDsn" class="md-nav__link">
     <span class="md-ellipsis">
+      MariaDBDsn
+    </span>
+  </a>
+  
+</li>
       
-        MariaDBDsn
+        <li class="md-nav__item">
+  <a href="#pydantic.networks.ClickHouseDsn" class="md-nav__link">
+    <span class="md-ellipsis">
+      ClickHouseDsn
+    </span>
+  </a>
+  
+</li>
       
+        <li class="md-nav__item">
+  <a href="#pydantic.networks.SnowflakeDsn" class="md-nav__link">
+    <span class="md-ellipsis">
+      SnowflakeDsn
     </span>
   </a>
   
@@ -1805,9 +1740,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.MAX_EMAIL_LENGTH" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        MAX_EMAIL_LENGTH
-      
+      MAX_EMAIL_LENGTH
     </span>
   </a>
   
@@ -1816,9 +1749,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.UrlConstraints" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        UrlConstraints
-      
+      UrlConstraints
     </span>
   </a>
   
@@ -1827,9 +1758,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.EmailStr" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        EmailStr
-      
+      EmailStr
     </span>
   </a>
   
@@ -1838,9 +1767,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.NameEmail" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        NameEmail
-      
+      NameEmail
     </span>
   </a>
   
@@ -1849,9 +1776,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.IPvAnyAddress" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        IPvAnyAddress
-      
+      IPvAnyAddress
     </span>
   </a>
   
@@ -1860,9 +1785,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.IPvAnyInterface" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        IPvAnyInterface
-      
+      IPvAnyInterface
     </span>
   </a>
   
@@ -1871,9 +1794,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.IPvAnyNetwork" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        IPvAnyNetwork
-      
+      IPvAnyNetwork
     </span>
   </a>
   
@@ -1882,9 +1803,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.validate_email" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        validate_email()
-      
+      validate_email
     </span>
   </a>
   
@@ -1904,19 +1823,14 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../version/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
     Version Information
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -1928,31 +1842,6 @@
               
                 
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../plugin/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Pydantic Plugins
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
   
   
   
@@ -1961,14 +1850,29 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Annotated Handlers
-  
-
-    
   </span>
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../experimental/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Experimental
+  </span>
   
 
       </a>
@@ -1990,31 +1894,32 @@
   
   
   
+  
     
     
     
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
+      
       
         
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
         
           
-          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Core
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2023,16 +1928,13 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Pydantic Core
-  
-
+            Pydantic Core
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
+  
   
   
   
@@ -2041,14 +1943,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     pydantic_core
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2059,6 +1955,7 @@
             
               
                 
+  
   
   
   
@@ -2067,14 +1964,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     pydantic_core.core_schema
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2093,6 +1984,7 @@
             
               
                 
+  
   
   
   
@@ -2101,14 +1993,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Settings
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2122,31 +2008,32 @@
   
   
   
+  
     
     
     
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
+      
       
         
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
         
           
-          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="">
             
   
   <span class="md-ellipsis">
-    
-  
     Pydantic Extra Types
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2155,16 +2042,13 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Pydantic Extra Types
-  
-
+            Pydantic Extra Types
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
+  
   
   
   
@@ -2173,14 +2057,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Color
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2191,6 +2069,7 @@
             
               
                 
+  
   
   
   
@@ -2199,14 +2078,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Country
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2217,6 +2090,7 @@
             
               
                 
+  
   
   
   
@@ -2225,14 +2099,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Payment
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2243,6 +2111,7 @@
             
               
                 
+  
   
   
   
@@ -2251,14 +2120,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Phone Numbers
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2269,6 +2132,7 @@
             
               
                 
+  
   
   
   
@@ -2277,14 +2141,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Routing Numbers
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2295,6 +2153,7 @@
             
               
                 
+  
   
   
   
@@ -2303,14 +2162,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Coordinate
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2321,6 +2174,7 @@
             
               
                 
+  
   
   
   
@@ -2329,14 +2183,8 @@
         
   
   <span class="md-ellipsis">
-    
-  
     Mac Address
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -2344,92 +2192,178 @@
   
 
               
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-    
-    
-    
-    
-    
-      
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
-            
-  
-  <span class="md-ellipsis">
-    
-  
-    Examples
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Examples
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../examples/secrets/" class="md-nav__link">
+      <a href="../pydantic_extra_types_isbn/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Secrets
-  
-
-    
+    ISBN
   </span>
-  
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pydantic_extra_types_pendulum_dt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pendulum
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pydantic_extra_types_currency_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Currency
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pydantic_extra_types_language_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Language
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pydantic_extra_types_script_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Script Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pydantic_extra_types_semantic_version/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Semantic Version
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pydantic_extra_types_timezone_name/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Timezone Name
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pydantic_extra_types_ulid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ULID
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -2447,34 +2381,49 @@
   
   
   
+  
+    <li class="md-nav__item">
+      <a href="../../architecture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Architecture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
     
-    
+      
+      
+  
+  
+  
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
-    Error Messages
-  
-
-    
+    Examples
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2483,11 +2432,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Error Messages
-  
-
+            Examples
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2496,19 +2441,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../errors/errors/" class="md-nav__link">
+      <a href="../../examples/secrets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Error Handling
-  
-
-    
+    Secrets
   </span>
-  
   
 
       </a>
@@ -2522,45 +2462,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../errors/validation_errors/" class="md-nav__link">
+      <a href="../../examples/validators/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Validation Errors
-  
-
-    
+    Validators
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../errors/usage_errors/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Usage Errors
-  
-
-    
-  </span>
-  
   
 
       </a>
@@ -2581,34 +2490,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
-    Integrations
-  
-
-    
+    Error Messages
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2617,11 +2521,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Integrations
-  
-
+            Error Messages
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2630,19 +2530,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../integrations/mypy/" class="md-nav__link">
+      <a href="../../errors/errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Mypy
-  
-
-    
+    Error Handling
   </span>
-  
   
 
       </a>
@@ -2656,19 +2551,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../integrations/pycharm/" class="md-nav__link">
+      <a href="../../errors/validation_errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    PyCharm
-  
-
-    
+    Validation Errors
   </span>
-  
   
 
       </a>
@@ -2682,123 +2572,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../integrations/hypothesis/" class="md-nav__link">
+      <a href="../../errors/usage_errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Hypothesis
-  
-
-    
+    Usage Errors
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../integrations/visual_studio_code/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Visual Studio Code
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../integrations/datamodel_code_generator/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    datamodel-code-generator
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../integrations/devtools/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    devtools
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../integrations/rich/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
-    Rich
-  
-
-    
-  </span>
-  
   
 
       </a>
@@ -2819,34 +2600,29 @@
   
   
   
-    
-    
+  
     
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    
-  
-    Blog
-  
-
-    
+    Integrations
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2855,11 +2631,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Blog
-  
-
+            Integrations
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2868,19 +2640,54 @@
   
   
   
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dev Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Dev Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../blog/pydantic-v2-final/" class="md-nav__link">
+      <a href="../../integrations/mypy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic V2 Is Here!
-  
-
-    
+    Mypy
   </span>
-  
   
 
       </a>
@@ -2894,19 +2701,14 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../blog/pydantic-v2-alpha/" class="md-nav__link">
+      <a href="../../integrations/pycharm/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic V2 Pre Release
-  
-
-    
+    PyCharm
   </span>
-  
   
 
       </a>
@@ -2920,19 +2722,119 @@
   
   
   
+  
     <li class="md-nav__item">
-      <a href="../../blog/pydantic-v2/" class="md-nav__link">
+      <a href="../../integrations/hypothesis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    
-  
-    Pydantic V2 Plan
-  
-
-    
+    Hypothesis
   </span>
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/visual_studio_code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visual Studio Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/datamodel_code_generator/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    datamodel-code-generator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/devtools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    devtools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/rich/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rich
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/linting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linting
+  </span>
   
 
       </a>
@@ -2944,6 +2846,123 @@
           </ul>
         </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Production Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Production Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/aws_lambda/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Lambda
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://blog.pydantic.dev/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pydantic_people/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pydantic People
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -2977,9 +2996,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        pydantic.networks
-      
+      networks
     </span>
   </a>
   
@@ -2988,9 +3005,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.AnyUrl" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        AnyUrl
-      
+      AnyUrl
     </span>
   </a>
   
@@ -2999,9 +3014,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.AnyHttpUrl" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        AnyHttpUrl
-      
+      AnyHttpUrl
     </span>
   </a>
   
@@ -3010,9 +3023,25 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.HttpUrl" class="md-nav__link">
     <span class="md-ellipsis">
+      HttpUrl
+    </span>
+  </a>
+  
+</li>
       
-        HttpUrl
+        <li class="md-nav__item">
+  <a href="#pydantic.networks.AnyWebsocketUrl" class="md-nav__link">
+    <span class="md-ellipsis">
+      AnyWebsocketUrl
+    </span>
+  </a>
+  
+</li>
       
+        <li class="md-nav__item">
+  <a href="#pydantic.networks.WebsocketUrl" class="md-nav__link">
+    <span class="md-ellipsis">
+      WebsocketUrl
     </span>
   </a>
   
@@ -3021,9 +3050,16 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.FileUrl" class="md-nav__link">
     <span class="md-ellipsis">
+      FileUrl
+    </span>
+  </a>
+  
+</li>
       
-        FileUrl
-      
+        <li class="md-nav__item">
+  <a href="#pydantic.networks.FtpUrl" class="md-nav__link">
+    <span class="md-ellipsis">
+      FtpUrl
     </span>
   </a>
   
@@ -3032,9 +3068,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.PostgresDsn" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        PostgresDsn
-      
+      PostgresDsn
     </span>
   </a>
   
@@ -3043,9 +3077,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.CockroachDsn" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        CockroachDsn
-      
+      CockroachDsn
     </span>
   </a>
   
@@ -3054,9 +3086,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.AmqpDsn" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        AmqpDsn
-      
+      AmqpDsn
     </span>
   </a>
   
@@ -3065,9 +3095,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.RedisDsn" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        RedisDsn
-      
+      RedisDsn
     </span>
   </a>
   
@@ -3076,9 +3104,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.MongoDsn" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        MongoDsn
-      
+      MongoDsn
     </span>
   </a>
   
@@ -3087,9 +3113,16 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.KafkaDsn" class="md-nav__link">
     <span class="md-ellipsis">
+      KafkaDsn
+    </span>
+  </a>
+  
+</li>
       
-        KafkaDsn
-      
+        <li class="md-nav__item">
+  <a href="#pydantic.networks.NatsDsn" class="md-nav__link">
+    <span class="md-ellipsis">
+      NatsDsn
     </span>
   </a>
   
@@ -3098,9 +3131,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.MySQLDsn" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        MySQLDsn
-      
+      MySQLDsn
     </span>
   </a>
   
@@ -3109,9 +3140,25 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.MariaDBDsn" class="md-nav__link">
     <span class="md-ellipsis">
+      MariaDBDsn
+    </span>
+  </a>
+  
+</li>
       
-        MariaDBDsn
+        <li class="md-nav__item">
+  <a href="#pydantic.networks.ClickHouseDsn" class="md-nav__link">
+    <span class="md-ellipsis">
+      ClickHouseDsn
+    </span>
+  </a>
+  
+</li>
       
+        <li class="md-nav__item">
+  <a href="#pydantic.networks.SnowflakeDsn" class="md-nav__link">
+    <span class="md-ellipsis">
+      SnowflakeDsn
     </span>
   </a>
   
@@ -3120,9 +3167,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.MAX_EMAIL_LENGTH" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        MAX_EMAIL_LENGTH
-      
+      MAX_EMAIL_LENGTH
     </span>
   </a>
   
@@ -3131,9 +3176,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.UrlConstraints" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        UrlConstraints
-      
+      UrlConstraints
     </span>
   </a>
   
@@ -3142,9 +3185,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.EmailStr" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        EmailStr
-      
+      EmailStr
     </span>
   </a>
   
@@ -3153,9 +3194,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.NameEmail" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        NameEmail
-      
+      NameEmail
     </span>
   </a>
   
@@ -3164,9 +3203,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.IPvAnyAddress" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        IPvAnyAddress
-      
+      IPvAnyAddress
     </span>
   </a>
   
@@ -3175,9 +3212,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.IPvAnyInterface" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        IPvAnyInterface
-      
+      IPvAnyInterface
     </span>
   </a>
   
@@ -3186,9 +3221,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.IPvAnyNetwork" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        IPvAnyNetwork
-      
+      IPvAnyNetwork
     </span>
   </a>
   
@@ -3197,9 +3230,7 @@
         <li class="md-nav__item">
   <a href="#pydantic.networks.validate_email" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        validate_email()
-      
+      validate_email
     </span>
   </a>
   
@@ -3215,7 +3246,6 @@
           
           
             <div class="md-content" data-md-component="content">
-              
               <article class="md-content__inner md-typeset">
                 
   
@@ -3230,12 +3260,13 @@
 <div class="doc doc-object doc-module">
 
 
+
 <a id="pydantic.networks"></a>
-  <div class="doc doc-contents first">
-  
+    <div class="doc doc-contents first">
+
       <p>The networks module contains types for common network-related fields.</p>
 
-  
+
 
   <div class="doc doc-children">
 
@@ -3250,19 +3281,19 @@
 
 
 <h2 id="pydantic.networks.AnyUrl" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">AnyUrl</span>
+            <span class="doc doc-object-name doc-attribute-name">AnyUrl</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.AnyUrl" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">AnyUrl</span> <span class="o">=</span> <span class="n">Url</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">AnyUrl</span> <span class="o">=</span> <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>Base type for all URLs.</p>
 <ul>
 <li>Any scheme allowed</li>
@@ -3281,7 +3312,7 @@ the types export the following properties:</p>
 <li><code>query</code>: optional URL query (for example, <code>GET</code> arguments or "search string", such as <code>query=here</code>).</li>
 <li><code>fragment</code>: optional fragment (<code>fragment=is;this=bit</code>).</li>
 </ul>
-  </div>
+    </div>
 
 </div>
 
@@ -3290,27 +3321,27 @@ the types export the following properties:</p>
 
 
 <h2 id="pydantic.networks.AnyHttpUrl" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">AnyHttpUrl</span>
+            <span class="doc doc-object-name doc-attribute-name">AnyHttpUrl</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.AnyHttpUrl" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">AnyHttpUrl</span> <span class="o">=</span> <span class="n">Annotated</span><span class="p">[</span>
-    <span class="n">Url</span><span class="p">,</span> <span class="n">UrlConstraints</span><span class="p">(</span><span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;http&quot;</span><span class="p">,</span> <span class="s2">&quot;https&quot;</span><span class="p">])</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">AnyHttpUrl</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span> <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span><span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;http&quot;</span><span class="p">,</span> <span class="s2">&quot;https&quot;</span><span class="p">])</span>
 <span class="p">]</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>A type that will accept any http or https URL.</p>
 <ul>
 <li>TLD not required</li>
 <li>Host required</li>
 </ul>
-  </div>
+    </div>
 
 </div>
 
@@ -3319,27 +3350,27 @@ the types export the following properties:</p>
 
 
 <h2 id="pydantic.networks.HttpUrl" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">HttpUrl</span>
+            <span class="doc doc-object-name doc-attribute-name">HttpUrl</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.HttpUrl" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">HttpUrl</span> <span class="o">=</span> <span class="n">Annotated</span><span class="p">[</span>
-    <span class="n">Url</span><span class="p">,</span>
-    <span class="n">UrlConstraints</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">HttpUrl</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span>
         <span class="n">max_length</span><span class="o">=</span><span class="mi">2083</span><span class="p">,</span> <span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;http&quot;</span><span class="p">,</span> <span class="s2">&quot;https&quot;</span><span class="p">]</span>
     <span class="p">),</span>
 <span class="p">]</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>A type that will accept any http or https URL.</p>
 <ul>
-<li>TLD required</li>
+<li>TLD not required</li>
 <li>Host required</li>
 <li>Max length 2083</li>
 </ul>
@@ -3348,7 +3379,7 @@ the types export the following properties:</p>
 <span class="k">class</span> <span class="nc">MyModel</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
     <span class="n">url</span><span class="p">:</span> <span class="n">HttpUrl</span>
 
-<span class="n">m</span> <span class="o">=</span> <span class="n">MyModel</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s1">&#39;http://www.example.com&#39;</span><span class="p">)</span>
+<span class="n">m</span> <span class="o">=</span> <span class="n">MyModel</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s1">&#39;http://www.example.com&#39;</span><span class="p">)</span>  <span class="c1"># (1)!</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">url</span><span class="p">)</span>
 <span class="c1">#&gt; http://www.example.com/</span>
 
@@ -3372,6 +3403,9 @@ the types export the following properties:</p>
 <span class="sd">      Input should be a valid URL, relative URL without a base [type=url_parsing, input_value=&#39;not a url&#39;, input_type=str]</span>
 <span class="sd">    &#39;&#39;&#39;</span>
 </code></pre></div>
+<ol>
+<li>Note: mypy would prefer <code>m = MyModel(url=HttpUrl('http://www.example.com'))</code>, but Pydantic will convert the string to an HttpUrl instance anyway.</li>
+</ol>
 <p>"International domains" (e.g. a URL where the host or TLD includes non-ascii characters) will be encoded via
 <a href="https://en.wikipedia.org/wiki/Punycode">punycode</a> (see
 <a href="https://www.xudongz.com/blog/2017/idn-phishing/">this article</a> for a good description of why this is important):</p>
@@ -3404,7 +3438,69 @@ underscores are allowed, but you can always do further validation in a validator
 <p>Also, Chrome, Firefox, and Safari all currently accept <code>http://exam_ple.com</code> as a URL, so we're in good
 (or at least big) company.</p>
 </div>
-  </div>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-attribute">
+
+
+
+<h2 id="pydantic.networks.AnyWebsocketUrl" class="doc doc-heading">
+            <span class="doc doc-object-name doc-attribute-name">AnyWebsocketUrl</span>
+
+
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
+  </span>
+
+<a href="#pydantic.networks.AnyWebsocketUrl" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">AnyWebsocketUrl</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span> <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span><span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;ws&quot;</span><span class="p">,</span> <span class="s2">&quot;wss&quot;</span><span class="p">])</span>
+<span class="p">]</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+      <p>A type that will accept any ws or wss URL.</p>
+<ul>
+<li>TLD not required</li>
+<li>Host required</li>
+</ul>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-attribute">
+
+
+
+<h2 id="pydantic.networks.WebsocketUrl" class="doc doc-heading">
+            <span class="doc doc-object-name doc-attribute-name">WebsocketUrl</span>
+
+
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
+  </span>
+
+<a href="#pydantic.networks.WebsocketUrl" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">WebsocketUrl</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span>
+        <span class="n">max_length</span><span class="o">=</span><span class="mi">2083</span><span class="p">,</span> <span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;ws&quot;</span><span class="p">,</span> <span class="s2">&quot;wss&quot;</span><span class="p">]</span>
+    <span class="p">),</span>
+<span class="p">]</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+      <p>A type that will accept any ws or wss URL.</p>
+<ul>
+<li>TLD not required</li>
+<li>Host required</li>
+<li>Max length 2083</li>
+</ul>
+    </div>
 
 </div>
 
@@ -3413,26 +3509,55 @@ underscores are allowed, but you can always do further validation in a validator
 
 
 <h2 id="pydantic.networks.FileUrl" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">FileUrl</span>
+            <span class="doc doc-object-name doc-attribute-name">FileUrl</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.FileUrl" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">FileUrl</span> <span class="o">=</span> <span class="n">Annotated</span><span class="p">[</span>
-    <span class="n">Url</span><span class="p">,</span> <span class="n">UrlConstraints</span><span class="p">(</span><span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">])</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">FileUrl</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span> <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span><span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;file&quot;</span><span class="p">])</span>
 <span class="p">]</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>A type that will accept any file URL.</p>
 <ul>
 <li>Host not required</li>
 </ul>
-  </div>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-attribute">
+
+
+
+<h2 id="pydantic.networks.FtpUrl" class="doc doc-heading">
+            <span class="doc doc-object-name doc-attribute-name">FtpUrl</span>
+
+
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
+  </span>
+
+<a href="#pydantic.networks.FtpUrl" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">FtpUrl</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span> <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span><span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;ftp&quot;</span><span class="p">])</span>
+<span class="p">]</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+      <p>A type that will accept ftp URL.</p>
+<ul>
+<li>TLD not required</li>
+<li>Host required</li>
+</ul>
+    </div>
 
 </div>
 
@@ -3441,17 +3566,17 @@ underscores are allowed, but you can always do further validation in a validator
 
 
 <h2 id="pydantic.networks.PostgresDsn" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">PostgresDsn</span>
+            <span class="doc doc-object-name doc-attribute-name">PostgresDsn</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.PostgresDsn" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">PostgresDsn</span> <span class="o">=</span> <span class="n">Annotated</span><span class="p">[</span>
-    <span class="n">MultiHostUrl</span><span class="p">,</span>
-    <span class="n">UrlConstraints</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">PostgresDsn</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.MultiHostUrl" href="../pydantic_core/#pydantic_core.MultiHostUrl">MultiHostUrl</a></span><span class="p">,</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span>
         <span class="n">host_required</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
         <span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span>
             <span class="s2">&quot;postgres&quot;</span><span class="p">,</span>
@@ -3468,8 +3593,8 @@ underscores are allowed, but you can always do further validation in a validator
 <span class="p">]</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>A type that will accept any Postgres DSN.</p>
 <ul>
 <li>User info required</li>
@@ -3525,7 +3650,7 @@ underscores are allowed, but you can always do further validation in a validator
 <span class="sd">     +  where None = MultiHostUrl(&#39;postgres://user:pass@localhost:5432&#39;).path [type=assertion_error, input_value=&#39;postgres://user:pass@localhost:5432&#39;, input_type=str]</span>
 <span class="sd">    &#39;&#39;&#39;</span>
 </code></pre></div>
-  </div>
+    </div>
 
 </div>
 
@@ -3534,17 +3659,17 @@ underscores are allowed, but you can always do further validation in a validator
 
 
 <h2 id="pydantic.networks.CockroachDsn" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">CockroachDsn</span>
+            <span class="doc doc-object-name doc-attribute-name">CockroachDsn</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.CockroachDsn" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">CockroachDsn</span> <span class="o">=</span> <span class="n">Annotated</span><span class="p">[</span>
-    <span class="n">Url</span><span class="p">,</span>
-    <span class="n">UrlConstraints</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">CockroachDsn</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span>
         <span class="n">host_required</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
         <span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span>
             <span class="s2">&quot;cockroachdb&quot;</span><span class="p">,</span>
@@ -3555,15 +3680,15 @@ underscores are allowed, but you can always do further validation in a validator
 <span class="p">]</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>A type that will accept any Cockroach DSN.</p>
 <ul>
 <li>User info required</li>
 <li>TLD not required</li>
 <li>Host required</li>
 </ul>
-  </div>
+    </div>
 
 </div>
 
@@ -3572,28 +3697,28 @@ underscores are allowed, but you can always do further validation in a validator
 
 
 <h2 id="pydantic.networks.AmqpDsn" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">AmqpDsn</span>
+            <span class="doc doc-object-name doc-attribute-name">AmqpDsn</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.AmqpDsn" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">AmqpDsn</span> <span class="o">=</span> <span class="n">Annotated</span><span class="p">[</span>
-    <span class="n">Url</span><span class="p">,</span> <span class="n">UrlConstraints</span><span class="p">(</span><span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;amqp&quot;</span><span class="p">,</span> <span class="s2">&quot;amqps&quot;</span><span class="p">])</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">AmqpDsn</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span> <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span><span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;amqp&quot;</span><span class="p">,</span> <span class="s2">&quot;amqps&quot;</span><span class="p">])</span>
 <span class="p">]</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>A type that will accept any AMQP DSN.</p>
 <ul>
 <li>User info required</li>
 <li>TLD not required</li>
 <li>Host required</li>
 </ul>
-  </div>
+    </div>
 
 </div>
 
@@ -3602,17 +3727,17 @@ underscores are allowed, but you can always do further validation in a validator
 
 
 <h2 id="pydantic.networks.RedisDsn" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">RedisDsn</span>
+            <span class="doc doc-object-name doc-attribute-name">RedisDsn</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.RedisDsn" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">RedisDsn</span> <span class="o">=</span> <span class="n">Annotated</span><span class="p">[</span>
-    <span class="n">Url</span><span class="p">,</span>
-    <span class="n">UrlConstraints</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">RedisDsn</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span>
         <span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;redis&quot;</span><span class="p">,</span> <span class="s2">&quot;rediss&quot;</span><span class="p">],</span>
         <span class="n">default_host</span><span class="o">=</span><span class="s2">&quot;localhost&quot;</span><span class="p">,</span>
         <span class="n">default_port</span><span class="o">=</span><span class="mi">6379</span><span class="p">,</span>
@@ -3621,15 +3746,15 @@ underscores are allowed, but you can always do further validation in a validator
 <span class="p">]</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>A type that will accept any Redis DSN.</p>
 <ul>
 <li>User info required</li>
 <li>TLD not required</li>
 <li>Host required (e.g., <code>rediss://:pass@localhost</code>)</li>
 </ul>
-  </div>
+    </div>
 
 </div>
 
@@ -3638,25 +3763,25 @@ underscores are allowed, but you can always do further validation in a validator
 
 
 <h2 id="pydantic.networks.MongoDsn" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">MongoDsn</span>
+            <span class="doc doc-object-name doc-attribute-name">MongoDsn</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.MongoDsn" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">MongoDsn</span> <span class="o">=</span> <span class="n">Annotated</span><span class="p">[</span>
-    <span class="n">MultiHostUrl</span><span class="p">,</span>
-    <span class="n">UrlConstraints</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">MongoDsn</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.MultiHostUrl" href="../pydantic_core/#pydantic_core.MultiHostUrl">MultiHostUrl</a></span><span class="p">,</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span>
         <span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;mongodb&quot;</span><span class="p">,</span> <span class="s2">&quot;mongodb+srv&quot;</span><span class="p">],</span>
         <span class="n">default_port</span><span class="o">=</span><span class="mi">27017</span><span class="p">,</span>
     <span class="p">),</span>
 <span class="p">]</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>A type that will accept any MongoDB DSN.</p>
 <ul>
 <li>User info not required</li>
@@ -3664,7 +3789,7 @@ underscores are allowed, but you can always do further validation in a validator
 <li>Port not required</li>
 <li>User info may be passed without user part (e.g., <code>mongodb://mongodb0.example.com:27017</code>).</li>
 </ul>
-  </div>
+    </div>
 
 </div>
 
@@ -3673,17 +3798,17 @@ underscores are allowed, but you can always do further validation in a validator
 
 
 <h2 id="pydantic.networks.KafkaDsn" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">KafkaDsn</span>
+            <span class="doc doc-object-name doc-attribute-name">KafkaDsn</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.KafkaDsn" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">KafkaDsn</span> <span class="o">=</span> <span class="n">Annotated</span><span class="p">[</span>
-    <span class="n">Url</span><span class="p">,</span>
-    <span class="n">UrlConstraints</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">KafkaDsn</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span>
         <span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;kafka&quot;</span><span class="p">],</span>
         <span class="n">default_host</span><span class="o">=</span><span class="s2">&quot;localhost&quot;</span><span class="p">,</span>
         <span class="n">default_port</span><span class="o">=</span><span class="mi">9092</span><span class="p">,</span>
@@ -3691,15 +3816,49 @@ underscores are allowed, but you can always do further validation in a validator
 <span class="p">]</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>A type that will accept any Kafka DSN.</p>
 <ul>
 <li>User info required</li>
 <li>TLD not required</li>
 <li>Host required</li>
 </ul>
-  </div>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-attribute">
+
+
+
+<h2 id="pydantic.networks.NatsDsn" class="doc doc-heading">
+            <span class="doc doc-object-name doc-attribute-name">NatsDsn</span>
+
+
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
+  </span>
+
+<a href="#pydantic.networks.NatsDsn" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">NatsDsn</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.MultiHostUrl" href="../pydantic_core/#pydantic_core.MultiHostUrl">MultiHostUrl</a></span><span class="p">,</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span>
+        <span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;nats&quot;</span><span class="p">,</span> <span class="s2">&quot;tls&quot;</span><span class="p">,</span> <span class="s2">&quot;ws&quot;</span><span class="p">,</span> <span class="s2">&quot;wss&quot;</span><span class="p">],</span>
+        <span class="n">default_host</span><span class="o">=</span><span class="s2">&quot;localhost&quot;</span><span class="p">,</span>
+        <span class="n">default_port</span><span class="o">=</span><span class="mi">4222</span><span class="p">,</span>
+    <span class="p">),</span>
+<span class="p">]</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+      <p>A type that will accept any NATS DSN.</p>
+<p>NATS is a connective technology built for the ever increasingly hyper-connected world.
+It is a single technology that enables applications to securely communicate across
+any combination of cloud vendors, on-premise, edge, web and mobile, and devices.
+More: https://nats.io</p>
+    </div>
 
 </div>
 
@@ -3708,17 +3867,17 @@ underscores are allowed, but you can always do further validation in a validator
 
 
 <h2 id="pydantic.networks.MySQLDsn" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">MySQLDsn</span>
+            <span class="doc doc-object-name doc-attribute-name">MySQLDsn</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.MySQLDsn" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">MySQLDsn</span> <span class="o">=</span> <span class="n">Annotated</span><span class="p">[</span>
-    <span class="n">Url</span><span class="p">,</span>
-    <span class="n">UrlConstraints</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">MySQLDsn</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span>
         <span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span>
             <span class="s2">&quot;mysql&quot;</span><span class="p">,</span>
             <span class="s2">&quot;mysql+mysqlconnector&quot;</span><span class="p">,</span>
@@ -3734,15 +3893,15 @@ underscores are allowed, but you can always do further validation in a validator
 <span class="p">]</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>A type that will accept any MySQL DSN.</p>
 <ul>
 <li>User info required</li>
 <li>TLD not required</li>
 <li>Host required</li>
 </ul>
-  </div>
+    </div>
 
 </div>
 
@@ -3751,17 +3910,17 @@ underscores are allowed, but you can always do further validation in a validator
 
 
 <h2 id="pydantic.networks.MariaDBDsn" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">MariaDBDsn</span>
+            <span class="doc doc-object-name doc-attribute-name">MariaDBDsn</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.MariaDBDsn" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">MariaDBDsn</span> <span class="o">=</span> <span class="n">Annotated</span><span class="p">[</span>
-    <span class="n">Url</span><span class="p">,</span>
-    <span class="n">UrlConstraints</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">MariaDBDsn</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span>
         <span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span>
             <span class="s2">&quot;mariadb&quot;</span><span class="p">,</span>
             <span class="s2">&quot;mariadb+mariadbconnector&quot;</span><span class="p">,</span>
@@ -3772,15 +3931,86 @@ underscores are allowed, but you can always do further validation in a validator
 <span class="p">]</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>A type that will accept any MariaDB DSN.</p>
 <ul>
 <li>User info required</li>
 <li>TLD not required</li>
 <li>Host required</li>
 </ul>
-  </div>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-attribute">
+
+
+
+<h2 id="pydantic.networks.ClickHouseDsn" class="doc doc-heading">
+            <span class="doc doc-object-name doc-attribute-name">ClickHouseDsn</span>
+
+
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
+  </span>
+
+<a href="#pydantic.networks.ClickHouseDsn" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">ClickHouseDsn</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span>
+        <span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span>
+            <span class="s2">&quot;clickhouse+native&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;clickhouse+asynch&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="n">default_host</span><span class="o">=</span><span class="s2">&quot;localhost&quot;</span><span class="p">,</span>
+        <span class="n">default_port</span><span class="o">=</span><span class="mi">9000</span><span class="p">,</span>
+    <span class="p">),</span>
+<span class="p">]</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+      <p>A type that will accept any ClickHouse DSN.</p>
+<ul>
+<li>User info required</li>
+<li>TLD not required</li>
+<li>Host required</li>
+</ul>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-attribute">
+
+
+
+<h2 id="pydantic.networks.SnowflakeDsn" class="doc doc-heading">
+            <span class="doc doc-object-name doc-attribute-name">SnowflakeDsn</span>
+
+
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
+  </span>
+
+<a href="#pydantic.networks.SnowflakeDsn" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">SnowflakeDsn</span> <span class="o">=</span> <span class="n"><span title="typing_extensions.Annotated">Annotated</span></span><span class="p">[</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic_core.Url" href="../pydantic_core/#pydantic_core.Url">Url</a></span><span class="p">,</span>
+    <span class="n"><a class="autorefs autorefs-internal" title="pydantic.networks.UrlConstraints" href="#pydantic.networks.UrlConstraints">UrlConstraints</a></span><span class="p">(</span>
+        <span class="n">allowed_schemes</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;snowflake&quot;</span><span class="p">],</span> <span class="n">host_required</span><span class="o">=</span><span class="kc">True</span>
+    <span class="p">),</span>
+<span class="p">]</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+      <p>A type that will accept any Snowflake DSN.</p>
+<ul>
+<li>User info required</li>
+<li>TLD not required</li>
+<li>Host required</li>
+</ul>
+    </div>
 
 </div>
 
@@ -3789,22 +4019,22 @@ underscores are allowed, but you can always do further validation in a validator
 
 
 <h2 id="pydantic.networks.MAX_EMAIL_LENGTH" class="doc doc-heading">
-        <span class="doc doc-object-name doc-attribute-name">MAX_EMAIL_LENGTH</span>
+            <span class="doc doc-object-name doc-attribute-name">MAX_EMAIL_LENGTH</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-module-attribute"><code>module-attribute</code></small>
   </span>
 
 <a href="#pydantic.networks.MAX_EMAIL_LENGTH" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">MAX_EMAIL_LENGTH</span> <span class="o">=</span> <span class="mi">2048</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">MAX_EMAIL_LENGTH</span> <span class="o">=</span> <span class="mi">2048</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>Maximum length for an email.
 A somewhat arbitrary but very generous number compared to what is allowed by most implementations.</p>
-  </div>
+    </div>
 
 </div>
 
@@ -3814,105 +4044,113 @@ A somewhat arbitrary but very generous number compared to what is allowed by mos
 
 
 <h2 id="pydantic.networks.UrlConstraints" class="doc doc-heading">
-        <span class="doc doc-object-name doc-class-name">UrlConstraints</span>
+            <span class="doc doc-object-name doc-class-name">UrlConstraints</span>
 
-  
+
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-dataclass"><code>dataclass</code></small>
   </span>
 
 <a href="#pydantic.networks.UrlConstraints" class="headerlink" title="Permanent link">&para;</a></h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">UrlConstraints</span><span class="p">(</span>
+    <span class="n">max_length</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">allowed_schemes</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#list">list</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">host_required</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">default_host</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">default_port</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">default_path</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+<span class="p">)</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+            <p class="doc doc-class-bases">
+              Bases: <code><span title="pydantic._internal._fields.PydanticMetadata">PydanticMetadata</span></code></p>
 
 
-  <div class="doc doc-contents ">
-      <p class="doc doc-class-bases">
-        Bases: <code><span title="pydantic._internal._fields">_fields</span>.<span title="pydantic._internal._fields.PydanticMetadata">PydanticMetadata</span></code></p>
-
-  
       <p>Url constraints.</p>
 
-  <p><strong>Attributes:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
+
+<p><span class="doc-section-title">Attributes:</span></p>
+    <table>
+      <thead>
         <tr>
-          <td><code>max_length</code></td>
-          <td>
-                <code>int | None</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The maximum length of the url. Defaults to <code>None</code>.</p>
-            </div>
-          </td>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
         </tr>
-        <tr>
-          <td><code>allowed_schemes</code></td>
-          <td>
-                <code>list[str] | None</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The allowed schemes. Defaults to <code>None</code>.</p>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td><code>host_required</code></td>
-          <td>
-                <code>bool | None</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Whether the host is required. Defaults to <code>None</code>.</p>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td><code>default_host</code></td>
-          <td>
-                <code>str | None</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The default host. Defaults to <code>None</code>.</p>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td><code>default_port</code></td>
-          <td>
-                <code>int | None</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The default port. Defaults to <code>None</code>.</p>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td><code>default_path</code></td>
-          <td>
-                <code>str | None</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The default path. Defaults to <code>None</code>.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td><code><span title="pydantic.networks.UrlConstraints.max_length">max_length</span></code></td>
+            <td>
+                  <code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a> | None</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The maximum length of the url. Defaults to <code>None</code>.</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="pydantic.networks.UrlConstraints.allowed_schemes">allowed_schemes</span></code></td>
+            <td>
+                  <code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#list">list</a>[<a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a>] | None</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The allowed schemes. Defaults to <code>None</code>.</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="pydantic.networks.UrlConstraints.host_required">host_required</span></code></td>
+            <td>
+                  <code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a> | None</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Whether the host is required. Defaults to <code>None</code>.</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="pydantic.networks.UrlConstraints.default_host">default_host</span></code></td>
+            <td>
+                  <code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a> | None</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The default host. Defaults to <code>None</code>.</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="pydantic.networks.UrlConstraints.default_port">default_port</span></code></td>
+            <td>
+                  <code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a> | None</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The default port. Defaults to <code>None</code>.</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="pydantic.networks.UrlConstraints.default_path">default_path</span></code></td>
+            <td>
+                  <code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a> | None</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The default path. Defaults to <code>None</code>.</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
 
 
 
-  
 
   <div class="doc doc-children">
 
@@ -3928,7 +4166,7 @@ A somewhat arbitrary but very generous number compared to what is allowed by mos
 
   </div>
 
-  </div>
+    </div>
 
 </div>
 
@@ -3937,15 +4175,16 @@ A somewhat arbitrary but very generous number compared to what is allowed by mos
 
 
 <h2 id="pydantic.networks.EmailStr" class="doc doc-heading">
-        <span class="doc doc-object-name doc-class-name">EmailStr</span>
+            <span class="doc doc-object-name doc-class-name">EmailStr</span>
 
 
 <a href="#pydantic.networks.EmailStr" class="headerlink" title="Permanent link">&para;</a></h2>
 
 
-  <div class="doc doc-contents ">
+    <div class="doc doc-contents ">
 
-  
+
+
 
 <details class="info" open>
   <summary>Info</summary>
@@ -3965,7 +4204,6 @@ A somewhat arbitrary but very generous number compared to what is allowed by mos
 
 
 
-  
 
   <div class="doc doc-children">
 
@@ -3981,7 +4219,7 @@ A somewhat arbitrary but very generous number compared to what is allowed by mos
 
   </div>
 
-  </div>
+    </div>
 
 </div>
 
@@ -3990,18 +4228,19 @@ A somewhat arbitrary but very generous number compared to what is allowed by mos
 
 
 <h2 id="pydantic.networks.NameEmail" class="doc doc-heading">
-        <span class="doc doc-object-name doc-class-name">NameEmail</span>
+            <span class="doc doc-object-name doc-class-name">NameEmail</span>
 
 
 <a href="#pydantic.networks.NameEmail" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">NameEmail</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">email</span><span class="p">)</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">NameEmail</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">,</span> <span class="n">email</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">)</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-      <p class="doc doc-class-bases">
-        Bases: <code><span title="pydantic._internal._repr">_repr</span>.<span title="pydantic._internal._repr.Representation">Representation</span></code></p>
+    <div class="doc doc-contents ">
+            <p class="doc doc-class-bases">
+              Bases: <code><span title="pydantic._internal._repr.Representation">Representation</span></code></p>
 
-  
+
+
 
 <details class="info" open>
   <summary>Info</summary>
@@ -4031,18 +4270,17 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 <span class="c1">#&gt; fred.bloggs</span>
 </code></pre></div>
 
-
-          <details class="quote">
-            <summary>Source code in <code>pydantic/networks.py</code></summary>
-            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">444</span>
-<span class="normal">445</span>
-<span class="normal">446</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">email</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+                  <details class="quote">
+                    <summary>Source code in <code>pydantic/networks.py</code></summary>
+                    <div class="language-python highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">513</span>
+<span class="normal">514</span>
+<span class="normal">515</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">email</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
     <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
     <span class="bp">self</span><span class="o">.</span><span class="n">email</span> <span class="o">=</span> <span class="n">email</span>
 </code></pre></div></td></tr></table></div>
-          </details>
+                  </details>
 
-  
+
 
   <div class="doc doc-children">
 
@@ -4058,7 +4296,7 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 
   </div>
 
-  </div>
+    </div>
 
 </div>
 
@@ -4067,15 +4305,15 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 
 
 <h2 id="pydantic.networks.IPvAnyAddress" class="doc doc-heading">
-        <span class="doc doc-object-name doc-class-name">IPvAnyAddress</span>
+            <span class="doc doc-object-name doc-class-name">IPvAnyAddress</span>
 
 
 <a href="#pydantic.networks.IPvAnyAddress" class="headerlink" title="Permanent link">&para;</a></h2>
 
 
-  <div class="doc doc-contents ">
+    <div class="doc doc-contents ">
 
-  
+
       <p>Validate an IPv4 or IPv6 address.</p>
 <div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span>
 <span class="kn">from</span> <span class="nn">pydantic.networks</span> <span class="kn">import</span> <span class="n">IPvAnyAddress</span>
@@ -4104,7 +4342,6 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 
 
 
-  
 
   <div class="doc doc-children">
 
@@ -4120,7 +4357,7 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 
   </div>
 
-  </div>
+    </div>
 
 </div>
 
@@ -4129,20 +4366,19 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 
 
 <h2 id="pydantic.networks.IPvAnyInterface" class="doc doc-heading">
-        <span class="doc doc-object-name doc-class-name">IPvAnyInterface</span>
+            <span class="doc doc-object-name doc-class-name">IPvAnyInterface</span>
 
 
 <a href="#pydantic.networks.IPvAnyInterface" class="headerlink" title="Permanent link">&para;</a></h2>
 
 
-  <div class="doc doc-contents ">
+    <div class="doc doc-contents ">
 
-  
+
       <p>Validate an IPv4 or IPv6 interface.</p>
 
 
 
-  
 
   <div class="doc doc-children">
 
@@ -4158,7 +4394,7 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 
   </div>
 
-  </div>
+    </div>
 
 </div>
 
@@ -4167,20 +4403,19 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 
 
 <h2 id="pydantic.networks.IPvAnyNetwork" class="doc doc-heading">
-        <span class="doc doc-object-name doc-class-name">IPvAnyNetwork</span>
+            <span class="doc doc-object-name doc-class-name">IPvAnyNetwork</span>
 
 
 <a href="#pydantic.networks.IPvAnyNetwork" class="headerlink" title="Permanent link">&para;</a></h2>
 
 
-  <div class="doc doc-contents ">
+    <div class="doc doc-contents ">
 
-  
+
       <p>Validate an IPv4 or IPv6 network.</p>
 
 
 
-  
 
   <div class="doc doc-children">
 
@@ -4196,7 +4431,7 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 
   </div>
 
-  </div>
+    </div>
 
 </div>
 
@@ -4204,18 +4439,18 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 <div class="doc doc-object doc-function">
 
 
-
 <h2 id="pydantic.networks.validate_email" class="doc doc-heading">
-        <span class="doc doc-object-name doc-function-name">validate_email</span>
+            <span class="doc doc-object-name doc-function-name">validate_email</span>
 
 
 <a href="#pydantic.networks.validate_email" class="headerlink" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">validate_email</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">validate_email</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#tuple">tuple</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">,</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">]</span>
 </code></pre></div>
 
-  <div class="doc doc-contents ">
-  
+    <div class="doc doc-contents ">
+
       <p>Email address validation using <a href="https://pypi.org/project/email-validator/">email-validator</a>.</p>
+
 
 <details class="note" open>
   <summary>Note</summary>
@@ -4226,47 +4461,47 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 <li>Spaces are striped from the beginning and end of addresses, but no error is raised.</li>
 </ul>
 </details>
-      <details class="quote">
-        <summary>Source code in <code>pydantic/networks.py</code></summary>
-        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">653</span>
-<span class="normal">654</span>
-<span class="normal">655</span>
-<span class="normal">656</span>
-<span class="normal">657</span>
-<span class="normal">658</span>
-<span class="normal">659</span>
-<span class="normal">660</span>
-<span class="normal">661</span>
-<span class="normal">662</span>
-<span class="normal">663</span>
-<span class="normal">664</span>
-<span class="normal">665</span>
-<span class="normal">666</span>
-<span class="normal">667</span>
-<span class="normal">668</span>
-<span class="normal">669</span>
-<span class="normal">670</span>
-<span class="normal">671</span>
-<span class="normal">672</span>
-<span class="normal">673</span>
-<span class="normal">674</span>
-<span class="normal">675</span>
-<span class="normal">676</span>
-<span class="normal">677</span>
-<span class="normal">678</span>
-<span class="normal">679</span>
-<span class="normal">680</span>
-<span class="normal">681</span>
-<span class="normal">682</span>
-<span class="normal">683</span>
-<span class="normal">684</span>
-<span class="normal">685</span>
-<span class="normal">686</span>
-<span class="normal">687</span>
-<span class="normal">688</span>
-<span class="normal">689</span>
-<span class="normal">690</span>
-<span class="normal">691</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">validate_email</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+            <details class="quote">
+              <summary>Source code in <code>pydantic/networks.py</code></summary>
+              <div class="language-python highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">737</span>
+<span class="normal">738</span>
+<span class="normal">739</span>
+<span class="normal">740</span>
+<span class="normal">741</span>
+<span class="normal">742</span>
+<span class="normal">743</span>
+<span class="normal">744</span>
+<span class="normal">745</span>
+<span class="normal">746</span>
+<span class="normal">747</span>
+<span class="normal">748</span>
+<span class="normal">749</span>
+<span class="normal">750</span>
+<span class="normal">751</span>
+<span class="normal">752</span>
+<span class="normal">753</span>
+<span class="normal">754</span>
+<span class="normal">755</span>
+<span class="normal">756</span>
+<span class="normal">757</span>
+<span class="normal">758</span>
+<span class="normal">759</span>
+<span class="normal">760</span>
+<span class="normal">761</span>
+<span class="normal">762</span>
+<span class="normal">763</span>
+<span class="normal">764</span>
+<span class="normal">765</span>
+<span class="normal">766</span>
+<span class="normal">767</span>
+<span class="normal">768</span>
+<span class="normal">769</span>
+<span class="normal">770</span>
+<span class="normal">771</span>
+<span class="normal">772</span>
+<span class="normal">773</span>
+<span class="normal">774</span>
+<span class="normal">775</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">validate_email</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Email address validation using [email-validator](https://pypi.org/project/email-validator/).</span>
 
 <span class="sd">    Note:</span>
@@ -4306,8 +4541,8 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
     <span class="n">name</span> <span class="o">=</span> <span class="n">name</span> <span class="ow">or</span> <span class="n">parts</span><span class="o">.</span><span class="n">local_part</span>
     <span class="k">return</span> <span class="n">name</span><span class="p">,</span> <span class="n">email</span>
 </code></pre></div></td></tr></table></div>
-      </details>
-  </div>
+            </details>
+    </div>
 
 </div>
 
@@ -4315,19 +4550,67 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 
   </div>
 
-  </div>
+    </div>
 
 </div>
 
 
 
 
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 9v12H1V9h4m4 12a2 2 0 0 1-2-2V9c0-.55.22-1.05.59-1.41L14.17 1l1.06 1.06c.27.27.44.64.44 1.05l-.03.32L14.69 8H21a2 2 0 0 1 2 2v2c0 .26-.05.5-.14.73l-3.02 7.05C19.54 20.5 18.83 21 18 21H9m0-2h9.03L21 12v-2h-8.79l1.13-5.32L9 9.03V19Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 15V3h4v12h-4M15 3a2 2 0 0 1 2 2v10c0 .55-.22 1.05-.59 1.41L9.83 23l-1.06-1.06c-.27-.27-.44-.64-.44-1.06l.03-.31.95-4.57H3a2 2 0 0 1-2-2v-2c0-.26.05-.5.14-.73l3.02-7.05C4.46 3.5 5.17 3 6 3h9m0 2H5.97L3 12v2h8.78l-1.13 5.32L15 14.97V5Z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
 
 
                 
   <script src="/flarelytics/client.js"></script>
       <script>
-    window.mkdocs_run_deps = ["pydantic==2.4.2", "pydantic-core==2.11.0"]
+    window.mkdocs_run_deps = ["pydantic==2.9.0b1", "pydantic-core==2.23.0", "pydantic-extra-types==2.9.0"]
     </script>
 
               </article>
@@ -4338,6 +4621,12 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
 
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
         
       </main>
       
@@ -4350,7 +4639,7 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs Insiders
+      Material for MkDocs
     </a>
   
 </div>
@@ -4364,10 +4653,15 @@ In case the <code>name</code> is not provided, it's inferred from the email addr
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "announce.dismiss", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.f2da59ea.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-      <script src="../../assets/javascripts/bundle.65061dd4.min.js"></script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "announce.dismiss", "navigation.tabs", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.preview", "navigation.instant.progress", "navigation.path", "navigation.sections", "navigation.top", "navigation.tracking", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.471ce7a9.min.js"></script>
+      
+        <script src="../../extra/feedback.js"></script>
       
         <script src="../../extra/fluff.js"></script>
       
