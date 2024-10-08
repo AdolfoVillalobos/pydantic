@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -63,6 +63,32 @@
 
 
     
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Configuration - Pydantic" >
+      
+        <meta  property="og:description"  content="Data validation using Python type hints" >
+      
+        <meta  property="og:image"  content="https://docs.pydantic.dev/latest/assets/images/social/api/config.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://docs.pydantic.dev/latest/api/config/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Configuration - Pydantic" >
+      
+        <meta  name="twitter:description"  content="Data validation using Python type hints" >
+      
+        <meta  name="twitter:image"  content="https://docs.pydantic.dev/latest/assets/images/social/api/config.png" >
+      
     
     
   </head>
@@ -102,9 +128,11 @@
             
   <!-- the following line is displayed in the announcement bar -->
 <!-- keep length under 164 characters (less HTML tags) to fit on 1280px desktop window -->
-<b>We're live!</b> <a href="https://pydantic.dev/logfire">Pydantic Logfire</a> is out in open beta! 🎉<br>
-Logfire is a new observability tool for Python, from the creators of Pydantic, with great Pydantic support.
-Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">what you think</a>!
+What's new &mdash; we've launched
+<a href="https://pydantic.dev/articles/logfire-announcement">Pydantic Logfire</a>
+<img alt="🔥" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f525.svg" title=":fire:">
+to help you monitor and understand your
+<a href="https://logfire.pydantic.dev/docs/integrations/pydantic/" id="logfire-app-type" target="_blank">Pydantic validations.</a>
 
           </div>
           
@@ -337,7 +365,7 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
     
     
       <li class="md-tabs__item">
-        <a href="../../examples/secrets/" class="md-tabs__link">
+        <a href="../../examples/files/" class="md-tabs__link">
           
   
   Examples
@@ -372,23 +400,14 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
   
     
     
-      
-  
-  
-  
-    
-    
       <li class="md-tabs__item">
-        <a href="../../integrations/mypy/" class="md-tabs__link">
+        <a href="../../integrations/logfire/" class="md-tabs__link">
           
   
   Integrations
 
         </a>
       </li>
-    
-  
-
     
   
 
@@ -1736,6 +1755,15 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
 </li>
         
           <li class="md-nav__item">
+  <a href="#pydantic.config.ConfigDict.schema_generator" class="md-nav__link">
+    <span class="md-ellipsis">
+      schema_generator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#pydantic.config.ConfigDict.json_schema_serialization_defaults_required" class="md-nav__link">
     <span class="md-ellipsis">
       json_schema_serialization_defaults_required
@@ -2644,11 +2672,11 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
   
   
     <li class="md-nav__item">
-      <a href="../../examples/secrets/" class="md-nav__link">
+      <a href="../../examples/files/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Secrets
+    Validating File Data
   </span>
   
 
@@ -2665,11 +2693,74 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
   
   
     <li class="md-nav__item">
-      <a href="../../examples/validators/" class="md-nav__link">
+      <a href="../../examples/requests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Validators
+    Web and API Requests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../examples/queues/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Queues
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../examples/orms/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Databases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../examples/custom_validators/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Custom Validators
   </span>
   
 
@@ -2842,6 +2933,27 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
   
   
   
+    <li class="md-nav__item">
+      <a href="../../integrations/logfire/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pydantic Logfire
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
     
     
@@ -2855,10 +2967,10 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
         
           
-          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -2869,8 +2981,8 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
             <span class="md-nav__icon md-icon"></span>
             Dev Tools
           </label>
@@ -3071,10 +3183,10 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
         
           
-          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -3085,8 +3197,8 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
             <span class="md-nav__icon md-icon"></span>
             Production Tools
           </label>
@@ -3505,6 +3617,15 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
   <a href="#pydantic.config.ConfigDict.plugin_settings" class="md-nav__link">
     <span class="md-ellipsis">
       plugin_settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pydantic.config.ConfigDict.schema_generator" class="md-nav__link">
+    <span class="md-ellipsis">
+      schema_generator
     </span>
   </a>
   
@@ -4557,7 +4678,7 @@ class without an annotation and has a type that is not in this tuple (or otherwi
   </span>
 
 <a href="#pydantic.config.ConfigDict.json_encoders" class="headerlink" title="Permanent link">&para;</a></h3>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">json_encoders</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/2to3.html#to3fixer-dict">dict</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/glossary.html#term-type">type</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/glossary.html#term-object">object</a></span><span class="p">],</span> <span class="n"><span title="pydantic.config.JsonEncoder">JsonEncoder</span></span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">json_encoders</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/reference/expressions.html#dict">dict</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/glossary.html#term-type">type</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/glossary.html#term-object">object</a></span><span class="p">],</span> <span class="n"><span title="pydantic.config.JsonEncoder">JsonEncoder</span></span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -4781,17 +4902,24 @@ of subclasses of the model.</p>
   </span>
 
 <a href="#pydantic.config.ConfigDict.ser_json_timedelta" class="headerlink" title="Permanent link">&para;</a></h3>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">ser_json_timedelta</span><span class="p">:</span> <span class="n"><span title="typing_extensions.Literal">Literal</span></span><span class="p">[</span><span class="s1">&#39;iso8601&#39;</span><span class="p">,</span> <span class="s1">&#39;float&#39;</span><span class="p">]</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">ser_json_timedelta</span><span class="p">:</span> <span class="n"><span title="typing_extensions.Literal">Literal</span></span><span class="p">[</span>
+    <span class="s2">&quot;iso8601&quot;</span><span class="p">,</span> <span class="s2">&quot;seconds_float&quot;</span><span class="p">,</span> <span class="s2">&quot;milliseconds_float&quot;</span>
+<span class="p">]</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
 
-        <p>The format of JSON serialized timedeltas. Accepts the string values of <code>'iso8601'</code> and
-<code>'float'</code>. Defaults to <code>'iso8601'</code>.</p>
+        <p>The format of JSON serialized timedeltas. Accepts the string values of <code>'iso8601'</code>,
+<code>'seconds_float'</code>, and <code>'milliseconds_float'</code>. Defaults to <code>'iso8601'</code>.</p>
 <ul>
 <li><code>'iso8601'</code> will serialize timedeltas to ISO 8601 durations.</li>
-<li><code>'float'</code> will serialize timedeltas to the total number of seconds.</li>
+<li><code>'seconds_float'</code> will serialize timedeltas to the total number of seconds.</li>
+<li><code>'milliseconds_float'</code> will serialize timedeltas to the total number of milliseconds.</li>
 </ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><code>'float' is deprecated in v2.10 in favour of</code>'milliseconds_float'`</p>
+</div>
     </div>
 
 </div>
@@ -4971,73 +5099,104 @@ Set equal to <code>ser_json_bytes</code> to get back an equal value after serial
   </span>
 
 <a href="#pydantic.config.ConfigDict.protected_namespaces" class="headerlink" title="Permanent link">&para;</a></h3>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">protected_namespaces</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#tuple">tuple</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">,</span> <span class="o">...</span><span class="p">]</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">protected_namespaces</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#tuple">tuple</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span> <span class="o">|</span> <span class="n"><a class="autorefs autorefs-external" title="re.Pattern" href="https://docs.python.org/3/library/re.html#re.Pattern">Pattern</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">],</span> <span class="o">...</span><span class="p">]</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
 
-        <p>A <code>tuple</code> of strings that prevent model to have field which conflict with them.
-Defaults to <code>('model_', )</code>).</p>
-<p>Pydantic prevents collisions between model attributes and <code>BaseModel</code>'s own methods by
-namespacing them with the prefix <code>model_</code>.</p>
-<div class="language-py highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">warnings</span>
+        <div class="language-text highlight"><pre><span></span><code>A `tuple` of strings and/or patterns that prevent models from having fields with names that conflict with them.
+For strings, we match on a prefix basis. Ex, if &#39;dog&#39; is in the protected namespace, &#39;dog_name&#39; will be protected.
+For patterns, we match on the entire field name. Ex, if `re.compile(r&#39;^dog$&#39;)` is in the protected namespace, &#39;dog&#39; will be protected, but &#39;dog_name&#39; will not be.
+Defaults to `(&#39;model_validate&#39;, &#39;model_dump&#39;)`).
 
-<span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span>
+The reason we&#39;ve selected these is to prevent collisions with other validation / dumping formats
+in the future - ex, model_validate_{some_newly_supported_format}.
 
-<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">)</span>  <span class="c1"># Raise warnings as errors</span>
+Before v2.10, Pydantic used `(&#39;model_&#39;,)` as the default value for this setting to
+prevent collisions between model attributes and `BaseModel`&#39;s own methods. This was changed
+in v2.10 given feedback that this restriction was limiting in AI and data science contexts,
+where it is common to have fields with names like `model_id`, `model_input`, `model_output`, etc.
 
-<span class="k">try</span><span class="p">:</span>
+For more details, see https://github.com/pydantic/pydantic/issues/10315.
 
-    <span class="k">class</span> <span class="nc">Model</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
-        <span class="n">model_prefixed_field</span><span class="p">:</span> <span class="nb">str</span>
+```py
+import warnings
 
-<span class="k">except</span> <span class="ne">UserWarning</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
-<span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">    Field &quot;model_prefixed_field&quot; in Model has conflict with protected namespace &quot;model_&quot;.</span>
+from pydantic import BaseModel
 
-<span class="sd">    You may be able to resolve this warning by setting `model_config[&#39;protected_namespaces&#39;] = ()`.</span>
-<span class="sd">    &#39;&#39;&#39;</span>
+warnings.filterwarnings(&#39;error&#39;)  # Raise warnings as errors
+
+try:
+
+    class Model(BaseModel):
+        model_dump_something: str
+
+except UserWarning as e:
+    print(e)
+    &#39;&#39;&#39;
+    Field &quot;model_dump_something&quot; in Model has conflict with protected namespace &quot;model_dump&quot;.
+
+    You may be able to resolve this warning by setting `model_config[&#39;protected_namespaces&#39;] = (&#39;model_validate&#39;,)`.
+    &#39;&#39;&#39;
+```
+
+You can customize this behavior using the `protected_namespaces` setting:
+
+```py test=&quot;skip&quot;
+import re
+import warnings
+
+from pydantic import BaseModel, ConfigDict
+
+with warnings.catch_warnings(record=True) as caught_warnings:
+    warnings.simplefilter(&#39;always&#39;)  # Catch all warnings
+
+    class Model(BaseModel):
+        safe_field: str
+        also_protect_field: str
+        protect_this: str
+
+        model_config = ConfigDict(
+            protected_namespaces=(
+                &#39;protect_me_&#39;,
+                &#39;also_protect_&#39;,
+                re.compile(&#39;^protect_this$&#39;),
+            )
+        )
+
+for warning in caught_warnings:
+    print(f&#39;{warning.message}
 </code></pre></div>
-<p>You can customize this behavior using the <code>protected_namespaces</code> setting:</p>
-<div class="language-py highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">warnings</span>
+<p>')
+        '''
+        Field "also_protect_field" in Model has conflict with protected namespace "also_protect_".</p>
+<div class="language-text highlight"><pre><span></span><code>    You may be able to resolve this warning by setting `model_config[&#39;protected_namespaces&#39;] = (&#39;protect_me_&#39;, re.compile(&#39;^protect_this$&#39;))`.
 
-<span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span><span class="p">,</span> <span class="n">ConfigDict</span>
+    Field &quot;protect_this&quot; in Model has conflict with protected namespace &quot;re.compile(&#39;^protect_this$&#39;)&quot;.
 
-<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">)</span>  <span class="c1"># Raise warnings as errors</span>
+    You may be able to resolve this warning by setting `model_config[&#39;protected_namespaces&#39;] = (&#39;protect_me_&#39;, &#39;also_protect_&#39;)`.
+    &#39;&#39;&#39;
+```
 
-<span class="k">try</span><span class="p">:</span>
+While Pydantic will only emit a warning when an item is in a protected namespace but does not actually have a collision,
+an error _is_ raised if there is an actual collision with an existing attribute:
 
-    <span class="k">class</span> <span class="nc">Model</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
-        <span class="n">model_prefixed_field</span><span class="p">:</span> <span class="nb">str</span>
-        <span class="n">also_protect_field</span><span class="p">:</span> <span class="nb">str</span>
+```py
+from pydantic import BaseModel, ConfigDict
 
-        <span class="n">model_config</span> <span class="o">=</span> <span class="n">ConfigDict</span><span class="p">(</span>
-            <span class="n">protected_namespaces</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;protect_me_&#39;</span><span class="p">,</span> <span class="s1">&#39;also_protect_&#39;</span><span class="p">)</span>
-        <span class="p">)</span>
+try:
 
-<span class="k">except</span> <span class="ne">UserWarning</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
-<span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">    Field &quot;also_protect_field&quot; in Model has conflict with protected namespace &quot;also_protect_&quot;.</span>
+    class Model(BaseModel):
+        model_validate: str
 
-<span class="sd">    You may be able to resolve this warning by setting `model_config[&#39;protected_namespaces&#39;] = (&#39;protect_me_&#39;,)`.</span>
-<span class="sd">    &#39;&#39;&#39;</span>
-</code></pre></div>
-<p>While Pydantic will only emit a warning when an item is in a protected namespace but does not actually have a collision,
-an error <em>is</em> raised if there is an actual collision with an existing attribute:</p>
-<div class="language-py highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span>
+        model_config = ConfigDict(protected_namespaces=(&#39;model_&#39;,))
 
-<span class="k">try</span><span class="p">:</span>
-
-    <span class="k">class</span> <span class="nc">Model</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
-        <span class="n">model_validate</span><span class="p">:</span> <span class="nb">str</span>
-
-<span class="k">except</span> <span class="ne">NameError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
-<span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">    Field &quot;model_validate&quot; conflicts with member &lt;bound method BaseModel.model_validate of &lt;class &#39;pydantic.main.BaseModel&#39;&gt;&gt; of protected namespace &quot;model_&quot;.</span>
-<span class="sd">    &#39;&#39;&#39;</span>
+except NameError as e:
+    print(e)
+    &#39;&#39;&#39;
+    Field &quot;model_validate&quot; conflicts with member &lt;bound method BaseModel.model_validate of &lt;class &#39;pydantic.main.BaseModel&#39;&gt;&gt; of protected namespace &quot;model_&quot;.
+    &#39;&#39;&#39;
+```
 </code></pre></div>
     </div>
 
@@ -5153,12 +5312,46 @@ used nested within other models, or when you want to manually define type namesp
   </span>
 
 <a href="#pydantic.config.ConfigDict.plugin_settings" class="headerlink" title="Permanent link">&para;</a></h3>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">plugin_settings</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/2to3.html#to3fixer-dict">dict</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">,</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/glossary.html#term-object">object</a></span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">plugin_settings</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/reference/expressions.html#dict">dict</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">,</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/glossary.html#term-object">object</a></span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
 
         <p>A <code>dict</code> of settings for plugins. Defaults to <code>None</code>.</p>
+    </div>
+
+</div>
+
+
+
+
+
+
+<div class="doc doc-object doc-attribute">
+
+
+
+<h3 id="pydantic.config.ConfigDict.schema_generator" class="doc doc-heading">
+            <span class="doc doc-object-name doc-attribute-name">schema_generator</span>
+
+
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-instance-attribute"><code>instance-attribute</code></small>
+  </span>
+
+<a href="#pydantic.config.ConfigDict.schema_generator" class="headerlink" title="Permanent link">&para;</a></h3>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="n">schema_generator</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/glossary.html#term-type">type</a></span><span class="p">[</span><span class="n"><span title="pydantic._internal._generate_schema.GenerateSchema">GenerateSchema</span></span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><code>schema_generator</code> is deprecated in v2.10.</p>
+<p>Prior to v2.10, this setting was advertised as highly subject to change.
+It's possible that this interface may once again become public once the internal core schema generation
+API is more stable, but that will likely come after significant performance improvements have been made.</p>
+</div>
     </div>
 
 </div>
@@ -5611,47 +5804,47 @@ especially with <code>TypedDict</code>.</p>
 
             <details class="quote">
               <summary>Source code in <code>pydantic/config.py</code></summary>
-              <div class="language-python highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 983</span>
-<span class="normal"> 984</span>
-<span class="normal"> 985</span>
-<span class="normal"> 986</span>
-<span class="normal"> 987</span>
-<span class="normal"> 988</span>
-<span class="normal"> 989</span>
-<span class="normal"> 990</span>
-<span class="normal"> 991</span>
-<span class="normal"> 992</span>
-<span class="normal"> 993</span>
-<span class="normal"> 994</span>
-<span class="normal"> 995</span>
-<span class="normal"> 996</span>
-<span class="normal"> 997</span>
-<span class="normal"> 998</span>
-<span class="normal"> 999</span>
-<span class="normal">1000</span>
-<span class="normal">1001</span>
-<span class="normal">1002</span>
-<span class="normal">1003</span>
-<span class="normal">1004</span>
-<span class="normal">1005</span>
-<span class="normal">1006</span>
-<span class="normal">1007</span>
-<span class="normal">1008</span>
-<span class="normal">1009</span>
-<span class="normal">1010</span>
-<span class="normal">1011</span>
-<span class="normal">1012</span>
-<span class="normal">1013</span>
-<span class="normal">1014</span>
-<span class="normal">1015</span>
-<span class="normal">1016</span>
-<span class="normal">1017</span>
-<span class="normal">1018</span>
-<span class="normal">1019</span>
+              <div class="language-python highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1019</span>
 <span class="normal">1020</span>
 <span class="normal">1021</span>
 <span class="normal">1022</span>
-<span class="normal">1023</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">with_config</span><span class="p">(</span><span class="n">config</span><span class="p">:</span> <span class="n">ConfigDict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">[[</span><span class="n">_TypeT</span><span class="p">],</span> <span class="n">_TypeT</span><span class="p">]:</span>
+<span class="normal">1023</span>
+<span class="normal">1024</span>
+<span class="normal">1025</span>
+<span class="normal">1026</span>
+<span class="normal">1027</span>
+<span class="normal">1028</span>
+<span class="normal">1029</span>
+<span class="normal">1030</span>
+<span class="normal">1031</span>
+<span class="normal">1032</span>
+<span class="normal">1033</span>
+<span class="normal">1034</span>
+<span class="normal">1035</span>
+<span class="normal">1036</span>
+<span class="normal">1037</span>
+<span class="normal">1038</span>
+<span class="normal">1039</span>
+<span class="normal">1040</span>
+<span class="normal">1041</span>
+<span class="normal">1042</span>
+<span class="normal">1043</span>
+<span class="normal">1044</span>
+<span class="normal">1045</span>
+<span class="normal">1046</span>
+<span class="normal">1047</span>
+<span class="normal">1048</span>
+<span class="normal">1049</span>
+<span class="normal">1050</span>
+<span class="normal">1051</span>
+<span class="normal">1052</span>
+<span class="normal">1053</span>
+<span class="normal">1054</span>
+<span class="normal">1055</span>
+<span class="normal">1056</span>
+<span class="normal">1057</span>
+<span class="normal">1058</span>
+<span class="normal">1059</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">with_config</span><span class="p">(</span><span class="n">config</span><span class="p">:</span> <span class="n">ConfigDict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">[[</span><span class="n">_TypeT</span><span class="p">],</span> <span class="n">_TypeT</span><span class="p">]:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Usage docs: https://docs.pydantic.dev/2.10/concepts/config/#configuration-with-dataclass-from-the-standard-library-or-typeddict</span>
 
 <span class="sd">    A convenience decorator to set a [Pydantic configuration](config.md) on a `TypedDict` or a `dataclass` from the standard library.</span>
@@ -6089,6 +6282,9 @@ especially with <code>TypedDict</code>.</p>
 
 
 
+  
+  
+
 
 
   
@@ -6139,7 +6335,7 @@ especially with <code>TypedDict</code>.</p>
                 
   <script src="/flarelytics/client.js"></script>
       <script>
-    window.mkdocs_run_deps = ["pydantic==2.10.0a1", "pydantic-core==2.23.4", "pydantic-extra-types==2.9.0"]
+    window.mkdocs_run_deps = ["pydantic==2.10.0a1", "pydantic-core==2.24.0", "pydantic-extra-types==2.9.0"]
     </script>
 
               </article>
@@ -6185,10 +6381,10 @@ especially with <code>TypedDict</code>.</p>
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "announce.dismiss", "navigation.tabs", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.preview", "navigation.instant.progress", "navigation.path", "navigation.sections", "navigation.top", "navigation.tracking", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "announce.dismiss", "navigation.tabs", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.preview", "navigation.instant.progress", "navigation.path", "navigation.sections", "navigation.top", "navigation.tracking", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
       
         <script src="../../extra/feedback.js"></script>
       

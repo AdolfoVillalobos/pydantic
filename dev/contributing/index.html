@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.8c3ca2c6.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -63,6 +63,32 @@
 
 
     
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Contributing - Pydantic" >
+      
+        <meta  property="og:description"  content="Data validation using Python type hints" >
+      
+        <meta  property="og:image"  content="https://docs.pydantic.dev/latest/assets/images/social/contributing.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://docs.pydantic.dev/latest/contributing/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Contributing - Pydantic" >
+      
+        <meta  name="twitter:description"  content="Data validation using Python type hints" >
+      
+        <meta  name="twitter:image"  content="https://docs.pydantic.dev/latest/assets/images/social/contributing.png" >
+      
     
     
   </head>
@@ -102,9 +128,11 @@
             
   <!-- the following line is displayed in the announcement bar -->
 <!-- keep length under 164 characters (less HTML tags) to fit on 1280px desktop window -->
-<b>We're live!</b> <a href="https://pydantic.dev/logfire">Pydantic Logfire</a> is out in open beta! 🎉<br>
-Logfire is a new observability tool for Python, from the creators of Pydantic, with great Pydantic support.
-Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">what you think</a>!
+What's new &mdash; we've launched
+<a href="https://pydantic.dev/articles/logfire-announcement">Pydantic Logfire</a>
+<img alt="🔥" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f525.svg" title=":fire:">
+to help you monitor and understand your
+<a href="https://logfire.pydantic.dev/docs/integrations/pydantic/" id="logfire-app-type" target="_blank">Pydantic validations.</a>
 
           </div>
           
@@ -335,7 +363,7 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
     
     
       <li class="md-tabs__item">
-        <a href="../examples/secrets/" class="md-tabs__link">
+        <a href="../examples/files/" class="md-tabs__link">
           
   
   Examples
@@ -370,23 +398,14 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
   
     
     
-      
-  
-  
-  
-    
-    
       <li class="md-tabs__item">
-        <a href="../integrations/mypy/" class="md-tabs__link">
+        <a href="../integrations/logfire/" class="md-tabs__link">
           
   
   Integrations
 
         </a>
       </li>
-    
-  
-
     
   
 
@@ -751,6 +770,21 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
       Build documentation
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Build documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#updating-the-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Updating the documentation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -2349,11 +2383,11 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
   
   
     <li class="md-nav__item">
-      <a href="../examples/secrets/" class="md-nav__link">
+      <a href="../examples/files/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Secrets
+    Validating File Data
   </span>
   
 
@@ -2370,11 +2404,74 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
   
   
     <li class="md-nav__item">
-      <a href="../examples/validators/" class="md-nav__link">
+      <a href="../examples/requests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Validators
+    Web and API Requests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../examples/queues/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Queues
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../examples/orms/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Databases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../examples/custom_validators/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Custom Validators
   </span>
   
 
@@ -2547,6 +2644,27 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
   
   
   
+    <li class="md-nav__item">
+      <a href="../integrations/logfire/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pydantic Logfire
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
     
     
@@ -2560,10 +2678,10 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
         
           
-          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -2574,8 +2692,8 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
             <span class="md-nav__icon md-icon"></span>
             Dev Tools
           </label>
@@ -2776,10 +2894,10 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
         
           
-          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -2790,8 +2908,8 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
             <span class="md-nav__icon md-icon"></span>
             Production Tools
           </label>
@@ -2960,6 +3078,21 @@ Please try it, and tell us <a href="https://docs.pydantic.dev/logfire/help/">wha
       Build documentation
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Build documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#updating-the-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Updating the documentation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -3164,11 +3297,29 @@ make
 </code></pre></div>
 <h3 id="build-documentation">Build documentation<a class="headerlink" href="#build-documentation" title="Permanent link">&para;</a></h3>
 <p>If you've made any changes to the documentation (including changes to function signatures, class definitions, or docstrings that will appear in the API documentation), make sure it builds successfully.</p>
+<p>We use <code>mkdocs-material[imaging]</code> to support social previews.
+You can find directions on how to install the required dependencies <a href="https://squidfunk.github.io/mkdocs-material/plugins/requirements/image-processing/">here</a>.</p>
 <div class="language-bash highlight"><pre><span></span><code><span class="c1"># Build documentation</span>
 make<span class="w"> </span>docs
 <span class="c1"># If you have changed the documentation, make sure it builds successfully.</span>
 <span class="c1"># You can also use `pdm run mkdocs serve` to serve the documentation at localhost:8000</span>
 </code></pre></div>
+<h4 id="updating-the-documentation">Updating the documentation<a class="headerlink" href="#updating-the-documentation" title="Permanent link">&para;</a></h4>
+<p>We push a new version of the documentation with each minor release, and we push to a <code>dev</code> path with each commit to <code>main</code>.</p>
+<p>If you're updating the documentation out of cycle with a minor release and want your changes to be reflected on <code>latest</code>,
+do the following:</p>
+<ol>
+<li>Open a PR against <code>main</code> with your docs changes</li>
+<li>Once the PR is merged, checkout the <code>docs-update</code> branch. This branch should be up to date with the latest patch release.
+For example, if the latest release is <code>v2.9.2</code>, you should make sure <code>docs-update</code> is up to date with the <code>v2.9.2</code> tag.</li>
+<li>Checkout a new branch from <code>docs-update</code> and cherry-pick your changes onto this branch.</li>
+<li>Push your changes and open a PR against <code>docs-update</code>.</li>
+<li>Once the PR is merged, the new docs will be built and deployed.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Maintainer shortcut - as a maintainer, you can skip the second PR and just cherry pick directly onto the <code>docs-update</code> branch.</p>
+</div>
 <h3 id="commit-and-push-your-changes">Commit and push your changes<a class="headerlink" href="#commit-and-push-your-changes" title="Permanent link">&para;</a></h3>
 <p>Commit your changes, push your branch to GitHub, and create a pull request.</p>
 <p>Please follow the pull request template and fill in as much information as possible. Link to any relevant issues and include a description of your changes.</p>
@@ -3259,6 +3410,9 @@ Here's a quick guide on how to do that. This tutorial is done in VSCode, but you
 
 
 
+  
+  
+
 
 
   
@@ -3309,7 +3463,7 @@ Here's a quick guide on how to do that. This tutorial is done in VSCode, but you
                 
   <script src="/flarelytics/client.js"></script>
       <script>
-    window.mkdocs_run_deps = ["pydantic==2.10.0a1", "pydantic-core==2.23.4", "pydantic-extra-types==2.9.0"]
+    window.mkdocs_run_deps = ["pydantic==2.10.0a1", "pydantic-core==2.24.0", "pydantic-extra-types==2.9.0"]
     </script>
 
               </article>
@@ -3355,10 +3509,10 @@ Here's a quick guide on how to do that. This tutorial is done in VSCode, but you
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "announce.dismiss", "navigation.tabs", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.preview", "navigation.instant.progress", "navigation.path", "navigation.sections", "navigation.top", "navigation.tracking", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "announce.dismiss", "navigation.tabs", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.preview", "navigation.instant.progress", "navigation.path", "navigation.sections", "navigation.top", "navigation.tracking", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
       
         <script src="../extra/feedback.js"></script>
       
